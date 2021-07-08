@@ -67,6 +67,5 @@ public class Leet2_unchecked {
         ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
         ListNode l2 = new ListNode(5,new ListNode(4,new ListNode(6)));
         var t = new Leet2_unchecked.Solution().addTwoNumbers(l1,l2);
-        System.out.println(t.toString());
     }
 }
