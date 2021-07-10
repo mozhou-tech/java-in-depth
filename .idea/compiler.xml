@@ -13,7 +13,6 @@
         <module name="patterns" />
         <module name="mysql" />
         <module name="distribution" />
-        <module name="gateway" />
         <module name="redis" />
       </profile>
       <profile name="Annotation profile for leetcode" enabled="true">

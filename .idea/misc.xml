@@ -4,7 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/mysql-sharding/pom.xml" />
         <option value="$PROJECT_DIR$/distribution-tx/pom.xml" />
         <option value="$PROJECT_DIR$/mysql/pom.xml" />
