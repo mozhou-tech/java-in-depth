@@ -1,18 +1,26 @@
 package com.tenstone.leet.patterns.iterator;
 
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * Created by liuyuancheng on 2021/7/10  <br/>
  */
 public class BookShelf implements Iterable<Book> {
 
-    private final List<Book> books = new ArrayList<>();
+    /**
+     * 数组基于连续内存，查询时间复杂度O(1)
+     */
+    private final Book[] books;
 
-    public Book getBookAt(Integer index) {
-        return books.get(index);
+    private int last;
+
+    public BookShelf(int size) {
+        this.last = 0;
+        this.books = new Book[size];
+    }
+
+    public Book getBookAt(int index) {
+        return books[index];
     }
 
     @Override
@@ -21,11 +29,12 @@ public class BookShelf implements Iterable<Book> {
     }
 
     public int getLength() {
-        return books.size();
+        return books.length;
     }
 
     public BookShelf appendBook(Book book) {
-        this.books.add(book);
+        this.books[last] = book;
+        last++;
         return this;
     }
 }

@@ -8,7 +8,7 @@ package com.tenstone.leet.patterns.iterator;
 public class Main {
 
     public static void main(String[] args) {
-        BookShelf bookShelf = new BookShelf();
+        BookShelf bookShelf = new BookShelf(3);
         bookShelf.appendBook(new Book().setName("hello"))
                 .appendBook(new Book().setName("world"))
                 .appendBook(new Book().setName("!"));

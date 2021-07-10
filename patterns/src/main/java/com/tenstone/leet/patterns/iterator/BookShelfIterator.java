@@ -7,12 +7,13 @@ import java.util.Iterator;
  */
 public class BookShelfIterator implements Iterator<Book> {
 
-    private int index = -1;
+    private int index;
 
     private final BookShelf bookShelf;
 
     public BookShelfIterator(BookShelf bookShelf) {
         this.bookShelf = bookShelf;
+        this.index = -1;
     }
 
     @Override
