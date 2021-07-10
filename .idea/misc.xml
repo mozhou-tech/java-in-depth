@@ -6,6 +6,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/mysql-sharding/pom.xml" />
+        <option value="$PROJECT_DIR$/distribution-tx/pom.xml" />
+        <option value="$PROJECT_DIR$/mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/distribution-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/juc/pom.xml" />
+        <option value="$PROJECT_DIR$/distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
       </list>
     </option>
   </component>

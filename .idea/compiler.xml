@@ -7,22 +7,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bigdata" />
         <module name="question" />
-        <module name="mysql-sharding" />
+        <module name="mq" />
+        <module name="rpc" />
+        <module name="juc" />
+        <module name="mysql" />
+        <module name="distribution" />
         <module name="gateway" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bigdata" target="11" />
+      <module name="distribution" target="11" />
+      <module name="distribution-tx" target="11" />
       <module name="gateway" target="11" />
-      <module name="leetcode" target="11" />
-      <module name="mysql-sharding" target="11" />
+      <module name="juc" target="11" />
+      <module name="leet" target="11" />
+      <module name="mq" target="11" />
+      <module name="mysql" target="11" />
       <module name="question" target="11" />
+      <module name="redis" target="11" />
+      <module name="rpc" target="11" />
+      <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bigdata" options="-parameters" />
+      <module name="distribution" options="-parameters" />
+      <module name="distribution-tx" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="mysql-sharding" options="-parameters" />
+      <module name="juc" options="-parameters" />
+      <module name="mq" options="-parameters" />
+      <module name="mysql" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="rpc" options="-parameters" />
     </option>
   </component>
 </project>
