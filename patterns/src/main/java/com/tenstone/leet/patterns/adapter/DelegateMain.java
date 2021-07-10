@@ -1,5 +1,6 @@
 package com.tenstone.leet.patterns.adapter;
 
+import com.tenstone.leet.patterns.adapter.delegate.Print;
 import com.tenstone.leet.patterns.adapter.delegate.PrintBanner;
 
 /**

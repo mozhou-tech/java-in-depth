@@ -1,8 +1,8 @@
 package com.tenstone.leet.patterns.adapter.inherit;
 
-import com.tenstone.leet.patterns.adapter.Print;
-
 /**
+ * 适配器
+ *
  * Created by liuyuancheng on 2021/7/10  <br/>
  */
 public class PrintBanner extends Banner implements Print {

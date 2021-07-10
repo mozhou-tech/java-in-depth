@@ -1,13 +1,12 @@
 package com.tenstone.leet.patterns.adapter.delegate;
 
-import com.tenstone.leet.patterns.adapter.Print;
 
 /**
  * 打印Banner
  *
  * Created by liuyuancheng on 2021/7/10  <br/>
  */
-public class PrintBanner implements Print {
+public class PrintBanner extends Print {
 
     private final Banner banner;
 

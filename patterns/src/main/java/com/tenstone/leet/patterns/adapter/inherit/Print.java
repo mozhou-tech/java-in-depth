@@ -1,4 +1,4 @@
-package com.tenstone.leet.patterns.adapter;
+package com.tenstone.leet.patterns.adapter.inherit;
 
 /**
  * Created by liuyuancheng on 2021/7/10  <br/>
