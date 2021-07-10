@@ -10,12 +10,17 @@
         <module name="bigdata" />
         <module name="question" />
         <module name="mq" />
-        <module name="rpc" />
-        <module name="juc" />
+        <module name="patterns" />
         <module name="mysql" />
         <module name="distribution" />
         <module name="gateway" />
         <module name="redis" />
+      </profile>
+      <profile name="Annotation profile for leetcode" enabled="true">
+        <sourceOutputDir name="../bigdata/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../bigdata/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="juc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +32,7 @@
       <module name="leet" target="11" />
       <module name="mq" target="11" />
       <module name="mysql" target="11" />
+      <module name="patterns" target="11" />
       <module name="question" target="11" />
       <module name="redis" target="11" />
       <module name="rpc" target="11" />
@@ -42,6 +48,7 @@
       <module name="juc" options="-parameters" />
       <module name="mq" options="-parameters" />
       <module name="mysql" options="-parameters" />
+      <module name="patterns" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="rpc" options="-parameters" />
     </option>

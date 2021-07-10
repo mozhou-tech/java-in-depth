@@ -1,10 +1,10 @@
-package com.tenstone.leet.rpc;
+package com.tenstone.mysql;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RpcApplicationTests {
+class MysqlShardingApplicationTests {
 
     @Test
     void contextLoads() {

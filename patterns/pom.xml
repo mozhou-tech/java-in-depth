@@ -5,13 +5,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.2</version>
+        <version>2.4.8</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tenstone.leet</groupId>
-    <artifactId>rpc</artifactId>
+    <artifactId>patterns</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rpc</name>
+    <name>mysql-sharding</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>

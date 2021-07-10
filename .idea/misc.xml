@@ -14,8 +14,8 @@
         <option value="$PROJECT_DIR$/distribution/pom.xml" />
         <option value="$PROJECT_DIR$/mq/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/patterns/pom.xml" />
       </list>
     </option>
   </component>

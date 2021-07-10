@@ -1,13 +1,13 @@
-package com.tenstone.leet.rpc;
+package com.tenstone.mysql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RpcApplication {
+public class MysqlShardingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RpcApplication.class, args);
+        SpringApplication.run(MysqlShardingApplication.class, args);
     }
 
 }
