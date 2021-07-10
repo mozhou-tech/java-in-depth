@@ -11,10 +11,10 @@
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/juc/pom.xml" />
         <option value="$PROJECT_DIR$/distribution/pom.xml" />
-        <option value="$PROJECT_DIR$/mq/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/cocurrent/pom.xml" />
       </list>
     </option>
   </component>
