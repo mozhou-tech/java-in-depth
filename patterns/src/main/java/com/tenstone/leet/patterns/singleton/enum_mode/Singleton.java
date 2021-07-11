@@ -6,10 +6,14 @@ package com.tenstone.leet.patterns.singleton.enum_mode;
  * Created by liuyuancheng on 2021/7/11  <br/>
  */
 public enum Singleton {
+
     INSTANCE;
 
     public static Singleton getSingleton() {
-
         return INSTANCE;
+    }
+
+    public void sayHello(){
+        System.out.println("hello");
     }
 }

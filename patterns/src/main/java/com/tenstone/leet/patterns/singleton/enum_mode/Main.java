@@ -20,6 +20,7 @@ public class Main {
         } else {
             System.out.println("obj1和obj2是不同实例");
         }
+        obj1.sayHello();
     }
 
 }
