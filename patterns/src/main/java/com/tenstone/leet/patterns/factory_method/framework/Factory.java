@@ -1,4 +1,4 @@
-package com.tenstone.leet.patterns.factory_method;
+package com.tenstone.leet.patterns.factory_method.framework;
 
 /**
  * Created by liuyuancheng on 2021/7/11  <br/>
@@ -22,5 +22,7 @@ public abstract class Factory {
     protected abstract void registerProduct(Product p);
 
     protected abstract Product createProduct(String owner);
+
+    public abstract String readRegisterBook();
 
 }

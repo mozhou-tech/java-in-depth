@@ -1,4 +1,7 @@
-package com.tenstone.leet.patterns.factory_method;
+package com.tenstone.leet.patterns.factory_method.idcard;
+
+import com.tenstone.leet.patterns.factory_method.framework.Product;
+import com.tenstone.leet.patterns.factory_method.framework.Factory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +25,8 @@ public class IDCardFactory extends Factory {
         return new IDCard(owner);
     }
 
-    public String printRegisterBook() {
+    @Override
+    public String readRegisterBook() {
         return owners.toString();
     }
 }

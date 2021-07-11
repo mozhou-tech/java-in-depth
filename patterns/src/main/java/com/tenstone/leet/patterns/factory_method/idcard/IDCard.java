@@ -1,9 +1,11 @@
-package com.tenstone.leet.patterns.factory_method;
+package com.tenstone.leet.patterns.factory_method.idcard;
+
+import com.tenstone.leet.patterns.factory_method.framework.Product;
 
 /**
  * Created by liuyuancheng on 2021/7/11  <br/>
  */
-public class IDCard extends Product{
+public class IDCard extends Product {
 
     private final String owner;
 
