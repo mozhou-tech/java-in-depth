@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/cocurrent/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/mysql_protocol/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/gateway/pom.xml" />
       </list>
     </option>
   </component>

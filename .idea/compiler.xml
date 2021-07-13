@@ -16,6 +16,7 @@
         <module name="netty_mqtt_broker" />
         <module name="redis" />
         <module name="netty_mysql_protocol" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,7 +24,7 @@
       <module name="cocurrent" target="11" />
       <module name="distribution" target="11" />
       <module name="distribution-tx" target="11" />
-      <module name="gateway" target="11" />
+      <module name="gateway" target="1.5" />
       <module name="leet" target="11" />
       <module name="middleware" target="1.5" />
       <module name="mq" target="11" />
@@ -44,7 +45,7 @@
       <module name="cocurrent" options="-parameters" />
       <module name="distribution" options="-parameters" />
       <module name="distribution-tx" options="-parameters" />
-      <module name="gateway" options="-parameters" />
+      <module name="gateway" options="" />
       <module name="mq" options="-parameters" />
       <module name="mysql" options="-parameters" />
       <module name="mysql_protocol" options="" />
