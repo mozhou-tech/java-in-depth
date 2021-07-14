@@ -14,9 +14,11 @@
         <module name="mysql" />
         <module name="distribution" />
         <module name="netty_mqtt_broker" />
+        <module name="mysql_protocol" />
         <module name="redis" />
         <module name="netty_mysql_protocol" />
         <module name="gateway" />
+        <module name="misc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,9 +29,10 @@
       <module name="gateway" target="1.5" />
       <module name="leet" target="11" />
       <module name="middleware" target="1.5" />
+      <module name="misc" target="11" />
       <module name="mq" target="11" />
       <module name="mysql" target="11" />
-      <module name="mysql_protocol" target="1.5" />
+      <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="1.5" />
       <module name="netty_mysql_protocol" target="11" />
       <module name="patterns" target="11" />
@@ -46,9 +49,10 @@
       <module name="distribution" options="-parameters" />
       <module name="distribution-tx" options="-parameters" />
       <module name="gateway" options="" />
+      <module name="misc" options="-parameters" />
       <module name="mq" options="-parameters" />
       <module name="mysql" options="-parameters" />
-      <module name="mysql_protocol" options="" />
+      <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
       <module name="patterns" options="-parameters" />
       <module name="redis" options="-parameters" />
