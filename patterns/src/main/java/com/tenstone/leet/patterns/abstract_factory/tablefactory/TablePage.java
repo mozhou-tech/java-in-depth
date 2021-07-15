@@ -6,10 +6,10 @@ import com.tenstone.leet.patterns.abstract_factory.factory.Page;
 /**
  * Created by liuyuancheng on 2021/7/15  <br/>
  */
-public class TablePage extends Page {
+public class TablePage extends Page{
 
-    public TablePage(String caption, String author) {
-        super(caption, author);
+    public TablePage(String title, String author) {
+        super(title, author);
     }
 
     @Override

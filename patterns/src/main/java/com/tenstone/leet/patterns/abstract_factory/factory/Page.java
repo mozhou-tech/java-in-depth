@@ -8,14 +8,14 @@ import java.util.ArrayList;
 /**
  * Created by liuyuancheng on 2021/7/15  <br/>
  */
-public abstract class Page extends Item {
+public abstract class Page {
 
     protected String title;
     protected String author;
     protected ArrayList<Item> content = new ArrayList<>();
 
-    public Page(String caption, String author) {
-        super(caption);
+    public Page(String title, String author) {
+        this.title = title;
         this.author = author;
     }
 
@@ -35,6 +35,5 @@ public abstract class Page extends Item {
         }
     }
 
-    @Override
     public abstract String makeHTML();
 }

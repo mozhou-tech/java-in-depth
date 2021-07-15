@@ -2,6 +2,7 @@ package com.tenstone.leet.patterns.abstract_factory;
 
 import com.tenstone.leet.patterns.abstract_factory.factory.Factory;
 import com.tenstone.leet.patterns.abstract_factory.factory.Link;
+import com.tenstone.leet.patterns.abstract_factory.factory.Page;
 import com.tenstone.leet.patterns.abstract_factory.factory.Tray;
 
 /**
@@ -10,13 +11,16 @@ import com.tenstone.leet.patterns.abstract_factory.factory.Tray;
 public class Main {
 
     public static void main(String[] args) {
-        Factory factory = Factory.getFactory("com.tenstone.leet.patterns.abstract_factory.listfactory.TableFactory");
+        Factory factory = Factory.getFactory("com.tenstone.leet.patterns.abstract_factory.listfactory.ListFactory");
         Link baidu = factory.createLink("Baidu","https://www.baidu.com");
         Link google = factory.createLink("Google","https://www.google.com");
         Tray tray = factory.createTray("Search Engine");
         tray.add(baidu);
         tray.add(google);
-        System.out.println(tray.makeHTML());
+        Page page = factory.createPage("Search Engine Page","yates");
+        page.add(baidu);
+        page.add(google);
+        System.out.println(page.makeHTML());
     }
 
 }

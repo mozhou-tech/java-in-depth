@@ -8,8 +8,8 @@ import com.tenstone.leet.patterns.abstract_factory.factory.Page;
  */
 public class ListPage extends Page {
 
-    public ListPage(String caption, String author) {
-        super(caption, author);
+    public ListPage(String title, String author) {
+        super(title, author);
     }
 
     @Override
