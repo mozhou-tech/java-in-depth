@@ -13,7 +13,7 @@ public class ProbStrategy implements Strategy {
 
     private int currentHandValue = 0;
 
-    private int[][] history = {
+    private final int[][] history = {
             {1, 1, 1,},
             {1, 1, 1,},
             {1, 1, 1,}

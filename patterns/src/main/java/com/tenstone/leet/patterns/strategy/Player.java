@@ -4,8 +4,8 @@ package com.tenstone.leet.patterns.strategy;
  * Created by liuyuancheng on 2021/7/17  <br/>
  */
 public class Player {
-    private String name;
-    private Strategy strategy;
+    private final String name;
+    private final Strategy strategy;
 
     private int winCount;
     private int loseCount;
