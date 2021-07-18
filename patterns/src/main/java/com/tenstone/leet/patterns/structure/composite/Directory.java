@@ -16,10 +16,21 @@ public class Directory extends Entry {
     }
 
     @Override
+    public Entry add(Entry entry) {
+        directory.add(entry);
+        return this;
+    }
+
+    @Override
     public String getName() {
         return name;
     }
 
+    /**
+     * 递归获取文件大小（目录会继续递归）
+     *
+     * @return
+     */
     @Override
     public int getSize() {
         int size = 0;
