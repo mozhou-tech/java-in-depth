@@ -5,6 +5,11 @@ package com.tenstone.leet.patterns.decorator;
  */
 public class FullBorder extends Border {
 
+    /**
+     * 委托，推原功能进行一顿扩展
+     *
+     * @param display
+     */
     public FullBorder(Display display) {
         super(display);
     }

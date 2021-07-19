@@ -4,6 +4,7 @@ package com.tenstone.leet.patterns.decorator;
  * Created by liuyuancheng on 2021/7/19  <br/>
  */
 public class Border extends Display {
+
     protected Display display;
 
     protected Border(Display display) {
