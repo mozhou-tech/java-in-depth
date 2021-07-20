@@ -26,11 +26,9 @@
         <modules>
             <module>question</module>
             <module>bigdata</module>
-            <module>juc</module>
             <module>mysql</module>
             <module>patterns</module>
             <module>redis</module>
-            <module>mq</module>
         </modules>
     <build>
 
