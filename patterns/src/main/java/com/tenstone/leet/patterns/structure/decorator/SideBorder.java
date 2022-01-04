@@ -1,4 +1,4 @@
-package com.tenstone.leet.patterns.decorator;
+package com.tenstone.leet.patterns.structure.decorator;
 
 /**
  * Created by liuyuancheng on 2021/7/19  <br/>
