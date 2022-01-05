@@ -2,8 +2,10 @@ package com.tenstone.leet.patterns.structure.decorator;
 
 /**
  * Created by liuyuancheng on 2021/7/19  <br/>
+ * @author jerrylau
  */
 public class Main {
+
     public static void main(String[] args) {
         Display b1 = new StringDisplay("HELLO WORLD!");
         Display b2 = new SideBorder(b1, '#');
@@ -26,4 +28,5 @@ public class Main {
         );
         b4.show();
     }
+
 }
