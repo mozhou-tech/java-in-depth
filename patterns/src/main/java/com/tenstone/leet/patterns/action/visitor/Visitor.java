@@ -6,7 +6,9 @@ package com.tenstone.leet.patterns.action.visitor;
  * @author liuyuancheng
  */
 public abstract class Visitor {
-    abstract void visit(File file);
 
-    abstract void visit(Directory directory);
+    public abstract void visit(File file);
+
+    public abstract void visit(Directory directory);
+
 }
