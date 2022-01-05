@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.array.q1_two_sum;
+package com.tenstone.leet.structure.array.q1_two_sum;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;

@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.string.q3_longest_substring_without_repeating_characters;
+package com.tenstone.leet.question.string;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Assertions;
  * Created by liuyuancheng on 2021/7/3  <br/>
  */
 @Slf4j
-public class Main {
+public class Q3LongestSubstringWithoutRepeatingCharacters {
 
     static class Solution {
 

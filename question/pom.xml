@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.26</version>
+            <version>1.7.32</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -38,7 +38,17 @@
             <version>5.7.0</version>
         </dependency>
     </dependencies>
-    <build>
-
-    </build>
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>

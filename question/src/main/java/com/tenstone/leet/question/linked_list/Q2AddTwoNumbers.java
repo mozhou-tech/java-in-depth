@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.linked_list.q2_add_two_numbers;
+package com.tenstone.leet.question.linked_list;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -11,7 +11,7 @@ import java.util.Objects;
  * Created by liuyuancheng on 2021/7/3  <br/>
  */
 @Slf4j
-public class Main {
+public class Q2AddTwoNumbers {
 
     public static class ListNode {
         int val;
@@ -66,6 +66,6 @@ public class Main {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
         ListNode l2 = new ListNode(5,new ListNode(4,new ListNode(6)));
-        var t = new Main.Solution().addTwoNumbers(l1,l2);
+        var t = new Q2AddTwoNumbers.Solution().addTwoNumbers(l1,l2);
     }
 }

@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.array.q26_remove_duplicates_from_sorted_array;
+package com.tenstone.leet.structure.array.q26_remove_duplicates_from_sorted_array;
 
 import org.junit.jupiter.api.Assertions;
 
