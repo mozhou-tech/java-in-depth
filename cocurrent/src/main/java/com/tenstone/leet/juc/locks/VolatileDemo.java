@@ -45,8 +45,8 @@ public class VolatileDemo {
         // 等待10毫秒
         Thread.sleep(100);
         System.out.println("3个线程，累计遍历10000次");
-        System.out.println("sychronized变量（类锁）: " + sychronizedCount);
-        System.out.println("volatile变量: " + volatileCount + " (原子性没有得到保证，单线程时没有此问题)");
+        System.out.println("sychronized变量（类锁）: " + sychronizedCount+ " (需要加类锁，对象锁无效)");
+        System.out.println("volatile变量: " + volatileCount + " (原子性没有得到保证，单线程不会出现累加结果不一致的问题)");
         System.out.println("atomic变量: " + atomicCount);
     }
 }
