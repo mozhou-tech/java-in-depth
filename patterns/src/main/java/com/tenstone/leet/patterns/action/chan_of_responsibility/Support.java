@@ -1,6 +1,8 @@
 package com.tenstone.leet.patterns.action.chan_of_responsibility;
 
 /**
+ * 用来解决问题的抽象类
+ *
  * Created by liuyuancheng on 2022/1/6  <br/>
  *
  * @author liuyuancheng
@@ -30,6 +32,12 @@ public abstract class Support {
         }
     }
 
+    /**
+     * 解决问的抽象方法
+     *
+     * @param trouble
+     * @return
+     */
     protected abstract boolean resolve(Trouble trouble);
 
     protected void done(Trouble trouble) {

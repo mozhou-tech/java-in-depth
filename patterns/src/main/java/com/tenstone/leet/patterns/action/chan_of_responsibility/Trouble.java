@@ -1,6 +1,8 @@
 package com.tenstone.leet.patterns.action.chan_of_responsibility;
 
 /**
+ * 发生问题的类，带有问题编号
+ *
  * Created by liuyuancheng on 2022/1/6  <br/>
  *
  * @author liuyuancheng

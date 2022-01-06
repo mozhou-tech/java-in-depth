@@ -1,6 +1,8 @@
 package com.tenstone.leet.patterns.action.chan_of_responsibility;
 
 /**
+ * 仅处理编号小于特定值的问题
+ *
  * Created by liuyuancheng on 2022/1/6  <br/>
  *
  * @author liuyuancheng
