@@ -1,10 +1,13 @@
 package com.tenstone.leet.patterns.action.visitor;
 
 /**
+ * 访问者元素
  * Created by liuyuancheng on 2022/1/4  <br/>
  *
  * @author liuyuancheng
  */
 public interface Element {
-    public abstract void accept(Visitor visitor);
+
+    void accept(Visitor visitor);
+
 }

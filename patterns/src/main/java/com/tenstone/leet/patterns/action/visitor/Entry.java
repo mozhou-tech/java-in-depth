@@ -3,6 +3,8 @@ package com.tenstone.leet.patterns.action.visitor;
 import java.util.Iterator;
 
 /**
+ * 条目
+ *
  * Created by liuyuancheng on 2022/1/4  <br/>
  *
  * @author liuyuancheng
@@ -17,7 +19,7 @@ public abstract class Entry implements Element {
         throw new FileTreatmentException();
     }
 
-    public Iterator iterator() {
+    public Iterator<Entry> iterator() {
         throw new FileTreatmentException();
     }
 

@@ -1,6 +1,8 @@
 package com.tenstone.leet.patterns.action.visitor;
 
 /**
+ * 对象元素
+ *
  * Created by liuyuancheng on 2022/1/4  <br/>
  *
  * @author liuyuancheng

@@ -3,6 +3,8 @@ package com.tenstone.leet.patterns.action.visitor;
 import java.util.Iterator;
 
 /**
+ * 访问者
+ *
  * Created by liuyuancheng on 2022/1/4  <br/>
  *
  * @author liuyuancheng
@@ -18,12 +20,13 @@ public class ListVisitor extends Visitor {
 
     @Override
     public void visit(Directory directory) {
-        System.out.println(currentdir+"/"+directory);
+        System.out.println(currentdir + "/" + directory);
         String savedir = currentdir;
-        currentdir = currentdir + "/" +directory.getName();
-        Iterator it = directory.iterator();
-        while (it.hasNext()){
-            Entry entry = (Entry) it.next();
+        currentdir = currentdir + "/" + directory.getName();
+        Iterator<Entry> it = directory.iterator();
+        while (it.hasNext()) {
+            Entry entry = it.next();
+            //
             entry.accept(this);
         }
         currentdir = savedir;

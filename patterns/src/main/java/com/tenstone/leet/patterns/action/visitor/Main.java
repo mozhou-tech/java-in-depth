@@ -6,6 +6,7 @@ package com.tenstone.leet.patterns.action.visitor;
  * @author liuyuancheng
  */
 public class Main {
+
     public static void main(String[] args) {
         try {
             System.out.println("Making root entries...");
@@ -38,4 +39,5 @@ public class Main {
             e.printStackTrace();
         }
     }
+
 }
