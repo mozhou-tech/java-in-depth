@@ -45,7 +45,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bigdata" options="-parameters" />
-      <module name="cocurrent" options="-parameters" />
+      <module name="cocurrent" options="" />
       <module name="distribution" options="-parameters" />
       <module name="distribution-tx" options="-parameters" />
       <module name="gateway" options="" />

@@ -23,14 +23,32 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-        <modules>
-            <module>question</module>
-            <module>bigdata</module>
-            <module>mysql</module>
-            <module>patterns</module>
-            <module>redis</module>
-        </modules>
-    <build>
-
-    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>question</module>
+        <module>bigdata</module>
+        <module>mysql</module>
+        <module>patterns</module>
+        <module>redis</module>
+    </modules>
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
