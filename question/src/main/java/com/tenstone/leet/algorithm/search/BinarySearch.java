@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.search;
+package com.tenstone.leet.algorithm.search;
 
 /**
  * Created by liuyuancheng on 2022/1/5  <br/>

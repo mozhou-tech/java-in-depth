@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.sort;
+package com.tenstone.leet.algorithm.sort;
 
 /**
  * Created by liuyuancheng on 2022/1/6  <br/>

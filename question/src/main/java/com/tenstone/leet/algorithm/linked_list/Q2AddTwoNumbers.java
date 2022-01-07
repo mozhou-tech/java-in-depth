@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.linked_list;
+package com.tenstone.leet.algorithm.linked_list;
 
 import lombok.extern.slf4j.Slf4j;
 

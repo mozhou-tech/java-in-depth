@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.bytecompute;
+package com.tenstone.leet.algorithm.bytecompute;
 
 import lombok.extern.slf4j.Slf4j;
 

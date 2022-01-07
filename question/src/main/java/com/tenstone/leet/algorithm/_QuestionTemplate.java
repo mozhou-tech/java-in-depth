@@ -1,4 +1,4 @@
-package com.tenstone.leet.question;
+package com.tenstone.leet.algorithm;
 
 import org.junit.jupiter.api.Assertions;
 

@@ -1,4 +1,4 @@
-package com.tenstone.leet.question;
+package com.tenstone.leet.algorithm;
 
 /**
  * Created by liuyuancheng on 2022/1/5  <br/>

@@ -1,4 +1,4 @@
-package com.tenstone.leet.question.sort;
+package com.tenstone.leet.algorithm.sort;
 
 /**
  * 快排
