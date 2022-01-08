@@ -8,7 +8,7 @@ package com.tenstone.leet.patterns.structure.facade;
 public class Main {
 
     public static void main(String[] args) {
-        String filename = System.getProperty("user.dir") + "/patterns/src/main/java/com/tenstone/leet/patterns/structure/facade/welcome.html";
+        String filename = Constants.rootDir + "/welcome.html";
         PageMakerFacade.makeWelcomePage("hyuki@hyuki.com",filename);
     }
 }

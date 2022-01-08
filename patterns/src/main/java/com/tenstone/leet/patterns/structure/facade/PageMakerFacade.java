@@ -11,6 +11,7 @@ import java.util.Properties;
  * @author liuyuancheng
  */
 public class PageMakerFacade {
+
     private PageMakerFacade() {
     }
 

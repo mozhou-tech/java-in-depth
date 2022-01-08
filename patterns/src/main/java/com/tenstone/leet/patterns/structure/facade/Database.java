@@ -15,7 +15,7 @@ public class Database {
     }
 
     public static Properties getProperties(String dbname) {
-        String filename = System.getProperty("user.dir") + "/patterns/src/main/java/com/tenstone/leet/patterns/structure/facade/" + dbname + ".txt";
+        String filename = Constants.rootDir + dbname + ".txt";
         Properties prop = new Properties();
         try {
             prop.load(new FileInputStream(filename));
