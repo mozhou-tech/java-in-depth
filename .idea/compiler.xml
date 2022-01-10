@@ -40,6 +40,8 @@
       <module name="question" target="11" />
       <module name="redis" target="11" />
       <module name="rpc" target="11" />
+      <module name="rpc-framework" target="11" />
+      <module name="simple-rpc" target="1.5" />
       <module name="spring" target="11" />
       <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>

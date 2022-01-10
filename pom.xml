@@ -37,6 +37,7 @@
         <module>mysql</module>
         <module>patterns</module>
         <module>redis</module>
+        <module>rpc-framework</module>
     </modules>
     <repositories>
         <repository>
