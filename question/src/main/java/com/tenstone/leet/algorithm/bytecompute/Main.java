@@ -12,6 +12,8 @@ import lombok.extern.slf4j.Slf4j;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(80 >> 4);
+        log.info("右移1位相当于除以2 {}",80 >> 1);
+        log.info("右移2位相当于除以2^2 {}",80 >> 2);
+        log.info("右移3位相当于除以2^3 {}",80 >> 3);
     }
 }

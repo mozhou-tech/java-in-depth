@@ -1,4 +1,4 @@
-package com.tenstone.leet.structure.array.q27_remove_element;
+package com.tenstone.leet.algorithm.array.q27_remove_element;
 
 import org.junit.jupiter.api.Assertions;
 
