@@ -6,7 +6,8 @@ package com.tenstone.leet.patterns.action.mediator;
  * @author liuyuancheng
  */
 public interface Colleague {
-    public abstract void setMediator(Mediator mediator);
 
-    public abstract void setColleagueEnabled(boolean enabled);
+    void setMediator(Mediator mediator);
+
+    void setColleagueEnabled(boolean enabled);
 }

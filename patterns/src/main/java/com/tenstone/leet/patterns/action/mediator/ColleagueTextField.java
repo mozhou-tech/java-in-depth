@@ -10,10 +10,11 @@ import java.awt.event.TextListener;
  * @author liuyuancheng
  */
 public class ColleagueTextField extends TextField implements Colleague, TextListener {
+
     private Mediator mediator;
 
-    public ColleagueTextField(String text,int columns){
-        super(text,columns);
+    public ColleagueTextField(String text, int columns) {
+        super(text, columns);
     }
 
     @Override
@@ -21,10 +22,15 @@ public class ColleagueTextField extends TextField implements Colleague, TextList
         this.mediator = mediator;
     }
 
+    /**
+     * 下达Mediator启用禁用的指示
+     *
+     * @param enabled
+     */
     @Override
     public void setColleagueEnabled(boolean enabled) {
         setEnabled(enabled);
-        setBackground(enabled?Color.white:Color.lightGray);
+        setBackground(enabled ? Color.white : Color.lightGray);
     }
 
     /**

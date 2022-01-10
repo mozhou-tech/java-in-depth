@@ -8,7 +8,9 @@ import java.awt.*;
  * @author liuyuancheng
  */
 public class ColleagueButton extends Button implements Colleague {
+
     private Mediator mediator;
+
     public ColleagueButton(String caption){
         super(caption);
     }
