@@ -1,4 +1,4 @@
-package com.tenstone.leet.structure.binary_tree.q101_symmetric_tree;
+package com.tenstone.leet.algorithm.binary_tree.q101_symmetric_tree;
 
 import java.util.LinkedList;
 import java.util.Queue;

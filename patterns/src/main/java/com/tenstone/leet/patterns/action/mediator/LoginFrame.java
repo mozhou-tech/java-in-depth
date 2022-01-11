@@ -23,7 +23,11 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
 
     private ColleagueButton buttonCancel;
 
-
+    /**
+     * 初始化登录窗口
+     *
+     * @param title
+     */
     public LoginFrame(String title) {
         super(title);
         setBackground(Color.lightGray);
@@ -40,9 +44,12 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         // 设置初始的启用/禁用状态
         colleagueChanged();
         pack();
-        show();
+        setVisible(true);
     }
 
+    /**
+     * 创建共事者
+     */
     @Override
     public void createColleagues() {
         // 生成Colleagues
@@ -63,7 +70,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         buttonCancel.setMediator(this);
         // 设置Listener
         checkGuest.addItemListener(checkGuest);
-        checkGuest.addItemListener(checkLogin);
+        checkLogin.addItemListener(checkLogin);
         textUser.addTextListener(textUser);
         textPass.addTextListener(textPass);
         buttonOk.addActionListener(this);
@@ -72,19 +79,27 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
 
     /**
      * 接收来自于Colleage的通知然后判断各Colleague的启用/禁用状态
+     * 1. 共事者状态变化时调用本方法（checkBox）
+     * 2. 共事者文本变化时调用本方法（textBox）
      */
     @Override
     public void colleagueChanged() {
+        System.out.println("colleagueChanged-checkGuest: state="+ checkGuest.getState());
         if (checkGuest.getState()) {
+            // Guest Mode
             textUser.setColleagueEnabled(false);
             textPass.setColleagueEnabled(false);
             buttonOk.setColleagueEnabled(true);
         } else {
+            // Login Mode
             textUser.setColleagueEnabled(true);
             userpassChanged();
         }
     }
 
+    /**
+     * 共事者变化时，检查用户输入内容，并以此修改状态
+     */
     private void userpassChanged() {
         if (textUser.getText().length() > 0) {
             textPass.setColleagueEnabled(true);

@@ -1,11 +1,11 @@
-package com.tenstone.leet.structure.heap;
+package com.tenstone.leet.structure;
 
 /**
  * Created by liuyuancheng on 2022/1/10  <br/>
  *
  * @author liuyuancheng
  */
-public class BinaryHeap {
+public class BinaryHeapDS {
     public static void main(String[] args) {
 
     }
