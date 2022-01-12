@@ -1,6 +1,7 @@
 package com.tenstone.leet.patterns.creation.object_pool;
 
 import com.google.common.collect.Sets;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Set;
 
@@ -9,6 +10,7 @@ import java.util.Set;
  *
  * @author liuyuancheng
  */
+@Slf4j
 public abstract class ObjectPool<T> {
 
     /**
@@ -23,6 +25,11 @@ public abstract class ObjectPool<T> {
 
     protected abstract T create();
 
+    /**
+     * 检出对象
+     *
+     * @return
+     */
     public synchronized T checkOut() {
         if (available.isEmpty()) {
             available.add(create());
@@ -33,6 +40,11 @@ public abstract class ObjectPool<T> {
         return instance;
     }
 
+    /**
+     * 检入对象
+     *
+     * @param instance
+     */
     public synchronized void checkIn(T instance) {
         inUse.remove(instance);
         available.add(instance);
