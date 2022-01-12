@@ -6,7 +6,9 @@ package com.tenstone.leet.structure;
  * @author liuyuancheng
  */
 public class BinaryHeapDS {
+
     public static void main(String[] args) {
 
     }
+
 }
