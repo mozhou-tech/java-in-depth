@@ -58,7 +58,7 @@
       <module name="mysql" options="-parameters" />
       <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
-      <module name="patterns" options="-parameters" />
+      <module name="patterns" options="" />
       <module name="redis" options="-parameters" />
       <module name="rpc" options="-parameters" />
       <module name="spring" options="-parameters" />
