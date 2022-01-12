@@ -18,7 +18,6 @@
         <module name="mysql" />
         <module name="netty_mqtt_broker" />
         <module name="mysql_protocol" />
-        <module name="gateway" />
         <module name="misc" />
       </profile>
     </annotationProcessing>

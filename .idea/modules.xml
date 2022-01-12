@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/bigdata/bigdata.iml" filepath="$PROJECT_DIR$/bigdata/bigdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/cocurrent/cocurrent.iml" filepath="$PROJECT_DIR$/cocurrent/cocurrent.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
-      <module fileurl="file://$PROJECT_DIR$/middleware/gateway/gateway.iml" filepath="$PROJECT_DIR$/middleware/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/middleware.iml" filepath="$PROJECT_DIR$/middleware/middleware.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/misc.iml" filepath="$PROJECT_DIR$/misc/misc.iml" />
