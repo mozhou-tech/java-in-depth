@@ -18,10 +18,10 @@ public class Mammoth {
     /**
      * 过了一段时间，猛犸象的状态发生变化
      */
-    public void timePasses(){
-        if(state.getClass().equals(PeacefulState.class)){
+    public void timePasses() {
+        if (state.getClass().equals(PeacefulState.class)) {
             changeStateTo(new AngryState(this));
-        }else{
+        } else {
             changeStateTo(new PeacefulState(this));
         }
     }
@@ -31,7 +31,7 @@ public class Mammoth {
         this.state.onEnterState();
     }
 
-    public void observe(){
+    public void observe() {
         this.state.observe();
     }
 
