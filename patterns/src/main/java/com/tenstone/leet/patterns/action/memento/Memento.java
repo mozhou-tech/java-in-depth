@@ -1,33 +1,20 @@
 package com.tenstone.leet.patterns.action.memento;
 
-import org.assertj.core.util.Lists;
-
-import java.util.List;
-
 /**
  * Created by liuyuancheng on 2022/1/12  <br/>
+ * 用于保存状态：整合Originator角色的内部信息（Memento保存了这些信息，但并不会将其公开）
  *
  * @author liuyuancheng
  */
 public class Memento {
 
-    private int money;
+    private String state;
 
-    private List<String> fruits = Lists.newArrayList();
-
-    public int getMoney() {
-        return money;
+    public Memento(String state){
+        this.state = state;
     }
 
-    public Memento(int money) {
-        this.money = money;
-    }
-
-    public void addFruit(String fruit) {
-        fruits.add(fruit);
-    }
-
-    public List<String> getFruits() {
-        return fruits;
+    public String getState() {
+        return state;
     }
 }

@@ -4,13 +4,10 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * Created by liuyuancheng on 2022/1/12  <br/>
- * 收集水果和获取金钱数的投掷骰子游戏
- * 1. 游戏会自动进行
- * 2. 游戏的主人公通过掷骰子来决定下一个状态
- * 3. 当骰子点数为1的时候，主人公的金钱会增加
- * 4. 当骰子点数为2的时候，主人公的金钱会减少
- * 5. 当骰子点数为6的时候，主人公会得到水果
- * 6. 主人公没钱时游戏结束
+ * 应用实例： 1、后悔药。 2、打游戏时的存档。 3、Windows 里的 ctrl + z。 4、IE 中的后退。 5、数据库的事务管理。
+ * 优点： 1、给用户提供了一种可以恢复状态的机制，可以使用户能够比较方便地回到某个历史的状态。 2、实现了信息的封装，使得用户不需要关心状态的保存细节。
+ * 缺点：消耗资源。如果类的成员变量过多，势必会占用比较大的资源，而且每一次保存都会消耗一定的内存。
+ * 使用场景： 1、需要保存/恢复数据的相关状态场景。 2、提供一个可回滚的操作。
  *
  * @author liuyuancheng
  */
@@ -18,31 +15,21 @@ import lombok.extern.slf4j.Slf4j;
 public class Main {
 
     public static void main(String[] args) {
-        // 初始化游戏者金钱
-        Gamer gamer = new Gamer(100);
-        // 保存初始状态
-        Memento memento = gamer.createMemento();
-        for (int i = 0; i < 100; i++) {
-            log.info("=========== {}", i);
-            log.info("当前状态：{}", gamer);
-            gamer.bet();
-            log.info("所持金钱为{}元", gamer.getMoney());
-            if (gamer.getMoney() > memento.getMoney()) {
-                log.info("所持金钱增加了许多，保存当前游戏状态");
-                memento = gamer.createMemento();
-            } else if (gamer.getMoney() < memento.getMoney() / 2) {
-                // 金钱不足时调用，返还金钱让游戏继续
-                log.info("所持金钱减少了许多，将游戏恢复至以前状态");
-                gamer.restoreMemento(memento);
-            }
-            // 等待一段时间
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
+        Originator originator = new Originator();
+        CareTaker careTaker = new CareTaker();
+        originator.setState("#1");
+        originator.setState("#2");
+        careTaker.add(originator.saveStateToMemento());
+        originator.setState("#3");
+        careTaker.add(originator.saveStateToMemento());
+        originator.setState("#4");
 
-            }
-            System.out.println();
-        }
+
+        log.info("Current State: {}", originator.getState());
+        originator.recoverStateFromMemento(careTaker.get(0));
+        log.info("First saved State: {}", originator.getState());
+        originator.recoverStateFromMemento(careTaker.get(1));
+        log.info("Second saved State: {}", originator.getState());
     }
 
 }
