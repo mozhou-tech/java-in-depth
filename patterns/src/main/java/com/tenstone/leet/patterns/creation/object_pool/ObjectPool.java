@@ -7,6 +7,7 @@ import java.util.Set;
 
 /**
  * Created by liuyuancheng on 2022/1/12  <br/>
+ * 对象池抽象方法
  *
  * @author liuyuancheng
  */
@@ -26,7 +27,7 @@ public abstract class ObjectPool<T> {
     protected abstract T create();
 
     /**
-     * 检出对象
+     * 检出对象（取出）
      *
      * @return
      */
@@ -41,7 +42,7 @@ public abstract class ObjectPool<T> {
     }
 
     /**
-     * 检入对象
+     * 检入对象（放回）
      *
      * @param instance
      */

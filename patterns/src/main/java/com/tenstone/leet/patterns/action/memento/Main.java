@@ -31,6 +31,7 @@ public class Main {
                 log.info("所持金钱增加了许多，保存当前游戏状态");
                 memento = gamer.createMemento();
             } else if (gamer.getMoney() < memento.getMoney() / 2) {
+                // 金钱不足时调用，返还金钱让游戏继续
                 log.info("所持金钱减少了许多，将游戏恢复至以前状态");
                 gamer.restoreMemento(memento);
             }

@@ -15,6 +15,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Main {
+
     public static void main(String[] args) {
         var pool = new OliphauntPool();
         var oliphaunt1 = pool.checkOut();
@@ -26,5 +27,10 @@ public class Main {
         var oliphaunt4 = pool.checkOut();
         var oliphaunt5 = pool.checkOut();
         System.out.println(pool);
+        // 重新创建的对象也可以放入
+        var oliph6 = new Oliphaunt();
+        pool.checkIn(oliph6);
+        System.out.println(pool);
     }
+
 }
