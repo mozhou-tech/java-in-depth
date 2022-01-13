@@ -14,6 +14,8 @@ public class Main {
 
     public static void main(String[] args) {
         AlchemistShop alchemistShop = new AlchemistShop();
+
+        // 同一种Potion，内存地址是一样的，意味着HashCode一致
         alchemistShop.drinkPotions();
     }
 

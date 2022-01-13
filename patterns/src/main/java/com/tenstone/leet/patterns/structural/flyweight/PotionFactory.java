@@ -27,7 +27,7 @@ public class PotionFactory {
             switch (type) {
                 case HOLY_WATER:
                     potion = new HolyWaterPotion();
-                    potions.put(type, potion);
+                    potions.put(type, new HolyWaterPotion());
                     break;
                 case HEALING:
                     potion = new HealingPotion();
@@ -37,6 +37,13 @@ public class PotionFactory {
                     potion = new InvisibilityPotion();
                     potions.put(type, potion);
                     break;
+                case STRENGTH:
+                    potion = new StrengthPotion();
+                    potions.put(type, potion);
+                    break;
+                case POISON:
+                    potion = new PoisonPotion();
+                    potions.put(type, potion);
                 default:
                     break;
             }
