@@ -6,7 +6,9 @@ package com.tenstone.leet.patterns.architectual.mvc;
  * @author liuyuancheng
  */
 public class StudentController {
+
     private StudentModel model;
+
     private StudentView view;
 
     public StudentController(StudentModel model, StudentView view) {
