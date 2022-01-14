@@ -7,6 +7,7 @@ import javax.annotation.Resource;
 
 /**
  * Created by liuyuancheng on 2022/1/14  <br/>
+ * Here we can see how API Gateway maps the requests to the microservices.
  *
  * @author liuyuancheng
  */
