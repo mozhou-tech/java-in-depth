@@ -58,6 +58,9 @@
         <module>patterns</module>
         <module>jdk</module>
         <module>spring</module>
+        <module>misc</module>
+        <module>distribution</module>
+        <module>middleware</module>
     </modules>
     <repositories>
         <repository>
