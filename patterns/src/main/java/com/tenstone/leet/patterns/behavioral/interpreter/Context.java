@@ -22,12 +22,13 @@ public class Context {
 
     /**
      * 获取下一标记
+     *
      * @return
      */
     public String nextToken() {
-        if(tokenizer.hasMoreTokens()){
+        if (tokenizer.hasMoreTokens()) {
             currentToken = tokenizer.nextToken();
-        }else {
+        } else {
             currentToken = null;
         }
         return currentToken;
@@ -39,8 +40,8 @@ public class Context {
      * @param token
      */
     public void skipToken(String token) {
-        if(!token.equals(currentToken)){
-            throw new ParseException("Warning: "+token+" is expected, but "+currentToken+" is found.");
+        if (!token.equals(currentToken)) {
+            throw new ParseException("Warning: " + token + " is expected, but " + currentToken + " is found.");
         }
         nextToken();
     }
@@ -56,14 +57,15 @@ public class Context {
 
     /**
      * 获取当前标记对应的数值
+     *
      * @return
      */
-    public int currentNumber(){
-        int number= 0;
+    public int currentNumber() {
+        int number = 0;
         try {
             number = Integer.parseInt(currentToken);
-        }catch (NumberFormatException e){
-            throw new ParseException("Warning: "+e);
+        } catch (NumberFormatException e) {
+            throw new ParseException("Warning: " + e);
         }
         return number;
     }
