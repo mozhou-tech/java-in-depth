@@ -8,7 +8,6 @@
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.tenstone.leet</groupId>
     <artifactId>misc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>misc</name>

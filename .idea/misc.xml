@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/juc/pom.xml" />
         <option value="$PROJECT_DIR$/distribution/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata/pom.xml" />
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/patterns/pom.xml" />
         <option value="$PROJECT_DIR$/cocurrent/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/pom.xml" />
@@ -20,6 +19,8 @@
         <option value="$PROJECT_DIR$/misc/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/simple_rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/database/pom.xml" />
+        <option value="$PROJECT_DIR$/jdk/pom.xml" />
       </list>
     </option>
   </component>
