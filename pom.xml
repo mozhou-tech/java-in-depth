@@ -54,9 +54,10 @@
     <modules>
         <module>question</module>
         <module>bigdata</module>
-        <module>mysql</module>
+        <module>database</module>
         <module>patterns</module>
-        <module>redis</module>
+        <module>jdk</module>
+        <module>spring</module>
     </modules>
     <repositories>
         <repository>
