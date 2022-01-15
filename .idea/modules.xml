@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/middleware/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middleware/mysql_protocol/netty_mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/question/question.iml" filepath="$PROJECT_DIR$/question/question.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
     </modules>
   </component>
