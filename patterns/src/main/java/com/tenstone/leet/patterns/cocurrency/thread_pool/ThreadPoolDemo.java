@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class ThreadPoolDemo {
     public static void main(String[] args) {
+
         log.info("Program started");
 
         // Create a list of tasks to be executed
@@ -55,7 +56,9 @@ public class ThreadPoolDemo {
         tasks.stream().map(Worker::new).forEach(executor::execute);
         // All tasks were executed, now shutdown
         executor.shutdown();
+        // 等待线程结束
         while (!executor.isTerminated()) {
+            // 使当前线程从执行状态（运行状态）变为可执行态（就绪状态）
             Thread.yield();
         }
         log.info("Program finished");
