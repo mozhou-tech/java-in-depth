@@ -13,6 +13,7 @@
         <module name="bigdata" />
         <module name="question" />
         <module name="patterns" />
+        <module name="flink-examples" />
         <module name="distribution" />
         <module name="netty_mqtt_broker" />
         <module name="mysql_protocol" />
@@ -25,6 +26,7 @@
       <module name="database" target="11" />
       <module name="distribution" target="11" />
       <module name="distribution-tx" target="11" />
+      <module name="flink-examples" target="11" />
       <module name="gateway" target="1.5" />
       <module name="jdk" target="11" />
       <module name="leet" target="11" />

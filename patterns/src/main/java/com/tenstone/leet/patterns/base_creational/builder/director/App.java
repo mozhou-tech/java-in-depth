@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Created by liuyuancheng on 2021/7/14  <br/>
  */
-public class Main {
+public class App {
 
     @Test
     void plain(){

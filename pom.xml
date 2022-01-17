@@ -66,6 +66,7 @@
         <module>misc</module>
         <module>distribution</module>
         <module>middleware</module>
+        <module>flink-examples</module>
     </modules>
     <repositories>
         <repository>
