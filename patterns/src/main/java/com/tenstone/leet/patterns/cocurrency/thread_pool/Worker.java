@@ -10,6 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Worker implements Runnable {
 
+    /**
+     * 将任务塞到worker
+     * @param task
+     */
     public Worker(Task task) {
         this.task = task;
     }

@@ -4,6 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by liuyuancheng on 2022/1/17  <br/>
@@ -37,8 +40,15 @@ public class ThreadPoolDemo {
         // unbounded queue. At any point, at most nThreads threads will be active processing
         // tasks. If additional tasks are submitted when all threads are active, they will wait
         // in the queue until a thread is available.
-        var executor = Executors.newFixedThreadPool(3);
-
+        // var executor = Executors.newFixedThreadPool(2)
+        // 建议用下列方法手工创建线程池（线程工厂中，如果队列满了会创建大量的线程导致OOM）
+        var executor = new ThreadPoolExecutor(3,30,
+                2000,
+                TimeUnit.MILLISECONDS,
+                new LinkedBlockingQueue<>(),
+                Executors.defaultThreadFactory(),
+                new ThreadPoolExecutor.DiscardOldestPolicy()
+        );
         // Allocate new worker for each task
         // The worker is executed when a thread becomes
         // available in the thread pool

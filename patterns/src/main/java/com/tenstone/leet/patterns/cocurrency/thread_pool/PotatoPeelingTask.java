@@ -5,12 +5,12 @@ package com.tenstone.leet.patterns.cocurrency.thread_pool;
  *
  * @author liuyuancheng
  */
-public class PotatoPeelingTask extends Task{
+public class PotatoPeelingTask extends Task {
 
     private static int TIME_PER_POTATO = 200;
 
     public PotatoPeelingTask(int numPotatoes) {
-        super(numPotatoes* TIME_PER_POTATO);
+        super(numPotatoes * TIME_PER_POTATO);
     }
 
     @Override
