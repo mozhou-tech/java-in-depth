@@ -7,6 +7,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created by liuyuancheng on 2022/1/17  <br/>
+ * The active object design pattern decouples method execution from method invocation for objects that each reside in their thread of control. The goal is to introduce concurrency,
+ * by using asynchronous method invocation, and a scheduler for handling requests.
  *
  * @author liuyuancheng
  */
@@ -37,7 +39,11 @@ public abstract class ActiveCreature {
         this.thread.start();
     }
 
-
+    /**
+     * 加入新的Runnable任务
+     *
+     * @throws InterruptedException
+     */
     public void eat() throws InterruptedException {
         requests.put(() -> {
             log.info("{} is eating!", name);
@@ -45,7 +51,12 @@ public abstract class ActiveCreature {
         });
     }
 
-    public  void roam() throws InterruptedException {
-        requests.put(() -> log.info("{} has started to roam the wastelands",name));
+    /**
+     * 加入新的Runnable任务
+     *
+     * @throws InterruptedException
+     */
+    public void roam() throws InterruptedException {
+        requests.put(() -> log.info("{} has started to roam the wastelands", name));
     }
 }
