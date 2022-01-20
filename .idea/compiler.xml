@@ -7,26 +7,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flink-sql" />
+        <module name="question" />
+        <module name="flink-basic" />
+        <module name="flink-upgrade" />
+        <module name="patterns" />
+        <module name="flink-datastream" />
+        <module name="distribution" />
+        <module name="flink-project" />
+        <module name="netty_mysql_protocol" />
         <module name="spring" />
         <module name="jdk" />
         <module name="database" />
-        <module name="bigdata" />
-        <module name="question" />
-        <module name="patterns" />
-        <module name="flink-examples" />
-        <module name="distribution" />
+        <module name="clickhouse" />
         <module name="netty_mqtt_broker" />
+        <module name="flink-dataset" />
         <module name="mysql_protocol" />
-        <module name="netty_mysql_protocol" />
         <module name="misc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bigdata" target="11" />
+      <module name="clickhouse" target="11" />
       <module name="database" target="11" />
       <module name="distribution" target="11" />
       <module name="distribution-tx" target="11" />
-      <module name="flink-examples" target="11" />
+      <module name="flink" target="11" />
+      <module name="flink-basic" target="11" />
+      <module name="flink-dataset" target="11" />
+      <module name="flink-datastream" target="11" />
+      <module name="flink-project" target="11" />
+      <module name="flink-sql" target="11" />
+      <module name="flink-upgrade" target="1.8" />
       <module name="gateway" target="1.5" />
       <module name="jdk" target="11" />
       <module name="leet" target="11" />

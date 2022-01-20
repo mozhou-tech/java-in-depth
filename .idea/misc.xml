@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/middleware/simple_rpc/pom.xml" />
         <option value="$PROJECT_DIR$/database/pom.xml" />
         <option value="$PROJECT_DIR$/jdk/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata/flink-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata/flink/pom.xml" />
       </list>
     </option>
   </component>

@@ -9,6 +9,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class CircuitBreakerDemo {
+
     public static void main(String[] args) {
         final long serverStartTime = System.nanoTime();
         final DelayedRemoteService delayedService = new DelayedRemoteService(serverStartTime, 5);
@@ -32,4 +33,5 @@ public class CircuitBreakerDemo {
         log.info(monitoringService.delayedServiceResponse());
         log.info(delayedServiceCircuitBreaker.getState());
     }
+
 }
