@@ -1,0 +1,4 @@
+<RocketMQ name="rocketmqAppender" producerGroup="yourLogGroup" nameServerAddress="yourRocketmqNameserverAddress"
+          topic="yourLogTopic" tag="yourTag">
+    <PatternLayout pattern="%d [%p] hahahah %c %m%n"/>
+</RocketMQ>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.openmessaging:openmessaging-api:2.2.1-pubsub">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/openmessaging/openmessaging-api/2.2.1-pubsub/openmessaging-api-2.2.1-pubsub.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/openmessaging/openmessaging-api/2.2.1-pubsub/openmessaging-api-2.2.1-pubsub-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/openmessaging/openmessaging-api/2.2.1-pubsub/openmessaging-api-2.2.1-pubsub-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

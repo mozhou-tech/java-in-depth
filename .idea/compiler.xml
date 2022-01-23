@@ -10,18 +10,19 @@
         <module name="flink-sql" />
         <module name="question" />
         <module name="flink-basic" />
+        <module name="rocketmq" />
         <module name="flink-upgrade" />
         <module name="patterns" />
         <module name="flink-datastream" />
         <module name="distribution" />
         <module name="flink-project" />
         <module name="netty_mysql_protocol" />
-        <module name="spring" />
         <module name="jdk" />
+        <module name="spring" />
         <module name="database" />
         <module name="clickhouse" />
-        <module name="netty_mqtt_broker" />
         <module name="flink-dataset" />
+        <module name="netty_mqtt_broker" />
         <module name="mysql_protocol" />
         <module name="misc" />
       </profile>
@@ -48,6 +49,7 @@
       <module name="netty_mysql_protocol" target="11" />
       <module name="patterns" target="11" />
       <module name="question" target="11" />
+      <module name="rocketmq" target="11" />
       <module name="spring" target="11" />
     </bytecodeTargetLevel>
   </component>
