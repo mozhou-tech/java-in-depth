@@ -67,6 +67,8 @@
         <module>distribution</module>
         <module>middleware</module>
         <module>rocketmq</module>
+        <module>hdfs</module>
+        <module>bigdata/calcite</module>
     </modules>
     <repositories>
         <repository>

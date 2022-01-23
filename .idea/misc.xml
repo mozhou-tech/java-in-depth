@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/bigdata/flink-examples/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata/flink/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata/hdfs/pom.xml" />
       </list>
     </option>
   </component>

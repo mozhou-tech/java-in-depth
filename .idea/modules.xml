@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bigdata/bigdata.iml" filepath="$PROJECT_DIR$/bigdata/bigdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/flink/bigdata-flink.iml" filepath="$PROJECT_DIR$/bigdata/flink/bigdata-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata/calcite/calcite.iml" filepath="$PROJECT_DIR$/bigdata/calcite/calcite.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/clickhouse/clickhouse.iml" filepath="$PROJECT_DIR$/bigdata/clickhouse/clickhouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-project/flink-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-sql/flink-sql.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-sql/flink-sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-upgrade/flink-upgrade.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-upgrade/flink-upgrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/bigdata/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk/jdk.iml" filepath="$PROJECT_DIR$/jdk/jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/middleware.iml" filepath="$PROJECT_DIR$/middleware/middleware.iml" />

@@ -14,6 +14,7 @@
         <module name="flink-upgrade" />
         <module name="patterns" />
         <module name="flink-datastream" />
+        <module name="calcite" />
         <module name="distribution" />
         <module name="flink-project" />
         <module name="netty_mysql_protocol" />
@@ -21,6 +22,7 @@
         <module name="spring" />
         <module name="database" />
         <module name="clickhouse" />
+        <module name="hdfs" />
         <module name="flink-dataset" />
         <module name="netty_mqtt_broker" />
         <module name="mysql_protocol" />
@@ -30,6 +32,7 @@
     <bytecodeTargetLevel>
       <module name="bigdata" target="11" />
       <module name="bigdata-flink" target="11" />
+      <module name="calcite" target="11" />
       <module name="clickhouse" target="11" />
       <module name="database" target="11" />
       <module name="distribution" target="11" />
@@ -40,6 +43,7 @@
       <module name="flink-project" target="11" />
       <module name="flink-sql" target="11" />
       <module name="flink-upgrade" target="1.8" />
+      <module name="hdfs" target="11" />
       <module name="jdk" target="11" />
       <module name="leet" target="11" />
       <module name="middleware" target="11" />
