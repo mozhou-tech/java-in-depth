@@ -69,6 +69,8 @@
         <module>rocketmq</module>
         <module>hdfs</module>
         <module>bigdata/calcite</module>
+        <module>misc/camunda</module>
+        <module>misc/mockito</module>
     </modules>
     <repositories>
         <repository>

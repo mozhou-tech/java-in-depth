@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="camunda" />
         <module name="flink-sql" />
         <module name="question" />
         <module name="flink-basic" />
@@ -16,6 +17,7 @@
         <module name="flink-datastream" />
         <module name="calcite" />
         <module name="distribution" />
+        <module name="mockito" />
         <module name="flink-project" />
         <module name="netty_mysql_protocol" />
         <module name="jdk" />
@@ -33,6 +35,7 @@
       <module name="bigdata" target="11" />
       <module name="bigdata-flink" target="11" />
       <module name="calcite" target="11" />
+      <module name="camunda" target="11" />
       <module name="clickhouse" target="11" />
       <module name="database" target="11" />
       <module name="distribution" target="11" />
@@ -48,6 +51,7 @@
       <module name="leet" target="11" />
       <module name="middleware" target="11" />
       <module name="misc" target="11" />
+      <module name="mockito" target="11" />
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="1.5" />
       <module name="netty_mysql_protocol" target="11" />
