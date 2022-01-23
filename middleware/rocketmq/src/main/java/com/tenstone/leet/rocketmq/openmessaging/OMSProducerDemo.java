@@ -1,20 +1,12 @@
 package com.tenstone.leet.rocketmq.openmessaging;
 
-import io.netty.util.concurrent.Promise;
-
-import io.openmessaging.api.MessagingAccessPoint;
-import io.openmessaging.api.Producer;
-import org.apache.rocketmq.client.producer.SendResult;
-import org.apache.rocketmq.common.message.Message;
-
-import java.nio.charset.Charset;
-
 /**
  * Created by liuyuancheng on 2022/1/23  <br/>
  *
  * @author liuyuancheng
  */
 public class OMSProducerDemo {
+
     public static void main(String[] args) {
 //        final MessagingAccessPoint messagingAccessPoint = MessagingAccessPointFactory
 //                .getMessagingAccessPoint("openmessaging:rocketmq://IP1:9876,IP2:9876/namespace");
@@ -56,4 +48,5 @@ public class OMSProducerDemo {
 //        producer.shutdown();
 //        messagingAccessPoint.shutdown();
     }
+
 }
