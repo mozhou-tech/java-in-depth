@@ -54,6 +54,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.janino:commons-compiler:3.1.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.janino:janino:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.calcite:calcite-server:1.22.0" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />

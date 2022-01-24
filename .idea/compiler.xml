@@ -40,7 +40,7 @@
       <module name="database" target="11" />
       <module name="distribution" target="11" />
       <module name="flink" target="11" />
-      <module name="flink-basic" target="1.5" />
+      <module name="flink-basic" target="11" />
       <module name="flink-dataset" target="1.5" />
       <module name="flink-datastream" target="11" />
       <module name="flink-project" target="11" />

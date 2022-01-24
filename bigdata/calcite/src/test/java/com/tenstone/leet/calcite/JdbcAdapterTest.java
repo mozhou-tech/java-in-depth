@@ -8,7 +8,6 @@ import java.sql.Statement;
 import java.util.Properties;
 import java.util.function.Consumer;
 
-import com.tenstone.leet.calcite.pojo.Student;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
