@@ -1,9 +1,5 @@
 package com.tenstone.leet.rocketmq.openmessaging;
 
-import io.openmessaging.*;
-import org.apache.rocketmq.client.consumer.listener.MessageListener;
-import org.apache.rocketmq.common.message.Message;
-
 /**
  * Created by liuyuancheng on 2022/1/23  <br/>
  *
