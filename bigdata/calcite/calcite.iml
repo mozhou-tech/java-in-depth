@@ -54,6 +54,8 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.4.42.v20210604" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.4.42.v20210604" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.calcite:calcite-mongodb:1.20.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-linq4j:1.22.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-file:1.22.0" level="project" />
