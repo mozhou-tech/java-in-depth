@@ -20,11 +20,6 @@
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-core:1.22.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-linq4j:1.22.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.calcite.avatica:avatica-core:1.16.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.calcite.avatica:avatica-metrics:1.16.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpcore:4.4.14" level="project" />
     <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.esri.geometry:esri-geometry-api:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
@@ -42,19 +37,24 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: net.hydromatic:aggdesigner-algorithm:6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-lang:commons-lang:2.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-logging:commons-logging:1.1.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.calcite.avatica:avatica-server:1.16.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.jetty:jetty-http:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.jetty:jetty-io:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.jetty:jetty-security:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.jetty:jetty-server:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.jetty:jetty-util:9.4.42.v20210604" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-dbcp2:2.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-pool2:2.9.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.janino:commons-compiler:3.1.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.janino:janino:3.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-server:1.22.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.calcite.avatica:avatica-core:1.20.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.calcite.avatica:avatica-metrics:1.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.17.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpcore:4.4.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.calcite.avatica:avatica-server:1.20.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-http:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.4.42.v20210604" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
