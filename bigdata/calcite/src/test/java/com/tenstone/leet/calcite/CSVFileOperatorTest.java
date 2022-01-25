@@ -37,7 +37,6 @@ public class CSVFileOperatorTest {
                 boolean slacker = resultSet.getBoolean(8);
                 boolean manager = resultSet.getBoolean(9);
                 Date joinDate = resultSet.getDate(10);
-
                 String txt = String.format("empno=%d,name=%s,deptno=%d,gender=%s,city=%s,empid=%d,age=%d,slacker=%b,manager=%b,joinDate=%tF",empno,name,deptno,gender,city,empid,age,slacker,manager,joinDate);
                 System.out.println(txt);
             }
