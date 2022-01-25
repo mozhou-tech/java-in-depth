@@ -11,11 +11,9 @@ import org.junit.runners.Parameterized;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -27,11 +25,26 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
  */
 @RunWith(Parameterized.class)
 public class RemoteHttpClientTest {
+
     private static Map<String, String> getHeaders() {
         return HEADERS_REF.get();
     }
 
+    static {
+        try {
+            Class.forName("org.apache.calcite.avatica.remote.Driver");
+            final Enumeration<java.sql.Driver> drivers = DriverManager.getDrivers();
+            while (drivers.hasMoreElements()){
+                System.out.println(drivers.nextElement());
+            }
+            DriverManager.registerDriver(new Driver());
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static final AtomicReference<Map<String, String>> HEADERS_REF = new AtomicReference<>();
+
     private static final AvaticaServersForTest SERVERS = new AvaticaServersForTest();
 
     @Parameterized.Parameters(name = "{0}")
@@ -104,14 +117,6 @@ public class RemoteHttpClientTest {
             super(url);
             this.headers = Objects.requireNonNull(headers);
         }
-//
-//        HttpURLConnection openConnection() throws IOException {
-//            HttpURLConnection connection = super.openConnection();
-//            for (Map.Entry<String, String> entry : headers.entrySet()) {
-//                connection.setRequestProperty(entry.getKey(), entry.getValue());
-//            }
-//            return connection;
-//        }
     }
 }
 
