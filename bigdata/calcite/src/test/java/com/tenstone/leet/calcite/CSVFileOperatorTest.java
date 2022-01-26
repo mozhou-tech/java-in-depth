@@ -19,7 +19,6 @@ public class CSVFileOperatorTest {
     public void testQuery() throws Exception {
         String sql = "select * from EMPS where empno>=110";
         String model = TestUtil.resourcePath("csvSource.json");
-
         Properties info = new Properties();
         info.put("model", model);
         try (Connection connection = DriverManager.getConnection("jdbc:calcite:", info)) {
