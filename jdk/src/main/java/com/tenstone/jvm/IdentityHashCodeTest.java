@@ -1,4 +1,4 @@
-package com.tenstone.juc.locks;
+package com.tenstone.jvm;
 
 import sun.misc.Unsafe;
 
@@ -7,7 +7,7 @@ import sun.misc.Unsafe;
  *
  * @author liuyuancheng
  */
-public class DemoTest {
+public class IdentityHashCodeTest {
 
     private static Integer num  = 12009;
 
