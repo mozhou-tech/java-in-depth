@@ -1,8 +1,11 @@
 package com.tenstone.juc.locks;
 
+import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomUtils;
 
+import java.util.Arrays;
+import java.util.Map;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
@@ -14,7 +17,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * 使用ReadWriteLock可以提高读取效率：
  * ReadWriteLock只允许一个线程写入；
  * ReadWriteLock允许多个线程在没有写入时同时读取；
- * ReadWriteLock适合读多写少的场景。
+ * ReadWriteLock适合读多写少的场景（多线程读，单线程写）。
  */
 @Slf4j
 public class ReentrantReadWriteLockDemo {
@@ -35,16 +38,13 @@ public class ReentrantReadWriteLockDemo {
      * @param index
      */
     public void inc(int index) {
-        wlock.lock(); // 加写锁
         try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        try {
+            wlock.lock(); // 加写锁
+            log.info("获得写锁");
             counts[index] += 1;
         } finally {
             wlock.unlock(); // 释放写锁
+            log.info("释放写锁");
         }
     }
 
@@ -53,17 +53,14 @@ public class ReentrantReadWriteLockDemo {
      *
      * @return
      */
-    public int get(int offset) {
-        rlock.lock(); // 加读锁
+    public int[] get() {
         try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        try {
-            return counts[offset];
+            rlock.lock(); // 加读锁
+            log.info("获取读锁");
+            return Arrays.copyOf(counts, counts.length);
         } finally {
             rlock.unlock(); // 释放读锁
+            log.info("释放读锁");
         }
     }
 
@@ -77,13 +74,16 @@ public class ReentrantReadWriteLockDemo {
 
         @Override
         public void run() {
-            int offset = RandomUtils.nextInt(0, 11);
-            final int value = this.demo.get(offset);
-            log.info("index {}->{} (get)", offset, value);
+            final int[] value = this.demo.get();
+            Map<Integer, Integer> logging = Maps.newHashMap();
+            for (int i = 0; i < value.length; i++) {
+                logging.put(i, value[i]);
+            }
+            log.info("list -> {} (get)", logging);
         }
     }
 
-    static class RandomWriteThread implements Runnable {
+    static class RandomWriteThread implements Callable<Integer> {
 
         private ReentrantReadWriteLockDemo demo;
 
@@ -92,19 +92,19 @@ public class ReentrantReadWriteLockDemo {
         }
 
         @Override
-        public void run() {
+        public Integer call() throws Exception {
             int offset = RandomUtils.nextInt(0, 11);
             this.demo.inc(offset);
             this.demo.sum.incrementAndGet();
-            log.info("index {}->{} (inc)", offset, demo.get(offset));
+            log.info("index {}->{} (inc)", offset, demo.counts[offset]);
+            return demo.counts[offset];
         }
     }
 
     public static void main(String[] args) throws InterruptedException {
         final BlockingQueue<Runnable> queue = new LinkedBlockingQueue<>();
-        final ThreadPoolExecutor pool = new ThreadPoolExecutor(2,
-                2, 3, TimeUnit.MINUTES, queue,
-                Executors.defaultThreadFactory());
+        final ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 2, 3, TimeUnit.MINUTES,
+                queue, Executors.defaultThreadFactory());
 
         final ReentrantReadWriteLockDemo demo = new ReentrantReadWriteLockDemo();
         for (int i = 0; i < 100; i++) {
@@ -112,12 +112,14 @@ public class ReentrantReadWriteLockDemo {
             pool.execute(new RandomReadThread(demo));
             // submit 可以提交Runnable和Callable，不能抛出异常
             pool.submit(new RandomWriteThread(demo));
-            log.info("active thread count {}, queue size {}", pool.getActiveCount(), queue.size());
         }
         Thread.sleep(3000);
         log.info("sum :{}", demo.sum.get());
         // 等待10秒，关闭线程池
         final boolean termination = pool.awaitTermination(5, TimeUnit.MINUTES);
+        // 读锁是共享锁，写锁是独占锁（共享一把锁）
+        // 因此读锁，可以同时被多个线程获得，因此出现读可以连续打印两条
+
         if (termination) {
             log.info("线程池退出成功");
         }
