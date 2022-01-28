@@ -18,6 +18,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * ReadWriteLock只允许一个线程写入；
  * ReadWriteLock允许多个线程在没有写入时同时读取；
  * ReadWriteLock适合读多写少的场景（多线程读，单线程写）。
+ * 如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的读锁。
  */
 @Slf4j
 public class ReentrantReadWriteLockDemo {
