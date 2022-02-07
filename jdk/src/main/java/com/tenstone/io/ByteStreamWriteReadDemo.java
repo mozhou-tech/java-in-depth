@@ -11,10 +11,9 @@ import java.io.*;
 public class ByteStreamWriteReadDemo {
 
     public static void main(String[] args) throws IOException {
-        String filename = "/Users/jerrylau/Documents/GitHub/leetcode/jdk/src/main/java/com/tenstone/io/test.txt";
-        writeByte(filename);
-        readByteFromFile(filename);
-        convertByteToChar(filename);
+        writeByte(IOConstansts.filename);
+        readByteFromFile(IOConstansts.filename);
+        convertByteToChar(IOConstansts.filename);
     }
 
     /**

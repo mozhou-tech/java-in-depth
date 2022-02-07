@@ -11,10 +11,9 @@ import java.io.*;
 public class CharStreamWriteReadDemo {
 
     public static void main(String[] args) throws IOException {
-        String filename = "/Users/jerrylau/Documents/GitHub/leetcode/jdk/src/main/java/com/tenstone/io/test.txt";
 
-        writeCharToFile(filename);
-        readCharFromFile(filename);
+        writeCharToFile(IOConstansts.filename);
+        readCharFromFile(IOConstansts.filename);
     }
 
     /**

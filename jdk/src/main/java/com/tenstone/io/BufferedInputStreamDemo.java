@@ -14,8 +14,7 @@ import java.io.*;
 public class BufferedInputStreamDemo {
 
     public static void main(String[] args) throws IOException {
-        String filename = "/Users/jerrylau/Documents/GitHub/leetcode/jdk/src/main/java/com/tenstone/io/test.txt";
-        readByBufferedInputStream(filename);
+        readByBufferedInputStream(IOConstansts.filename);
     }
 
     public static void readByBufferedInputStream(String filename) throws IOException {
@@ -23,6 +22,7 @@ public class BufferedInputStreamDemo {
         byte[] byteArray = new byte[(int) file.length()];
         // 可以在构造参数中传入buffer大小
         // 使用BufferedInputStream十分简单，只要把普通的输入流和BufferedInputStream组合到一起即可。
+        // BufferedOutputStream的情况和BufferedInputStream一致，在这里就不多做描述了。
         InputStream is = new BufferedInputStream(new FileInputStream(file), 2 * 1024);
         int size = is.read(byteArray);
         System.out.println("BufferedInputStreamDemo\n 大小:" + size + ";内容:" + new String(byteArray));
