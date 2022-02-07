@@ -1,11 +1,16 @@
 package com.tenstone.reflect;
 
+import lombok.Getter;
+
+import java.io.Serializable;
+
 /**
  * Created by liuyuancheng on 2022/2/7  <br/>
  *
  * @author liuyuancheng
  */
-public abstract class AbstractPerson {
+@Getter
+public abstract class AbstractPerson implements Serializable {
 
     private String name;
 
