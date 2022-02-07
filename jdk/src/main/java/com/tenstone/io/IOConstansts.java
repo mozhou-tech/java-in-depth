@@ -7,5 +7,6 @@ package com.tenstone.io;
  */
 public class IOConstansts {
      static String filename = "/Users/jerrylau/Documents/GitHub/leetcode/jdk/src/main/java/com/tenstone/io/test.txt";
+     static String serialize = "/Users/jerrylau/Documents/GitHub/leetcode/jdk/src/main/java/com/tenstone/io/object.data";
 
 }
