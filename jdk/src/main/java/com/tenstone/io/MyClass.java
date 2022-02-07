@@ -18,7 +18,7 @@ public class MyClass implements Serializable {
 
     @Override
     public String toString() {
-        return "MyClass{" +
+        return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
