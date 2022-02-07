@@ -17,13 +17,25 @@ public class ObjectInputStreamDemo {
     }
 
 
+    /**
+     * 读取对象
+     *
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public static void readObject1() throws IOException, ClassNotFoundException {
         ObjectInputStream input = new ObjectInputStream(new FileInputStream(IOConstansts.serialize));
         MyClass object = (MyClass) input.readObject();
         input.close();
+        System.out.println(object.toString());
     }
 
 
+    /**
+     * 写入对象
+     *
+     * @throws IOException
+     */
     public static void writeObject() throws IOException {
         ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream(IOConstansts.serialize));
         MyClass object = new MyClass();
