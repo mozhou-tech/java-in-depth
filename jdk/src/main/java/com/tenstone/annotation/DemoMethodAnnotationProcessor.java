@@ -14,6 +14,7 @@ import java.util.Set;
  *
  * @author liuyuancheng
  */
+@SupportedSourceVersion(SourceVersion.RELEASE_11)
 @SupportedAnnotationTypes({
         "com.tenstone.annotation.MethodDemoAnnotation2"
 })
