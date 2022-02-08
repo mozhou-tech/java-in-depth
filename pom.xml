@@ -66,8 +66,6 @@
         <module>misc</module>
         <module>distribution</module>
         <module>middleware</module>
-        <module>rocketmq</module>
-        <module>hdfs</module>
         <module>bigdata/calcite</module>
         <module>misc/camunda</module>
         <module>misc/mockito</module>

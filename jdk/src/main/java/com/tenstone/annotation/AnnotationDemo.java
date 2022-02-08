@@ -24,6 +24,7 @@ public class AnnotationDemo {
         annotationDemo.method2();
         annotationDemo.method3();
         annotationDemo.method4();
+        annotationDemo.method5();
     }
 
     @MethodDemoAnnotation(value = '+', loop = 3)
@@ -37,7 +38,7 @@ public class AnnotationDemo {
         System.out.println();
     }
 
-    @MethodDemoAnnotation(value = 'x', loop = 2)
+    @MethodDemoAnnotation2(value = 'x', loop = 2)
     public void method2() throws NoSuchMethodException {
         final MethodDemoAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method2")
@@ -48,7 +49,7 @@ public class AnnotationDemo {
         System.out.println();
     }
 
-    @MethodDemoAnnotation(value = '9', loop = 9)
+    @MethodDemoAnnotation2(value = '9', loop = 9)
     public void method3() throws NoSuchMethodException {
         final MethodDemoAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method3")
@@ -62,6 +63,22 @@ public class AnnotationDemo {
     public void method4() throws NoSuchMethodException {
         final MethodDemoAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method4")
+                .getAnnotation(MethodDemoAnnotation.class);
+        if (Objects.nonNull(method1)) {
+            for (int i = 0; i < method1.loop(); i++) {
+                System.out.print(method1.value());
+            }
+        } else {
+            System.out.print("no annotation.");
+        }
+
+        System.out.println();
+    }
+
+    @MethodDemoAnnotation2
+    public void method5() throws NoSuchMethodException {
+        final MethodDemoAnnotation method1 = this.getClass()
+                .getDeclaredMethod("method5")
                 .getAnnotation(MethodDemoAnnotation.class);
         if (Objects.nonNull(method1)) {
             for (int i = 0; i < method1.loop(); i++) {
