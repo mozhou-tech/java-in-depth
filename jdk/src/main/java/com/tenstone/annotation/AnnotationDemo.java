@@ -4,6 +4,7 @@ import java.util.Objects;
 
 /**
  * Created by liuyuancheng on 2022/2/7  <br/>
+ * http://hannesdorfmann.com/annotation-processing/annotationprocessing101/
  *
  * @author liuyuancheng
  */

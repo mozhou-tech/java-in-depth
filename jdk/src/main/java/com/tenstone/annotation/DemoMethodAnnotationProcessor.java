@@ -3,6 +3,7 @@ package com.tenstone.annotation;
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.TypeElement;
+import javax.tools.Diagnostic;
 import java.util.Set;
 
 /**
@@ -27,6 +28,12 @@ public class DemoMethodAnnotationProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         System.out.println(annotations);
+        Messager messager  = processingEnv.getMessager();
+        messager.printMessage(Diagnostic.Kind.NOTE,"I was here!");
+        // TODO: Put some meaningful code here. Right now just get it to work.
+
+        // return false;
+        // We have already handled these annotations. No more. So return true.
         return true;
     }
 }

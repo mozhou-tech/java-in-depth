@@ -20,8 +20,8 @@
         <module name="mockito" />
         <module name="flink-project" />
         <module name="netty_mysql_protocol" />
-        <module name="jdk" />
         <module name="spring" />
+        <module name="jdk" />
         <module name="database" />
         <module name="clickhouse" />
         <module name="hdfs" />
