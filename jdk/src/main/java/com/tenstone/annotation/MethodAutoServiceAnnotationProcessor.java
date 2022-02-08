@@ -1,5 +1,7 @@
 package com.tenstone.annotation;
 
+import com.google.auto.service.AutoService;
+
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.TypeElement;
@@ -14,12 +16,8 @@ import java.util.Set;
  *
  * @author liuyuancheng
  */
-@SupportedSourceVersion(SourceVersion.RELEASE_11)
-@SupportedAnnotationTypes({
-        "com.tenstone.annotation.MethodDemoAnnotation2"
-})
-public class DemoMethodAnnotationProcessor extends AbstractProcessor {
-
+@AutoService(Processor.class)
+public class MethodAutoServiceAnnotationProcessor extends AbstractProcessor {
 
     @Override
     public synchronized void init(ProcessingEnvironment processingEnv) {
@@ -29,12 +27,17 @@ public class DemoMethodAnnotationProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         System.out.println(annotations);
-        Messager messager  = processingEnv.getMessager();
-        messager.printMessage(Diagnostic.Kind.NOTE,"I was here!");
+        Messager messager = processingEnv.getMessager();
+        messager.printMessage(Diagnostic.Kind.NOTE, "I was here!");
         // TODO: Put some meaningful code here. Right now just get it to work.
 
         // return false;
         // We have already handled these annotations. No more. So return true.
         return true;
+    }
+
+    @Override
+    public SourceVersion getSupportedSourceVersion() {
+        return SourceVersion.latestSupported();
     }
 }

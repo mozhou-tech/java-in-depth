@@ -10,9 +10,9 @@ import java.lang.annotation.Target;
  *
  * @author liuyuancheng
  */
-@Retention(value = RetentionPolicy.CLASS)
+@Retention(value = RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface MethodDemoAnnotation2 {
+public @interface MethodReflectAnnotation {
     char value() default '-';
     int loop() default 1;
 }

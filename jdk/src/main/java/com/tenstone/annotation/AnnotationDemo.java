@@ -28,33 +28,33 @@ public class AnnotationDemo {
         annotationDemo.method5();
     }
 
-    @MethodDemoAnnotation(value = '+', loop = 3)
+    @MethodReflectAnnotation(value = '+', loop = 3)
     public void method1() throws NoSuchMethodException {
-        final MethodDemoAnnotation method1 = this.getClass()
+        final MethodReflectAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method1")
-                .getAnnotation(MethodDemoAnnotation.class);
+                .getAnnotation(MethodReflectAnnotation.class);
         for (int i = 0; i < method1.loop(); i++) {
             System.out.print(method1.value());
         }
         System.out.println();
     }
 
-    @MethodDemoAnnotation2(value = 'x', loop = 2)
+    @MethodAutoServiceAnnotation(value = 'x', loop = 2)
     public void method2() throws NoSuchMethodException {
-        final MethodDemoAnnotation method1 = this.getClass()
+        final MethodReflectAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method2")
-                .getAnnotation(MethodDemoAnnotation.class);
+                .getAnnotation(MethodReflectAnnotation.class);
         for (int i = 0; i < method1.loop(); i++) {
             System.out.print(method1.value());
         }
         System.out.println();
     }
 
-    @MethodDemoAnnotation2(value = '9', loop = 9)
+    @MethodAutoServiceAnnotation(value = '9', loop = 9)
     public void method3() throws NoSuchMethodException {
-        final MethodDemoAnnotation method1 = this.getClass()
+        final MethodReflectAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method3")
-                .getAnnotation(MethodDemoAnnotation.class);
+                .getAnnotation(MethodReflectAnnotation.class);
         for (int i = 0; i < method1.loop(); i++) {
             System.out.print(method1.value());
         }
@@ -62,9 +62,9 @@ public class AnnotationDemo {
     }
 
     public void method4() throws NoSuchMethodException {
-        final MethodDemoAnnotation method1 = this.getClass()
+        final MethodReflectAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method4")
-                .getAnnotation(MethodDemoAnnotation.class);
+                .getAnnotation(MethodReflectAnnotation.class);
         if (Objects.nonNull(method1)) {
             for (int i = 0; i < method1.loop(); i++) {
                 System.out.print(method1.value());
@@ -76,11 +76,11 @@ public class AnnotationDemo {
         System.out.println();
     }
 
-    @MethodDemoAnnotation2
+    @MethodAutoServiceAnnotation
     public void method5() throws NoSuchMethodException {
-        final MethodDemoAnnotation method1 = this.getClass()
+        final MethodReflectAnnotation method1 = this.getClass()
                 .getDeclaredMethod("method5")
-                .getAnnotation(MethodDemoAnnotation.class);
+                .getAnnotation(MethodReflectAnnotation.class);
         if (Objects.nonNull(method1)) {
             for (int i = 0; i < method1.loop(); i++) {
                 System.out.print(method1.value());
