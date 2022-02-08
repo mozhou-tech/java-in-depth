@@ -28,7 +28,6 @@
         <module name="flink-dataset" />
         <module name="netty_mqtt_broker" />
         <module name="mysql_protocol" />
-        <module name="misc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
