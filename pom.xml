@@ -69,6 +69,7 @@
         <module>bigdata/calcite</module>
         <module>misc/camunda</module>
         <module>misc/mockito</module>
+        <module>aop</module>
     </modules>
     <repositories>
         <repository>

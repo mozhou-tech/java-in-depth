@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.tenstone.aspect4j.SecuredMethodAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.tenstone.*"/>
+        </weaver>
+    </aspects>
+</aspectj>

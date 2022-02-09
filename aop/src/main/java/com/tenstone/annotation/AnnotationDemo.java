@@ -11,7 +11,6 @@ import java.util.Objects;
 @ClassDemoAnnotation
 public class AnnotationDemo {
 
-
     public AnnotationDemo() {
         final ClassDemoAnnotation annotation = AnnotationDemo.class.getAnnotation(ClassDemoAnnotation.class);
         if (Objects.nonNull(annotation)) {

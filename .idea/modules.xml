@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/bigdata.iml" filepath="$PROJECT_DIR$/bigdata/bigdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/flink/bigdata-flink.iml" filepath="$PROJECT_DIR$/bigdata/flink/bigdata-flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata/calcite/calcite.iml" filepath="$PROJECT_DIR$/bigdata/calcite/calcite.iml" />

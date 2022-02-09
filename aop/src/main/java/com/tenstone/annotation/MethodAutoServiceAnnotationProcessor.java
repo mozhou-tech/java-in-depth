@@ -1,6 +1,5 @@
 package com.tenstone.annotation;
 
-import com.google.auto.service.AutoService;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
@@ -16,7 +15,6 @@ import java.util.Set;
  *
  * @author liuyuancheng
  */
-@AutoService(Processor.class)
 public class MethodAutoServiceAnnotationProcessor extends AbstractProcessor {
 
     @Override
