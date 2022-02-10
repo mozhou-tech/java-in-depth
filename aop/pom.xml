@@ -27,6 +27,7 @@
             <artifactId>aspectjrt</artifactId>
             <version>${aspectj.version}</version>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>

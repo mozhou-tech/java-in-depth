@@ -1,4 +1,4 @@
-package com.tenstone.aspect4j;
+package com.tenstone.aspect4j.secured;
 
 /**
  * Created by liuyuancheng on 2022/2/9  <br/>
@@ -8,9 +8,19 @@ package com.tenstone.aspect4j;
 public class SecuredDemo {
 
     public static void main(String[] args) {
+
         SecuredMethod service = new SecuredMethod();
+
+        // 访问未被锁的方法
         service.unlockedMethod();
+
+        // 访问被锁的方法
         service.lockedMethod();
+
+        service.afterMethod();
+        service.beforeMethod();
+        service.returningMethod("world");
+        service.throwMethod();
     }
 
 }

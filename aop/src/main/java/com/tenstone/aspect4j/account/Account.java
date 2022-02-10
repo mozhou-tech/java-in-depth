@@ -1,4 +1,4 @@
-package com.tenstone.aspect4j;
+package com.tenstone.aspect4j.account;
 
 /**
  * Created by liuyuancheng on 2022/2/9  <br/>
@@ -6,6 +6,7 @@ package com.tenstone.aspect4j;
  * @author liuyuancheng
  */
 public class Account {
+
     int balance = 20;
 
     public boolean withdraw(int amount) {

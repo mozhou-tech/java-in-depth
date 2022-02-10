@@ -1,4 +1,4 @@
-package com.tenstone.aspect4j;
+package com.tenstone.aspect4j.secured;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
