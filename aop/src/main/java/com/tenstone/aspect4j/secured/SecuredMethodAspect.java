@@ -22,6 +22,7 @@ public class SecuredMethodAspect {
      * 	//@Pointcut("@within(org.springframework.transaction.annotation.Transactional)")
      * 	//@Pointcut("@annotation(org.springframework.transaction.annotation.Transactional)")
      *  //@Pointcut("args(String)")
+     *  //@Pointcut("handler(java.lang.Exception+)&&args(e)")
      * @param secured
      */
     @Pointcut("@annotation(secured)")
