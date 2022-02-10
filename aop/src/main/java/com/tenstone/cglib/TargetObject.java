@@ -3,7 +3,7 @@ package com.tenstone.cglib;
 /**
  * Created by liuyuancheng on 2022/2/10  <br/>
  * 没有实现接口，需要CGlib动态代理的目标类
- *
+ * <p>
  * 被代理的类
  *
  * @author liuyuancheng
@@ -23,6 +23,6 @@ public class TargetObject {
 
     @Override
     public String toString() {
-        return "TargetObject []"+ getClass();
+        return "TargetObject []" + getClass();
     }
 }
