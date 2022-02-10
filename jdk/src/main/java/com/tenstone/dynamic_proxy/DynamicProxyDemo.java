@@ -1,4 +1,4 @@
-package com.tenstone.reflect;
+package com.tenstone.dynamic_proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
  *
  * @author liuyuancheng
  */
-public class DynamicProxyDemo implements IDynamicProxyDemo {
+public class DynamicProxyDemo implements IDynamicProxy {
 
     @Override
     public void morning(String name) {
@@ -29,11 +29,11 @@ public class DynamicProxyDemo implements IDynamicProxyDemo {
         // Java标准库提供了一种动态代理（Dynamic Proxy）的机制：可以在运行期动态创建某个interface的实例。
         // 我们并不去编写实现类，而是直接通过JDK提供的一个Proxy.newProxyInstance()创建了一个Hello接口对象。
         // 这种没有实现类但是在运行期动态创建了一个接口对象的方式，我们称为动态代码。JDK提供的动态创建接口对象的方式，就叫动态代理。
-        IDynamicProxyDemo hello = (IDynamicProxyDemo) Proxy.newProxyInstance(
+        IDynamicProxy hello = (IDynamicProxy) Proxy.newProxyInstance(
                 // 传入ClassLoader
-                IDynamicProxyDemo.class.getClassLoader(),
+                IDynamicProxy.class.getClassLoader(),
                 // 传入要实现的接口
-                new Class[] { IDynamicProxyDemo.class },
+                new Class[] { IDynamicProxy.class },
                 // 传入处理调用方法的InvocationHandler
                 handler);
         hello.morning("Bob");

@@ -7,6 +7,11 @@ package com.tenstone.aspect4j.secured;
  */
 public class SecuredDemo {
 
+    /**
+     * @EnableAspectJAutoProxy 在Spring中开启AspectJ支持
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         SecuredMethod service = new SecuredMethod();

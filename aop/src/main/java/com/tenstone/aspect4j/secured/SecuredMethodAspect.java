@@ -16,13 +16,13 @@ public class SecuredMethodAspect {
      * 切点
      * 丰富的pointCut语法，可以灵活的定义切点
      * //@Pointcut("execution(* com.test.spring.aop.pointcutexp..JoinPointObjP2.*(..))")
-     * 	//@Pointcut("within(com.test.spring.aop.pointcutexp..*)")
-     * 	//@Pointcut("this(com.test.spring.aop.pointcutexp.Intf)")
-     * 	//@Pointcut("target(com.test.spring.aop.pointcutexp.Intf)")
-     * 	//@Pointcut("@within(org.springframework.transaction.annotation.Transactional)")
-     * 	//@Pointcut("@annotation(org.springframework.transaction.annotation.Transactional)")
-     *  //@Pointcut("args(String)")
-     *  //@Pointcut("handler(java.lang.Exception+)&&args(e)")
+     * //@Pointcut("within(com.test.spring.aop.pointcutexp..*)")
+     * //@Pointcut("this(com.test.spring.aop.pointcutexp.Intf)")
+     * //@Pointcut("target(com.test.spring.aop.pointcutexp.Intf)")
+     * //@Pointcut("@within(org.springframework.transaction.annotation.Transactional)")
+     * //@Pointcut("@annotation(org.springframework.transaction.annotation.Transactional)")
+     * //@Pointcut("args(String)")
+     * //@Pointcut("handler(java.lang.Exception+)&&args(e)") 多
      * @param secured
      */
     @Pointcut("@annotation(secured)")
