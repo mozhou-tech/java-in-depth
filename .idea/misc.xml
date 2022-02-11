@@ -10,14 +10,11 @@
         <option value="$PROJECT_DIR$/distribution-lock/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/juc/pom.xml" />
-        <option value="$PROJECT_DIR$/distribution/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata/pom.xml" />
         <option value="$PROJECT_DIR$/patterns/pom.xml" />
         <option value="$PROJECT_DIR$/cocurrent/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/mysql_protocol/pom.xml" />
-        <option value="$PROJECT_DIR$/misc/pom.xml" />
-        <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/simple_rpc/pom.xml" />
         <option value="$PROJECT_DIR$/database/pom.xml" />
         <option value="$PROJECT_DIR$/jdk/pom.xml" />
@@ -25,6 +22,18 @@
         <option value="$PROJECT_DIR$/bigdata/flink/pom.xml" />
         <option value="$PROJECT_DIR$/middleware/rocketmq/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata/hdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/annotaion-user/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/annotaion-processing/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/annotaion-other/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/olap-clickhouse/pom.xml" />
+        <option value="$PROJECT_DIR$/unittest-mockito/pom.xml" />
+        <option value="$PROJECT_DIR$/oltp-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-calcite/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-hadoop/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-flink/pom.xml" />
+        <option value="$PROJECT_DIR$/automation-camunda/pom.xml" />
       </list>
     </option>
   </component>

@@ -70,6 +70,10 @@
         <module>misc/camunda</module>
         <module>misc/mockito</module>
         <module>aop</module>
+        <module>annotaion-processing</module>
+        <module>apache-spark</module>
+        <module>apache-shardingsphere</module>
+        <module>apache-kafka</module>
     </modules>
     <repositories>
         <repository>

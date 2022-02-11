@@ -2,34 +2,41 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/bigdata.iml" filepath="$PROJECT_DIR$/bigdata/bigdata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/bigdata-flink.iml" filepath="$PROJECT_DIR$/bigdata/flink/bigdata-flink.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/calcite/calcite.iml" filepath="$PROJECT_DIR$/bigdata/calcite/calcite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/misc/camunda/camunda.iml" filepath="$PROJECT_DIR$/misc/camunda/camunda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/clickhouse/clickhouse.iml" filepath="$PROJECT_DIR$/bigdata/clickhouse/clickhouse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
-      <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-basic/flink-basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-dataset/flink-dataset.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-dataset/flink-dataset.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-datastream/flink-datastream.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-datastream/flink-datastream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-project/flink-project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-sql/flink-sql.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-sql/flink-sql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/flink/flink-upgrade/flink-upgrade.iml" filepath="$PROJECT_DIR$/bigdata/flink/flink-upgrade/flink-upgrade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/bigdata/hdfs/hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotaion-other/annotation-other.iml" filepath="$PROJECT_DIR$/annotations/annotaion-other/annotation-other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotaion-processing/annotation-processing.iml" filepath="$PROJECT_DIR$/annotations/annotaion-processing/annotation-processing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotaion-user/annotation-user.iml" filepath="$PROJECT_DIR$/annotations/annotaion-user/annotation-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-calcite/apache-calcite.iml" filepath="$PROJECT_DIR$/apache-calcite/apache-calcite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/apache-flink.iml" filepath="$PROJECT_DIR$/apache-flink/apache-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-hadoop/apache-hadoop.iml" filepath="$PROJECT_DIR$/apache-hadoop/apache-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-kafka/apache-kafka.iml" filepath="$PROJECT_DIR$/apache-kafka/apache-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/rocketmq/apache-rocketmq.iml" filepath="$PROJECT_DIR$/middleware/rocketmq/apache-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-shardingsphere/apache-shardingsphere.iml" filepath="$PROJECT_DIR$/apache-shardingsphere/apache-shardingsphere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-spark/apache-spark.iml" filepath="$PROJECT_DIR$/apache-spark/apache-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/question/architecture-algorithms.iml" filepath="$PROJECT_DIR$/question/architecture-algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" filepath="$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-sql/flink-sql.iml" filepath="$PROJECT_DIR$/apache-flink/flink-sql/flink-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-upgrade/flink-upgrade.iml" filepath="$PROJECT_DIR$/apache-flink/flink-upgrade/flink-upgrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk/jdk.iml" filepath="$PROJECT_DIR$/jdk/jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/middleware.iml" filepath="$PROJECT_DIR$/middleware/middleware.iml" />
-      <module fileurl="file://$PROJECT_DIR$/misc/misc.iml" filepath="$PROJECT_DIR$/misc/misc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/misc/mockito/mockito.iml" filepath="$PROJECT_DIR$/misc/mockito/mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/netty_mysql_protocol/mysql_protocol.iml" filepath="$PROJECT_DIR$/middleware/netty_mysql_protocol/mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/netty_mqtt_broker/netty_mqtt_broker.iml" filepath="$PROJECT_DIR$/middleware/netty_mqtt_broker/netty_mqtt_broker.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middleware/mysql_protocol/netty_mysql_protocol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/question/question.iml" filepath="$PROJECT_DIR$/question/question.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" filepath="$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oltp-mysql/oltp-mysql.iml" filepath="$PROJECT_DIR$/oltp-mysql/oltp-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/middleware/rocketmq/rocketmq.iml" filepath="$PROJECT_DIR$/middleware/rocketmq/rocketmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" />
     </modules>
   </component>
 </project>

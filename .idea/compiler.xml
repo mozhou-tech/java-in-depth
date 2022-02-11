@@ -6,45 +6,58 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="camunda" />
         <module name="flink-sql" />
-        <module name="aop" />
-        <module name="question" />
         <module name="flink-basic" />
-        <module name="rocketmq" />
         <module name="flink-upgrade" />
-        <module name="patterns" />
+        <module name="olap-clickhouse" />
+        <module name="unittest-mockito" />
+        <module name="apache-calcite" />
+        <module name="apache-spark" />
+        <module name="oltp-mysql" />
+        <module name="flume" />
+        <module name="mysql_protocol" />
+        <module name="apache-rocketmq" />
+        <module name="hbase" />
+        <module name="zookeeper" />
+        <module name="annotation-user" />
+        <module name="annotation-other" />
+        <module name="architecture-algorithms" />
+        <module name="architecture-patterns" />
         <module name="flink-datastream" />
-        <module name="calcite" />
-        <module name="distribution" />
-        <module name="mockito" />
+        <module name="annotation-processing" />
+        <module name="apache-shardingsphere" />
         <module name="flink-project" />
         <module name="netty_mysql_protocol" />
-        <module name="spring" />
         <module name="jdk" />
-        <module name="database" />
-        <module name="clickhouse" />
+        <module name="automation-camunda" />
+        <module name="apache-kafka" />
         <module name="hdfs" />
-        <module name="flink-dataset" />
         <module name="netty_mqtt_broker" />
-        <module name="mysql_protocol" />
+        <module name="yarn" />
+        <module name="flink-dataset" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
-      <module name="aop" target="11" />
-      <module name="bigdata" target="11" />
-      <module name="bigdata-flink" target="11" />
-      <module name="calcite" target="11" />
-      <module name="camunda" target="11" />
-      <module name="clickhouse" target="11" />
-      <module name="database" target="11" />
+      <module name="annotation-other" target="11" />
+      <module name="annotation-processing" target="11" />
+      <module name="annotation-user" target="11" />
+      <module name="annotations" target="11" />
+      <module name="apache-calcite" target="11" />
+      <module name="apache-flink" target="11" />
+      <module name="apache-hadoop" target="11" />
+      <module name="apache-kafka" target="11" />
+      <module name="apache-rocketmq" target="11" />
+      <module name="apache-shardingsphere" target="11" />
+      <module name="apache-spark" target="11" />
+      <module name="architecture-algorithms" target="11" />
+      <module name="architecture-patterns" target="11" />
+      <module name="automation-camunda" target="11" />
       <module name="distribution" target="11" />
       <module name="flink-basic" target="11" />
       <module name="flink-dataset" target="11" />
@@ -52,31 +65,34 @@
       <module name="flink-project" target="11" />
       <module name="flink-sql" target="11" />
       <module name="flink-upgrade" target="1.8" />
+      <module name="flume" target="11" />
+      <module name="hbase" target="11" />
       <module name="hdfs" target="11" />
       <module name="jdk" target="11" />
       <module name="leet" target="11" />
       <module name="middleware" target="11" />
       <module name="misc" target="11" />
-      <module name="mockito" target="11" />
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
       <module name="netty_mysql_protocol" target="11" />
-      <module name="patterns" target="11" />
-      <module name="question" target="11" />
-      <module name="rocketmq" target="11" />
+      <module name="olap-clickhouse" target="11" />
+      <module name="oltp-mysql" target="11" />
       <module name="spring" target="11" />
+      <module name="unittest-mockito" target="11" />
+      <module name="yarn" target="11" />
+      <module name="zookeeper" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bigdata" options="" />
-      <module name="database" options="" />
+      <module name="apache-hadoop" options="" />
+      <module name="architecture-patterns" options="" />
       <module name="distribution" options="" />
       <module name="jdk" options="" />
       <module name="misc" options="" />
       <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
-      <module name="patterns" options="" />
+      <module name="oltp-mysql" options="" />
       <module name="spring" options="" />
     </option>
   </component>
