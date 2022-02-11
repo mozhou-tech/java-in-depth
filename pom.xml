@@ -57,23 +57,23 @@
         </dependency>
     </dependencies>
     <modules>
-        <module>question</module>
-        <module>bigdata</module>
-        <module>database</module>
-        <module>patterns</module>
+        <module>unittest-mockito</module>
+        <module>architecture-algorithms</module>
+        <module>architecture-patterns</module>
+        <module>olap-clickhouse</module>
         <module>jdk</module>
-        <module>spring</module>
-        <module>misc</module>
-        <module>distribution</module>
+        <module>automation-camunda</module>
+        <module>apache-rocketmq</module>
         <module>middleware</module>
-        <module>bigdata/calcite</module>
-        <module>misc/camunda</module>
-        <module>misc/mockito</module>
-        <module>aop</module>
-        <module>annotaion-processing</module>
+        <module>apache-flink</module>
+        <module>apache-hadoop</module>
+        <module>annotations</module>
+        <module>alibaba-canal</module>
+        <module>apache-calcite</module>
         <module>apache-spark</module>
         <module>apache-shardingsphere</module>
         <module>apache-kafka</module>
+        <module>alibaba-canal</module>
     </modules>
     <repositories>
         <repository>

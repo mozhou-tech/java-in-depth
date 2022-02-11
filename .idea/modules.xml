@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-canal/alibaba-canal.iml" filepath="$PROJECT_DIR$/alibaba-canal/alibaba-canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotaion-other/annotation-other.iml" filepath="$PROJECT_DIR$/annotations/annotaion-other/annotation-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotaion-processing/annotation-processing.iml" filepath="$PROJECT_DIR$/annotations/annotaion-processing/annotation-processing.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotaion-user/annotation-user.iml" filepath="$PROJECT_DIR$/annotations/annotaion-user/annotation-user.iml" />

@@ -19,7 +19,6 @@
     <modules>
         <module>netty_mysql_protocol</module>
         <module>netty_mqtt_broker</module>
-        <module>rocketmq</module>
     </modules>
 
 </project>
