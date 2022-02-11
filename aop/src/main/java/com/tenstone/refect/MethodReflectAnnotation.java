@@ -1,4 +1,4 @@
-package com.tenstone.annotation;
+package com.tenstone.refect;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

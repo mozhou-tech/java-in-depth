@@ -1,4 +1,4 @@
-package com.tenstone.annotation;
+package com.tenstone.jdk;
 
 
 import javax.annotation.processing.*;
