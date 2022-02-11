@@ -74,6 +74,7 @@
         <module>apache-shardingsphere</module>
         <module>apache-kafka</module>
         <module>alibaba-canal</module>
+        <module>distributions</module>
     </modules>
     <repositories>
         <repository>

@@ -18,6 +18,7 @@
         <module name="flink-basic" />
         <module name="flink-upgrade" />
         <module name="olap-clickhouse" />
+        <module name="locks" />
         <module name="unittest-mockito" />
         <module name="apache-calcite" />
         <module name="apache-spark" />
@@ -62,6 +63,7 @@
       <module name="architecture-patterns" target="11" />
       <module name="automation-camunda" target="11" />
       <module name="distribution" target="11" />
+      <module name="distributions" target="11" />
       <module name="flink-basic" target="11" />
       <module name="flink-dataset" target="11" />
       <module name="flink-datastream" target="11" />
@@ -73,6 +75,7 @@
       <module name="hdfs" target="11" />
       <module name="jdk" target="11" />
       <module name="leet" target="11" />
+      <module name="locks" target="11" />
       <module name="middleware" target="11" />
       <module name="misc" target="11" />
       <module name="mysql_protocol" target="11" />

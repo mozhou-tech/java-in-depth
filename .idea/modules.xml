@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/question/architecture-algorithms.iml" filepath="$PROJECT_DIR$/question/architecture-algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributions/distributions.iml" filepath="$PROJECT_DIR$/distributions/distributions.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" filepath="$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" />
@@ -28,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk/jdk.iml" filepath="$PROJECT_DIR$/jdk/jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributions/locks/locks.iml" filepath="$PROJECT_DIR$/distributions/locks/locks.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/middleware.iml" filepath="$PROJECT_DIR$/middleware/middleware.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/netty_mysql_protocol/mysql_protocol.iml" filepath="$PROJECT_DIR$/middleware/netty_mysql_protocol/mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/middleware/netty_mqtt_broker/netty_mqtt_broker.iml" filepath="$PROJECT_DIR$/middleware/netty_mqtt_broker/netty_mqtt_broker.iml" />
