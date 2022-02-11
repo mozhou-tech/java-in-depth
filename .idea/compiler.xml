@@ -76,7 +76,7 @@
       <module name="jdk" target="11" />
       <module name="leet" target="11" />
       <module name="locks" target="11" />
-      <module name="middleware" target="11" />
+      <module name="middlewares" target="11" />
       <module name="misc" target="11" />
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
