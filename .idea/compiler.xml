@@ -6,7 +6,6 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -21,14 +20,17 @@
         <module name="locks" />
         <module name="unittest-mockito" />
         <module name="apache-calcite" />
+        <module name="annotaion-user" />
         <module name="apache-spark" />
         <module name="oltp-mysql" />
         <module name="flume" />
+        <module name="apache-derby" />
         <module name="mysql_protocol" />
         <module name="apache-rocketmq" />
         <module name="hbase" />
         <module name="zookeeper" />
         <module name="annotation-user" />
+        <module name="annotaion-other" />
         <module name="annotation-other" />
         <module name="architecture-algorithms" />
         <module name="architecture-patterns" />
@@ -48,11 +50,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
       <module name="alibaba-canal" target="11" />
+      <module name="annotaion-other" target="11" />
+      <module name="annotaion-user" target="11" />
       <module name="annotation-other" target="11" />
       <module name="annotation-processing" target="11" />
       <module name="annotation-user" target="11" />
       <module name="annotations" target="11" />
       <module name="apache-calcite" target="11" />
+      <module name="apache-derby" target="11" />
       <module name="apache-flink" target="11" />
       <module name="apache-hadoop" target="11" />
       <module name="apache-kafka" target="11" />
@@ -83,6 +88,7 @@
       <module name="netty_mysql_protocol" target="11" />
       <module name="olap-clickhouse" target="11" />
       <module name="oltp-mysql" target="11" />
+      <module name="question" target="11" />
       <module name="spring" target="11" />
       <module name="unittest-mockito" target="11" />
       <module name="yarn" target="11" />

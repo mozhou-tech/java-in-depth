@@ -75,6 +75,7 @@
         <module>apache-kafka</module>
         <module>alibaba-canal</module>
         <module>distributions</module>
+        <module>apache-derby</module>
     </modules>
     <repositories>
         <repository>
