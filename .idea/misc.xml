@@ -34,7 +34,13 @@
         <option value="$PROJECT_DIR$/apache-hadoop/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/pom.xml" />
         <option value="$PROJECT_DIR$/automation-camunda/pom.xml" />
+        <option value="$PROJECT_DIR$/middlewares/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/annotations/annotation-commons-proxy/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">

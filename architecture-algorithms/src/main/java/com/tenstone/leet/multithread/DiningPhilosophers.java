@@ -1,4 +1,4 @@
-package com.tenstone.jdk.multi_thread.question;
+package com.tenstone.leet.multithread;
 
 /**
  * Created by liuyuancheng on 2022/1/6  <br/>

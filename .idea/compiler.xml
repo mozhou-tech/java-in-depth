@@ -20,19 +20,17 @@
         <module name="locks" />
         <module name="unittest-mockito" />
         <module name="apache-calcite" />
-        <module name="annotaion-user" />
         <module name="apache-spark" />
         <module name="oltp-mysql" />
         <module name="flume" />
         <module name="apache-derby" />
-        <module name="mysql_protocol" />
         <module name="apache-rocketmq" />
+        <module name="mysql_protocol" />
         <module name="hbase" />
         <module name="zookeeper" />
         <module name="annotation-user" />
-        <module name="annotaion-other" />
-        <module name="annotation-other" />
         <module name="architecture-algorithms" />
+        <module name="annotation-other" />
         <module name="architecture-patterns" />
         <module name="flink-datastream" />
         <module name="annotation-processing" />
@@ -43,15 +41,13 @@
         <module name="automation-camunda" />
         <module name="apache-kafka" />
         <module name="hdfs" />
-        <module name="netty_mqtt_broker" />
         <module name="yarn" />
         <module name="flink-dataset" />
+        <module name="netty_mqtt_broker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
       <module name="alibaba-canal" target="11" />
-      <module name="annotaion-other" target="11" />
-      <module name="annotaion-user" target="11" />
       <module name="annotation-other" target="11" />
       <module name="annotation-processing" target="11" />
       <module name="annotation-user" target="11" />
@@ -67,7 +63,6 @@
       <module name="architecture-algorithms" target="11" />
       <module name="architecture-patterns" target="11" />
       <module name="automation-camunda" target="11" />
-      <module name="distribution" target="11" />
       <module name="distributions" target="11" />
       <module name="flink-basic" target="11" />
       <module name="flink-dataset" target="11" />
@@ -82,14 +77,11 @@
       <module name="leet" target="11" />
       <module name="locks" target="11" />
       <module name="middlewares" target="11" />
-      <module name="misc" target="11" />
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
       <module name="netty_mysql_protocol" target="11" />
       <module name="olap-clickhouse" target="11" />
       <module name="oltp-mysql" target="11" />
-      <module name="question" target="11" />
-      <module name="spring" target="11" />
       <module name="unittest-mockito" target="11" />
       <module name="yarn" target="11" />
       <module name="zookeeper" target="11" />
@@ -99,13 +91,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apache-hadoop" options="" />
       <module name="architecture-patterns" options="" />
-      <module name="distribution" options="" />
       <module name="jdk" options="" />
-      <module name="misc" options="" />
       <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
       <module name="oltp-mysql" options="" />
-      <module name="spring" options="" />
     </option>
   </component>
 </project>
