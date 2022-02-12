@@ -2,6 +2,8 @@ package com.tenstone.jdk.multithread;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
@@ -14,6 +16,16 @@ import java.util.concurrent.RecursiveTask;
  * @author liuyuancheng
  */
 public class ForkJoinDemo {
+
+    @Test
+    void  parallelStream(){
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+        // 基于ForkJoin实现，打印时无序
+        numbers.parallelStream().forEach(System.out::print);
+        System.out.println();
+        // 按顺序打印
+        numbers.forEach(System.out::print);
+    }
 
     @Test
     void forkjoin(){
