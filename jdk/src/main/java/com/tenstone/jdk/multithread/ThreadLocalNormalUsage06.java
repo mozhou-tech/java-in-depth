@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 
 /**
  * 描述： 演示ThreadLocal用法2：避免传递参数的麻烦（同一个线程中，从threadLocal去拿-线程中共享变量）
+ * 在不同的线程间共享变量
  */
 public class ThreadLocalNormalUsage06 {
 
