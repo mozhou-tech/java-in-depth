@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaagent/agent/agent.iml" filepath="$PROJECT_DIR$/javaagent/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/alibaba-canal/alibaba-canal.iml" filepath="$PROJECT_DIR$/alibaba-canal/alibaba-canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotation-other/annotation-other.iml" filepath="$PROJECT_DIR$/annotations/annotation-other/annotation-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotation-processing/annotation-processing.iml" filepath="$PROJECT_DIR$/annotations/annotation-processing/annotation-processing.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/apache-rocketmq/apache-rocketmq.iml" filepath="$PROJECT_DIR$/apache-rocketmq/apache-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-shardingsphere/apache-shardingsphere.iml" filepath="$PROJECT_DIR$/apache-shardingsphere/apache-shardingsphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-spark/apache-spark.iml" filepath="$PROJECT_DIR$/apache-spark/apache-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaagent/application/application.iml" filepath="$PROJECT_DIR$/javaagent/application/application.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" filepath="$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
@@ -28,6 +30,8 @@
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaagent/javaagent.iml" filepath="$PROJECT_DIR$/javaagent/javaagent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaagent/javassist/javassist.iml" filepath="$PROJECT_DIR$/javaagent/javassist/javassist.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk/jdk.iml" filepath="$PROJECT_DIR$/jdk/jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/locks/locks.iml" filepath="$PROJECT_DIR$/distributions/locks/locks.iml" />

@@ -14,6 +14,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="alibaba-canal" />
         <module name="flink-sql" />
+        <module name="agent" />
         <module name="flink-basic" />
         <module name="flink-upgrade" />
         <module name="olap-clickhouse" />
@@ -27,6 +28,7 @@
         <module name="apache-rocketmq" />
         <module name="mysql_protocol" />
         <module name="hbase" />
+        <module name="javassist" />
         <module name="zookeeper" />
         <module name="annotation-user" />
         <module name="architecture-algorithms" />
@@ -40,6 +42,7 @@
         <module name="jdk" />
         <module name="automation-camunda" />
         <module name="apache-kafka" />
+        <module name="application" />
         <module name="hdfs" />
         <module name="yarn" />
         <module name="flink-dataset" />
@@ -47,6 +50,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
+      <module name="agent" target="8" />
       <module name="alibaba-canal" target="11" />
       <module name="annotation-other" target="11" />
       <module name="annotation-processing" target="11" />
@@ -60,6 +64,7 @@
       <module name="apache-rocketmq" target="11" />
       <module name="apache-shardingsphere" target="11" />
       <module name="apache-spark" target="11" />
+      <module name="application" target="11" />
       <module name="architecture-algorithms" target="11" />
       <module name="architecture-patterns" target="11" />
       <module name="automation-camunda" target="11" />
@@ -73,6 +78,8 @@
       <module name="flume" target="11" />
       <module name="hbase" target="11" />
       <module name="hdfs" target="11" />
+      <module name="javaagent" target="11" />
+      <module name="javassist" target="11" />
       <module name="jdk" target="11" />
       <module name="leet" target="11" />
       <module name="locks" target="11" />

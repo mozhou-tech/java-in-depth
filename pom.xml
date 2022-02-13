@@ -76,6 +76,7 @@
         <module>alibaba-canal</module>
         <module>distributions</module>
         <module>apache-derby</module>
+        <module>javaagent</module>
     </modules>
     <repositories>
         <repository>
