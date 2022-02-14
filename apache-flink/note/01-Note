@@ -1,0 +1,63 @@
+
+业界大数据分布式计算框架
+	批/离线： batch  有界  静态的数据集
+	流式/实时： 连续  无解  动态的数据集
+
+
+MapReduce、Hive	
+DAG： Tez 
+Spark：
+Flink
+
+
+
+Stateful Computations over Data Streams
+	状态的
+		mr spark... 离线数据
+	数据流
+
+批流一体
+
+
+
+
+
+学习一个新框架时的方法论
+	一手
+
+	官网：xxxx.apache.org  apache基金会顶级项目
+		英文
+			平时的积累
+			云笔记：记下来
+
+
+	GitHub： github.com/apache/xxxx
+		单元测试、examples
+
+	社区活跃度
+
+	你平时开发/学习过程中： 各种异常
+		1) 阅读堆栈信息/错误日志
+			a) 到问答区去搜一下你的问题    一定要充分利用问答区
+			b) 把错误日志关键的信息到Google搜索
+			c) 问题贴到问答区：代码片段、错误信息、上下文
+
+			你们自己一定要记录好 ==> 整理成自己的知识库
+		2) debug
+
+		作业题  面试题
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

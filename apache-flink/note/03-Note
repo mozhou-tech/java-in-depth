@@ -1,0 +1,64 @@
+JobManager
+	老大(HA)
+TaskManager
+	小弟(多个的)
+Flink Client
+
+
+主从结构/Master-Slave结构
+	Hadoop
+		HDFS: NN(HA  老大)  DN(多个的  小弟)
+		MR  : RM(HA  老大)  NM(多个的  小弟)
+
+	Spark
+		Master(HA  老大)    Worker(多个的  小弟)
+
+	HBase....
+
+
+
+配置相关
+	flink-conf.yaml
+		rest.port: 18081
+		jobmanager.rpc.address: 你的机器的hostname
+	workers
+		你的机器的hostname
+
+	单节点： 同一个hostname
+	多节点：在workers中把你规划的作为从节点的机器对应的hostname写进来  一行一个hostname
+
+	补充一句：你们啥都不改也可以
+		默认的端口就是8081， 我这里改的目的是 防止云主机被挖矿
+		默认的hostname其实就是localhost
+
+把FLINK_HOME添加到系统环境变量里面
+	~/.bash_profile ...
+	export FLINK_HOME=/home/hadoop/app/flink-1.12.1
+	export PATH=$FLINK_HOME/bin:$PATH
+
+	让其生效： source ~/.bash_profile  或者是重新一个终端
+
+启动：
+	$FLINK_HOME/bin/start-cluster.sh
+	如果没有配置免密码登陆，那么需要手工输入对应用户的密码
+
+验证：jps
+	TaskManagerRunner
+	StandaloneSessionClusterEntrypoint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+基于Maven来构建我们的整个课程的编程/项目
+	下载：官网
+	部署
+		Mac: tar -zxvf apache-maven-3.6.3-bin.tar.gz -C ~/app/
+		Windows: 解压开就ok了
+
+		Default: ${user.home}/.m2/repository
+  		<localRepository>/path/to/local/repo</localRepository>
+  		WIN系统：一定要调整下，随便你放到非系统盘的地方
+		这个目录存放的就是maven相关的本地仓库目录
+	添加到系统环境变量： .bash_profile
+		export e=/Users/rocky/app/apache-maven-3.6.3
+		export PATH=$MAVEN_HOME/bin:$PATH
+		source ~/.bash_profile
+	验证：./mvn -v
+
+IDEA：
+	IDE：Eclipse MyEclipse IDEA ...
+
+
+
+Maven构建出来的项目层级说明
+├── pom.xml 以后编程中需要使用的依赖的管理文件
+└── src
+    └── main
+    	├── scala  相关的Scala代码
+        ├── java  相关的Java代码
+        │   └── spendreport
+        │       ├── FraudDetectionJob.java
+        │       └── FraudDetector.java
+        └── resources 相关的配置
+            └── log4j2.properties
+
+在开发的过程中要养成：类、方式、入参、返回值 要添加注释
+
+Hadoop课程：MR编程  面向套路编程、面向八股文编程
+
+
+
+主工程  Flink/Spark/Hive/Hadoop....
+	子模块1
+		pom.xml
+	.....2
+	......
+	.....N 
+	pom.xml 
+
+
+
+
+了解一下基于Flink的编程模型
+	对接数据源  ==> 使用引擎进行业务逻辑处理  ==> 结果写到某个地方去
+	MR： InputFormat  ==> Mapper ==> Reducer ==> ....
+	Hive: Table(s)   ==> SQL ==> insert ...
+	Spark:  RDD/DF/DS ==> Transformation ==> Action/Output
+	Flink: Source  ==> Transformation  ==> Sink 
+
+
+
+
+使用Flink进行流式/实时应用程序的开发
+数据源来自于socket，词频统计分析(wordcount)，统计结果输出到控制台
+
+业务逻辑：wc
+
+pk,pk,pk,flink,flink
+1) 每行数据按照指定的分隔符进行拆分
+	分隔符就是,  
+	String[] words = value.split(",")
+2) 每个单词赋值为1：出现的次数
+   (pk, 1)  
+   (pk, 1)  
+   (pk, 1)  
+   (flink, 1)  
+   (flink, 1)  
+3) shuffle：相同的key分到一个任务中去进行累加操作
+    (pk, 3) 
+    (flink, 2)
+
+
+
+
+
+
+
+
+
+
+重难点：
+	1) 基于IDEA构建多module的工程
+		主pom和子pom的使用
+	2) 基于Flink编程模型/套路
+		上下文
+		source
+		transformation
+		sink
+		ps：流的多一句话	
+	3) 掌握基于词频统计的流批写法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

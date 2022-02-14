@@ -1,0 +1,10 @@
+Watermark
+	结合EventTime进行操作
+
+	数据的延迟==>数据到Flink可能会产生乱序问题
+
+	Window ： [00,05)
+		何时关闭Window，然后进行计算
+		机制：我们自己可以设定一个允许的范围
+	Watermark是一种衡量Event进展的机制
+	Google  DataFlow模型	

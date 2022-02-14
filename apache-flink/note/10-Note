@@ -1,0 +1,28 @@
+State分类：
+	Keyed State
+		ValueState
+		ListState
+		ReducingState
+		AggregatingState
+		MapState
+
+
+	Operator State
+		Kafka中指定Topic的partition及groupid对应offset
+		Broadcast State
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

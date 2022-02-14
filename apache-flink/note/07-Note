@@ -1,0 +1,78 @@
+EventTime   
+	Event/数据真真正正产生的时间
+
+	pk,20251001100000,....
+	由于eventtime是内嵌在event中，所以时可以提取出来
+	然后以eventtime作为后续统计分析的基准点
+	和作业执行的机器时间是没有关系的
+
+	执行结果肯定是确定的   
+	乱序、延迟数据
+
+IngestionTime    
+	Event/数据对接到Flink的时间
+
+ProcessingTime   
+	进行Flink运算的时间
+	与算子的执行时间是有必然关系的
+
+	性能好、延迟低
+	不确定性、数据乱序
+
+PK哥 关注了Flink课程     1000    
+PK哥 取消关注了Flink课程  1001   
+PK哥 关注了Flink课程     1002   
+PK哥 关注了Flink课程     1004   
+PK哥 取消关注了Flink课程  1003
+
+关注了
+取消关注的 =  没有关注
+
+
+
+
+
+
+无界流
+	进行拆分，得到有限的数据集 ==> 有界流
+
+Window
+
+分类：
+	是否keyBy
+		按照key进行分组  
+			stream.keyBy(..).window(...).	
+		stream.windowAll
+	时间 Time-based Window
+		窗口大小 [start,end)	
+		与数量无关
+	数量 Count-based Window
+		元素个数
+		100
+		与时间无关
+	WindowAssigner	
+		A WindowAssigner is responsible for assigning each incoming element to one or more windows
+		tumbling windows
+			窗口的大小：时间(eventtime/processingtime)、数量
+			对齐，不会有重叠
+			一个event划分到一个window
+		sliding windows
+			窗口的大小、滑动步长
+			event会有重叠
+			一个event可能会被划分到多个window
+		session windows
+		global windows
+
+
+WindowFunction
+	增量： 
+	全量： buffer 
+
+
+
+
+
+
+
+
+
