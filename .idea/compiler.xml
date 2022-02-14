@@ -21,10 +21,11 @@
         <module name="locks" />
         <module name="unittest-mockito" />
         <module name="apache-calcite" />
+        <module name="apache-camel" />
         <module name="apache-spark" />
-        <module name="oltp-mysql" />
         <module name="flume" />
         <module name="apache-derby" />
+        <module name="apache-flume" />
         <module name="apache-rocketmq" />
         <module name="mysql_protocol" />
         <module name="hbase" />
@@ -45,6 +46,7 @@
         <module name="automation-camunda" />
         <module name="apache-kafka" />
         <module name="application" />
+        <module name="oltp-postgresql" />
         <module name="hdfs" />
         <module name="yarn" />
         <module name="flink-dataset" />
@@ -60,8 +62,10 @@
       <module name="annotation-user" target="11" />
       <module name="annotations" target="11" />
       <module name="apache-calcite" target="11" />
+      <module name="apache-camel" target="11" />
       <module name="apache-derby" target="11" />
       <module name="apache-flink" target="11" />
+      <module name="apache-flume" target="11" />
       <module name="apache-hadoop" target="11" />
       <module name="apache-kafka" target="11" />
       <module name="apache-rocketmq" target="11" />
@@ -98,7 +102,7 @@
       <module name="netty_mysql_protocol" target="11" />
       <module name="object-detection" target="11" />
       <module name="olap-clickhouse" target="11" />
-      <module name="oltp-mysql" target="11" />
+      <module name="oltp-postgresql" target="11" />
       <module name="unittest-mockito" target="11" />
       <module name="yarn" target="11" />
       <module name="zookeeper" target="11" />
@@ -111,7 +115,7 @@
       <module name="jdk" options="" />
       <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
-      <module name="oltp-mysql" options="" />
+      <module name="oltp-postgresql" options="" />
     </option>
   </component>
 </project>

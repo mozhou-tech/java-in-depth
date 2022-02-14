@@ -81,6 +81,8 @@
         <module>face-recognition</module>
         <module>model-ddd</module>
         <module>architecture-mda</module>
+        <module>apache-flume</module>
+        <module>apache-camel</module>
     </modules>
     <repositories>
         <repository>

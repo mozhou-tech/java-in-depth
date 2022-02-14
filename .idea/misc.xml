@@ -37,6 +37,8 @@
         <option value="$PROJECT_DIR$/middlewares/pom.xml" />
         <option value="$PROJECT_DIR$/model-ddd/pom.xml" />
         <option value="$PROJECT_DIR$/architechure-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/oltp-postgresql/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

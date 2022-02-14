@@ -9,8 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/annotations/annotation-user/annotation-user.iml" filepath="$PROJECT_DIR$/annotations/annotation-user/annotation-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-calcite/apache-calcite.iml" filepath="$PROJECT_DIR$/apache-calcite/apache-calcite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-camel/apache-camel.iml" filepath="$PROJECT_DIR$/apache-camel/apache-camel.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-derby/apache-derby.iml" filepath="$PROJECT_DIR$/apache-derby/apache-derby.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/apache-flink.iml" filepath="$PROJECT_DIR$/apache-flink/apache-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flume/apache-flume.iml" filepath="$PROJECT_DIR$/apache-flume/apache-flume.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/apache-hadoop.iml" filepath="$PROJECT_DIR$/apache-hadoop/apache-hadoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-kafka/apache-kafka.iml" filepath="$PROJECT_DIR$/apache-kafka/apache-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-rocketmq/apache-rocketmq.iml" filepath="$PROJECT_DIR$/apache-rocketmq/apache-rocketmq.iml" />
@@ -18,7 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/apache-spark/apache-spark.iml" filepath="$PROJECT_DIR$/apache-spark/apache-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaagent/application/application.iml" filepath="$PROJECT_DIR$/javaagent/application/application.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" filepath="$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/architechure-ddd/architecture-ddd.iml" filepath="$PROJECT_DIR$/architechure-ddd/architecture-ddd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/architecture-ddd.iml" filepath="$PROJECT_DIR$/architecture-ddd/architecture-ddd.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-mda/architecture-mda.iml" filepath="$PROJECT_DIR$/architecture-mda/architecture-mda.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
@@ -44,7 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/djl-pytorch/object-detection/object-detection.iml" filepath="$PROJECT_DIR$/djl-pytorch/object-detection/object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" filepath="$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oltp-mysql/oltp-mysql.iml" filepath="$PROJECT_DIR$/oltp-mysql/oltp-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oltp-postgresql/oltp-postgresql.iml" filepath="$PROJECT_DIR$/oltp-postgresql/oltp-postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />
