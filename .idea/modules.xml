@@ -33,10 +33,10 @@
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-in-depth.iml" filepath="$PROJECT_DIR$/java-in-depth.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaagent/javaagent.iml" filepath="$PROJECT_DIR$/javaagent/javaagent.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaagent/javassist/javassist.iml" filepath="$PROJECT_DIR$/javaagent/javassist/javassist.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk/jdk.iml" filepath="$PROJECT_DIR$/jdk/jdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/locks/locks.iml" filepath="$PROJECT_DIR$/distributions/locks/locks.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/middlewares.iml" filepath="$PROJECT_DIR$/middlewares/middlewares.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" />

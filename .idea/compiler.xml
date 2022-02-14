@@ -87,10 +87,10 @@
       <module name="flume" target="11" />
       <module name="hbase" target="11" />
       <module name="hdfs" target="11" />
+      <module name="java-in-depth" target="11" />
       <module name="javaagent" target="11" />
       <module name="javassist" target="11" />
       <module name="jdk" target="11" />
-      <module name="leet" target="11" />
       <module name="locks" target="11" />
       <module name="middlewares" target="11" />
       <module name="mysql_protocol" target="11" />
