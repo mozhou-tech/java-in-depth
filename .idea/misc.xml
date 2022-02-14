@@ -49,6 +49,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/annotations/annotation-commons-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-flink/flink-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-flink/flink-upgrade/pom.xml" />
       </set>
     </option>
   </component>

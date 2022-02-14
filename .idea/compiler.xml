@@ -13,11 +13,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alibaba-canal" />
-        <module name="flink-sql" />
         <module name="agent" />
         <module name="cglib" />
         <module name="flink-basic" />
-        <module name="flink-upgrade" />
         <module name="olap-clickhouse" />
         <module name="locks" />
         <module name="unittest-mockito" />
@@ -26,6 +24,7 @@
         <module name="apache-camel" />
         <module name="apache-spark" />
         <module name="flume" />
+        <module name="flink-table-api" />
         <module name="apache-derby" />
         <module name="apache-flume" />
         <module name="apache-rocketmq" />
@@ -38,7 +37,6 @@
         <module name="annotation-other" />
         <module name="architecture-mda" />
         <module name="architecture-patterns" />
-        <module name="flink-datastream" />
         <module name="annotation-processing" />
         <module name="apache-shardingsphere" />
         <module name="flink-project" />
@@ -51,9 +49,14 @@
         <module name="pytorch-object-detection" />
         <module name="hdfs" />
         <module name="yarn" />
-        <module name="flink-dataset" />
         <module name="netty_mqtt_broker" />
         <module name="architecture-ddd" />
+      </profile>
+      <profile name="Annotation profile for leetcode" enabled="true">
+        <sourceOutputDir name="../flink-datastream/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../flink-datastream/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flink-datastream-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
@@ -86,10 +89,10 @@
       <module name="deep-java-library" target="11" />
       <module name="distributions" target="11" />
       <module name="flink-basic" target="11" />
-      <module name="flink-dataset" target="11" />
-      <module name="flink-datastream" target="11" />
+      <module name="flink-datastream-api" target="11" />
       <module name="flink-project" target="11" />
       <module name="flink-sql" target="11" />
+      <module name="flink-table-api" target="11" />
       <module name="flink-upgrade" target="1.8" />
       <module name="flume" target="11" />
       <module name="hbase" target="11" />
