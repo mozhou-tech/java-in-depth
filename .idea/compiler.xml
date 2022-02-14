@@ -22,6 +22,7 @@
         <module name="olap-clickhouse" />
         <module name="locks" />
         <module name="unittest-mockito" />
+        <module name="pytorch-face-recognition" />
         <module name="apache-calcite" />
         <module name="apache-camel" />
         <module name="apache-spark" />
@@ -31,7 +32,6 @@
         <module name="apache-rocketmq" />
         <module name="mysql_protocol" />
         <module name="hbase" />
-        <module name="object-detection" />
         <module name="javassist" />
         <module name="zookeeper" />
         <module name="annotation-user" />
@@ -48,8 +48,8 @@
         <module name="automation-camunda" />
         <module name="apache-kafka" />
         <module name="application" />
-        <module name="face-recognition" />
         <module name="oltp-postgresql" />
+        <module name="pytorch-object-detection" />
         <module name="hdfs" />
         <module name="yarn" />
         <module name="flink-dataset" />
@@ -84,9 +84,8 @@
       <module name="automation-camunda" target="11" />
       <module name="bytecode" target="11" />
       <module name="cglib" target="11" />
+      <module name="deep-java-library" target="11" />
       <module name="distributions" target="11" />
-      <module name="djl-pytorch" target="11" />
-      <module name="face-recognition" target="11" />
       <module name="flink-basic" target="11" />
       <module name="flink-dataset" target="11" />
       <module name="flink-datastream" target="11" />
@@ -105,9 +104,10 @@
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
       <module name="netty_mysql_protocol" target="11" />
-      <module name="object-detection" target="11" />
       <module name="olap-clickhouse" target="11" />
       <module name="oltp-postgresql" target="11" />
+      <module name="pytorch-face-recognition" target="11" />
+      <module name="pytorch-object-detection" target="11" />
       <module name="unittest-mockito" target="11" />
       <module name="yarn" target="11" />
       <module name="zookeeper" target="11" />

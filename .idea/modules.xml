@@ -26,9 +26,8 @@
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/bytecode.iml" filepath="$PROJECT_DIR$/bytecode/bytecode.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/cglib/cglib.iml" filepath="$PROJECT_DIR$/bytecode/cglib/cglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deep-java-library/deep-java-library.iml" filepath="$PROJECT_DIR$/deep-java-library/deep-java-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/distributions.iml" filepath="$PROJECT_DIR$/distributions/distributions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/djl-pytorch/djl-pytorch.iml" filepath="$PROJECT_DIR$/djl-pytorch/djl-pytorch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/djl-pytorch/face-recognition/face-recognition.iml" filepath="$PROJECT_DIR$/djl-pytorch/face-recognition/face-recognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" filepath="$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" />
@@ -47,9 +46,10 @@
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" filepath="$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/djl-pytorch/object-detection/object-detection.iml" filepath="$PROJECT_DIR$/djl-pytorch/object-detection/object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" filepath="$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/oltp-postgresql/oltp-postgresql.iml" filepath="$PROJECT_DIR$/oltp-postgresql/oltp-postgresql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />

@@ -43,6 +43,7 @@
         <option value="$PROJECT_DIR$/bytecode/cglib/pom.xml" />
         <option value="$PROJECT_DIR$/bytecode/javassist/pom.xml" />
         <option value="$PROJECT_DIR$/djl-pytorch/face-recognition/pom.xml" />
+        <option value="$PROJECT_DIR$/deep-java-library/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
