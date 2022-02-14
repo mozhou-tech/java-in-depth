@@ -13,8 +13,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alibaba-canal" />
+        <module name="bytecode" />
         <module name="flink-sql" />
         <module name="agent" />
+        <module name="cglib" />
         <module name="flink-basic" />
         <module name="flink-upgrade" />
         <module name="olap-clickhouse" />
@@ -46,6 +48,7 @@
         <module name="automation-camunda" />
         <module name="apache-kafka" />
         <module name="application" />
+        <module name="face-recognition" />
         <module name="oltp-postgresql" />
         <module name="hdfs" />
         <module name="yarn" />
@@ -79,6 +82,8 @@
       <module name="architecture-mda (1)" target="11" />
       <module name="architecture-patterns" target="11" />
       <module name="automation-camunda" target="11" />
+      <module name="bytecode" target="11" />
+      <module name="cglib" target="11" />
       <module name="distributions" target="11" />
       <module name="djl-pytorch" target="11" />
       <module name="face-recognition" target="11" />

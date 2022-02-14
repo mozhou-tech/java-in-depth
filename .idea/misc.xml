@@ -39,6 +39,10 @@
         <option value="$PROJECT_DIR$/architechure-ddd/pom.xml" />
         <option value="$PROJECT_DIR$/architecture-ddd/pom.xml" />
         <option value="$PROJECT_DIR$/oltp-postgresql/pom.xml" />
+        <option value="$PROJECT_DIR$/bytecode/javaagent/pom.xml" />
+        <option value="$PROJECT_DIR$/bytecode/cglib/pom.xml" />
+        <option value="$PROJECT_DIR$/bytecode/javassist/pom.xml" />
+        <option value="$PROJECT_DIR$/djl-pytorch/face-recognition/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

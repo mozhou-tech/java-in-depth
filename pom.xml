@@ -83,6 +83,8 @@
         <module>architecture-mda</module>
         <module>apache-flume</module>
         <module>apache-camel</module>
+        <module>bytecode</module>
+        <module>cglib</module>
     </modules>
     <repositories>
         <repository>
