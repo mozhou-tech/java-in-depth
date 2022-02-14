@@ -13,7 +13,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alibaba-canal" />
-        <module name="bytecode" />
         <module name="flink-sql" />
         <module name="agent" />
         <module name="cglib" />

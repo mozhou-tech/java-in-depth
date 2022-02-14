@@ -45,7 +45,7 @@ public class FirstAgent implements ClassFileTransformer {
                 // 得到这方法实例
                 CtMethod ctmethod = ctclass.getDeclaredMethod(methodName);
                 System.out.println("agent: pre inject action.");
-                ctmethod.insertBefore("System.out.println(11111111);");
+                ctmethod.insertBefore("System.out.println(\"agent: ============inserted code.=============\");");
                 transformed = ctclass.toBytecode();
             } catch (CannotCompileException | IOException | NotFoundException e) {
                 e.printStackTrace();
