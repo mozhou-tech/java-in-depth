@@ -28,11 +28,13 @@
         <module name="apache-rocketmq" />
         <module name="mysql_protocol" />
         <module name="hbase" />
+        <module name="object-detection" />
         <module name="javassist" />
         <module name="zookeeper" />
         <module name="annotation-user" />
         <module name="architecture-algorithms" />
         <module name="annotation-other" />
+        <module name="architecture-mda" />
         <module name="architecture-patterns" />
         <module name="flink-datastream" />
         <module name="annotation-processing" />
@@ -47,6 +49,7 @@
         <module name="yarn" />
         <module name="flink-dataset" />
         <module name="netty_mqtt_broker" />
+        <module name="architecture-ddd" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
@@ -65,10 +68,16 @@
       <module name="apache-shardingsphere" target="11" />
       <module name="apache-spark" target="11" />
       <module name="application" target="11" />
+      <module name="architechure-ddd" target="11" />
       <module name="architecture-algorithms" target="11" />
+      <module name="architecture-ddd" target="11" />
+      <module name="architecture-mda" target="11" />
+      <module name="architecture-mda (1)" target="11" />
       <module name="architecture-patterns" target="11" />
       <module name="automation-camunda" target="11" />
       <module name="distributions" target="11" />
+      <module name="djl-pytorch" target="11" />
+      <module name="face-recognition" target="11" />
       <module name="flink-basic" target="11" />
       <module name="flink-dataset" target="11" />
       <module name="flink-datastream" target="11" />
@@ -87,6 +96,7 @@
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
       <module name="netty_mysql_protocol" target="11" />
+      <module name="object-detection" target="11" />
       <module name="olap-clickhouse" target="11" />
       <module name="oltp-mysql" target="11" />
       <module name="unittest-mockito" target="11" />

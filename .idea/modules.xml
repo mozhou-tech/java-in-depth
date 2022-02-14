@@ -18,9 +18,12 @@
       <module fileurl="file://$PROJECT_DIR$/apache-spark/apache-spark.iml" filepath="$PROJECT_DIR$/apache-spark/apache-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaagent/application/application.iml" filepath="$PROJECT_DIR$/javaagent/application/application.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" filepath="$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architechure-ddd/architecture-ddd.iml" filepath="$PROJECT_DIR$/architechure-ddd/architecture-ddd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-mda/architecture-mda.iml" filepath="$PROJECT_DIR$/architecture-mda/architecture-mda.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/distributions.iml" filepath="$PROJECT_DIR$/distributions/distributions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/djl-pytorch/djl-pytorch.iml" filepath="$PROJECT_DIR$/djl-pytorch/djl-pytorch.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" filepath="$PROJECT_DIR$/apache-flink/flink-dataset/flink-dataset.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream.iml" />
@@ -39,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" filepath="$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/djl-pytorch/object-detection/object-detection.iml" filepath="$PROJECT_DIR$/djl-pytorch/object-detection/object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" filepath="$PROJECT_DIR$/olap-clickhouse/olap-clickhouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/oltp-mysql/oltp-mysql.iml" filepath="$PROJECT_DIR$/oltp-mysql/oltp-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />

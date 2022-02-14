@@ -35,6 +35,8 @@
         <option value="$PROJECT_DIR$/apache-flink/pom.xml" />
         <option value="$PROJECT_DIR$/automation-camunda/pom.xml" />
         <option value="$PROJECT_DIR$/middlewares/pom.xml" />
+        <option value="$PROJECT_DIR$/model-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/architechure-ddd/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

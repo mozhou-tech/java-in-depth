@@ -77,6 +77,10 @@
         <module>distributions</module>
         <module>apache-derby</module>
         <module>javaagent</module>
+        <module>djl-pytorch</module>
+        <module>face-recognition</module>
+        <module>model-ddd</module>
+        <module>architecture-mda</module>
     </modules>
     <repositories>
         <repository>
