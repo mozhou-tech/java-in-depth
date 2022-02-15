@@ -21,7 +21,6 @@
       <module fileurl="file://$PROJECT_DIR$/bytecode/javaagent/application/application.iml" filepath="$PROJECT_DIR$/bytecode/javaagent/application/application.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" filepath="$PROJECT_DIR$/architecture-algorithms/architecture-algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/architecture-ddd.iml" filepath="$PROJECT_DIR$/architecture-ddd/architecture-ddd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/architecture-mda/architecture-mda.iml" filepath="$PROJECT_DIR$/architecture-mda/architecture-mda.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/bytecode.iml" filepath="$PROJECT_DIR$/bytecode/bytecode.iml" />

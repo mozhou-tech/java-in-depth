@@ -35,7 +35,6 @@
         <module name="annotation-user" />
         <module name="architecture-algorithms" />
         <module name="annotation-other" />
-        <module name="architecture-mda" />
         <module name="architecture-patterns" />
         <module name="annotation-processing" />
         <module name="apache-shardingsphere" />
