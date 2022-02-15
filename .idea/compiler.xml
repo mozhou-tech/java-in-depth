@@ -6,6 +6,7 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -24,7 +25,6 @@
         <module name="apache-camel" />
         <module name="apache-spark" />
         <module name="flume" />
-        <module name="flink-table-api" />
         <module name="apache-derby" />
         <module name="apache-flume" />
         <module name="apache-rocketmq" />
@@ -51,12 +51,6 @@
         <module name="yarn" />
         <module name="netty_mqtt_broker" />
         <module name="architecture-ddd" />
-      </profile>
-      <profile name="Annotation profile for leetcode" enabled="true">
-        <sourceOutputDir name="../flink-datastream/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../flink-datastream/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="flink-datastream-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">

@@ -29,9 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/deep-java-library.iml" filepath="$PROJECT_DIR$/deep-java-library/deep-java-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/distributions.iml" filepath="$PROJECT_DIR$/distributions/distributions.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream/flink-datastream-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-dataset/flink-table-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-dataset/flink-table-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
