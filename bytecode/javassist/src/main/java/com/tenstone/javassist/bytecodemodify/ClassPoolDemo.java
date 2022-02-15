@@ -28,7 +28,8 @@ public class ClassPoolDemo {
             CtMethod gMethod = CtNewMethod.copy(fMethod, "g", cc, null);
             cc.addMethod(gMethod);
             // update the class file
-            String path = System.getProperty("user.dir") + "/bytecode/javassist/src/main/java";
+            String path = ClassPoolDemo.class.getResource("/").getPath();
+            System.out.println(path);
             cc.writeFile(path);
             System.out.println("g() was added.");
         }
