@@ -6,7 +6,6 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -70,11 +69,8 @@
       <module name="apache-shardingsphere" target="11" />
       <module name="apache-spark" target="11" />
       <module name="application" target="11" />
-      <module name="architechure-ddd" target="11" />
       <module name="architecture-algorithms" target="11" />
       <module name="architecture-ddd" target="11" />
-      <module name="architecture-mda" target="11" />
-      <module name="architecture-mda (1)" target="11" />
       <module name="architecture-patterns" target="11" />
       <module name="automation-camunda" target="11" />
       <module name="bytecode" target="11" />
@@ -82,11 +78,7 @@
       <module name="deep-java-library" target="11" />
       <module name="distributions" target="11" />
       <module name="flink-basic" target="11" />
-      <module name="flink-datastream-api" target="11" />
       <module name="flink-project" target="11" />
-      <module name="flink-sql" target="11" />
-      <module name="flink-table-api" target="11" />
-      <module name="flink-upgrade" target="1.8" />
       <module name="flume" target="11" />
       <module name="hbase" target="11" />
       <module name="hdfs" target="11" />
