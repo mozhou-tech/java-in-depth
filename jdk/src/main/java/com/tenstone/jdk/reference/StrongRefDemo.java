@@ -6,10 +6,12 @@ package com.tenstone.jdk.reference;
  * @author liuyuancheng
  */
 public class StrongRefDemo {
+
     public static void main(String[] args) {
         Student student = new Student("xiaosan",22);
         student = null;
         System.gc();
         System.out.println(student);
     }
+
 }
