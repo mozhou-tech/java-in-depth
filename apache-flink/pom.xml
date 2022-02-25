@@ -7,18 +7,17 @@
         <groupId>com.tenstone.leet</groupId>
         <artifactId>leetcode</artifactId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>apache-flink</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
 
     <modules>
-        <module>flink-datastream</module>
-        <module>flink-sql</module>
-        <module>flink-dataset</module>
+        <module>flink-datastream-api</module>
+        <module>flink-table-api</module>
         <module>flink-basic</module>
         <module>flink-project</module>
-        <module>flink-upgrade</module>
     </modules>
 
 

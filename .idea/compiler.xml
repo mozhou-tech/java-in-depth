@@ -6,6 +6,7 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -58,6 +59,7 @@
         <module name="hdfs" />
         <module name="yarn" />
         <module name="architecture-ddd" />
+        <module name="transaction" />
         <module name="rest-jdbc-driver" />
       </profile>
     </annotationProcessing>
@@ -118,6 +120,7 @@
       <module name="smartrm-payment" target="1.8" />
       <module name="smartrm-trade" target="1.8" />
       <module name="smartrm-user" target="1.8" />
+      <module name="transaction" target="11" />
       <module name="unittest-mockito" target="11" />
       <module name="yarn" target="11" />
       <module name="zookeeper" target="11" />

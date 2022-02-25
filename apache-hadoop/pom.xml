@@ -6,6 +6,7 @@
         <groupId>com.tenstone.leet</groupId>
         <artifactId>leetcode</artifactId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>apache-hadoop</artifactId>
     <version>1.0.0</version>

@@ -6,6 +6,7 @@
         <groupId>com.tenstone.leet</groupId>
         <artifactId>databases</artifactId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>jdbc-proxy</artifactId>
     <version>1.0.0</version>

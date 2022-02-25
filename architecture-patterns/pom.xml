@@ -6,6 +6,7 @@
         <artifactId>leetcode</artifactId>
         <groupId>com.tenstone.leet</groupId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>architecture-patterns</artifactId>
     <version>1.0.0</version>
