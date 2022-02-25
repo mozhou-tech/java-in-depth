@@ -7,7 +7,7 @@
     <version>1.0.0</version>
     <parent>
         <groupId>com.tenstone.leet</groupId>
-        <artifactId>leetcode</artifactId>
+        <artifactId>java-in-depth</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
