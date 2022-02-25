@@ -85,6 +85,7 @@
         <module>apache-camel</module>
         <module>bytecode</module>
         <module>cglib</module>
+        <module>databases</module>
     </modules>
     <repositories>
         <repository>

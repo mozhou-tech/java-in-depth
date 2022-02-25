@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.tenstone.leet</groupId>
-        <artifactId>leetcode</artifactId>
+        <artifactId>databases</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>oltp-postgresql</artifactId>
+    <artifactId>postgresql</artifactId>
     <version>1.0.0</version>
     <description>Demo project for Spring Boot</description>
     <properties>

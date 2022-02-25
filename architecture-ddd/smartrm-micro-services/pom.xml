@@ -13,6 +13,7 @@
     <artifactId>smartrm-micro-services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>smartrm-monolith</name>
+    <packaging>pom</packaging>
     <description>monolith implementation of smartrm for ddd sample</description>
     <properties>
         <java.version>1.8</java.version>

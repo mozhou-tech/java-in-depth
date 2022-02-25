@@ -16,7 +16,6 @@
         <module name="agent" />
         <module name="cglib" />
         <module name="flink-basic" />
-        <module name="olap-clickhouse" />
         <module name="locks" />
         <module name="smartrm-monolith" />
         <module name="unittest-mockito" />
@@ -24,13 +23,15 @@
         <module name="pytorch-face-recognition" />
         <module name="apache-calcite" />
         <module name="apache-camel" />
+        <module name="jsqlparser" />
+        <module name="postgresql" />
         <module name="apache-spark" />
         <module name="flume" />
         <module name="smartrm-trade" />
         <module name="smartrm-payment" />
         <module name="smartrm-infracore" />
-        <module name="apache-derby" />
         <module name="apache-flume" />
+        <module name="apache-derby" />
         <module name="apache-rocketmq" />
         <module name="mysql_protocol" />
         <module name="hbase" />
@@ -45,13 +46,12 @@
         <module name="annotation-processing" />
         <module name="apache-shardingsphere" />
         <module name="flink-project" />
-        <module name="smartrm-micro-services" />
         <module name="netty_mysql_protocol" />
         <module name="jdk" />
         <module name="automation-camunda" />
         <module name="apache-kafka" />
         <module name="application" />
-        <module name="oltp-postgresql" />
+        <module name="clickhouse" />
         <module name="pytorch-object-detection" />
         <module name="hdfs" />
         <module name="yarn" />
@@ -83,6 +83,8 @@
       <module name="automation-camunda" target="11" />
       <module name="bytecode" target="11" />
       <module name="cglib" target="11" />
+      <module name="clickhouse" target="11" />
+      <module name="databases" target="11" />
       <module name="deep-java-library" target="11" />
       <module name="distributions" target="11" />
       <module name="flink-basic" target="11" />
@@ -94,13 +96,13 @@
       <module name="javaagent" target="11" />
       <module name="javassist" target="11" />
       <module name="jdk" target="11" />
+      <module name="jsqlparser" target="11" />
       <module name="locks" target="11" />
       <module name="middlewares" target="11" />
       <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
       <module name="netty_mysql_protocol" target="11" />
-      <module name="olap-clickhouse" target="11" />
-      <module name="oltp-postgresql" target="11" />
+      <module name="postgresql" target="11" />
       <module name="pytorch-face-recognition" target="11" />
       <module name="pytorch-object-detection" target="11" />
       <module name="smartrm-commodity" target="1.8" />
@@ -124,7 +126,14 @@
       <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
       <module name="oltp-postgresql" options="" />
+      <module name="smartrm-commodity" options="-parameters" />
+      <module name="smartrm-device" options="-parameters" />
+      <module name="smartrm-infracore" options="-parameters" />
+      <module name="smartrm-micro-services" options="-parameters" />
       <module name="smartrm-monolith" options="-parameters" />
+      <module name="smartrm-payment" options="-parameters" />
+      <module name="smartrm-trade" options="-parameters" />
+      <module name="smartrm-user" options="-parameters" />
     </option>
   </component>
 </project>
