@@ -18,12 +18,17 @@
         <module name="flink-basic" />
         <module name="olap-clickhouse" />
         <module name="locks" />
+        <module name="smartrm-monolith" />
         <module name="unittest-mockito" />
+        <module name="smartrm-user" />
         <module name="pytorch-face-recognition" />
         <module name="apache-calcite" />
         <module name="apache-camel" />
         <module name="apache-spark" />
         <module name="flume" />
+        <module name="smartrm-trade" />
+        <module name="smartrm-payment" />
+        <module name="smartrm-infracore" />
         <module name="apache-derby" />
         <module name="apache-flume" />
         <module name="apache-rocketmq" />
@@ -31,13 +36,16 @@
         <module name="hbase" />
         <module name="javassist" />
         <module name="zookeeper" />
+        <module name="smartrm-commodity" />
         <module name="annotation-user" />
         <module name="architecture-algorithms" />
         <module name="annotation-other" />
         <module name="architecture-patterns" />
+        <module name="smartrm-device" />
         <module name="annotation-processing" />
         <module name="apache-shardingsphere" />
         <module name="flink-project" />
+        <module name="smartrm-micro-services" />
         <module name="netty_mysql_protocol" />
         <module name="jdk" />
         <module name="automation-camunda" />
@@ -95,6 +103,14 @@
       <module name="oltp-postgresql" target="11" />
       <module name="pytorch-face-recognition" target="11" />
       <module name="pytorch-object-detection" target="11" />
+      <module name="smartrm-commodity" target="1.8" />
+      <module name="smartrm-device" target="1.8" />
+      <module name="smartrm-infracore" target="1.8" />
+      <module name="smartrm-micro-services" target="1.8" />
+      <module name="smartrm-monolith" target="1.8" />
+      <module name="smartrm-payment" target="1.8" />
+      <module name="smartrm-trade" target="1.8" />
+      <module name="smartrm-user" target="1.8" />
       <module name="unittest-mockito" target="11" />
       <module name="yarn" target="11" />
       <module name="zookeeper" target="11" />
@@ -108,6 +124,7 @@
       <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
       <module name="oltp-postgresql" options="" />
+      <module name="smartrm-monolith" options="-parameters" />
     </option>
   </component>
 </project>

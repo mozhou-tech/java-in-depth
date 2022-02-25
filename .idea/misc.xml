@@ -44,6 +44,8 @@
         <option value="$PROJECT_DIR$/bytecode/javassist/pom.xml" />
         <option value="$PROJECT_DIR$/djl-pytorch/face-recognition/pom.xml" />
         <option value="$PROJECT_DIR$/deep-java-library/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-monolith/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

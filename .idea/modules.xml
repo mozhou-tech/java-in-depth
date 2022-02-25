@@ -46,6 +46,14 @@
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-micro-services.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-micro-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-monolith/smartrm-monolith.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-monolith/smartrm-monolith.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/smartrm-payment.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/smartrm-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/smartrm-trade.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/smartrm-trade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/smartrm-user.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/smartrm-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" />
