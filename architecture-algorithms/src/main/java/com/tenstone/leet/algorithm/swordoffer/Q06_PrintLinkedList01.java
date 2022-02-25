@@ -30,40 +30,40 @@ public class Q06_PrintLinkedList01 {
                 return this;
             }
         }
+    }
 
-        static class Solution {
+    static class Solution {
 
-            private Stack<Integer> stack = new Stack<>();
+        private Stack<Integer> stack = new Stack<>();
 
-            /**
-             * 适合LIFO栈的倒序结构，考虑递归
-             *
-             * @param head
-             * @return
-             */
-            public int[] reversePrint(ListNode head) {
-                ListNode current = head;
-                while (Objects.nonNull(current)) {
-                    stack.push(current.val);
-                    current = current.next;
-                }
-                int[] returning = new int[stack.size()];
-                for (int i = 0; i < returning.length; i++) {
-                    returning[i] = stack.pop();
-                }
-                return returning;
+        /**
+         * 适合LIFO栈的倒序结构，考虑递归
+         *
+         * @param head
+         * @return
+         */
+        public int[] reversePrint(ListNode head) {
+            ListNode current = head;
+            while (Objects.nonNull(current)) {
+                stack.push(current.val);
+                current = current.next;
             }
-
+            int[] returning = new int[stack.size()];
+            for (int i = 0; i < returning.length; i++) {
+                returning[i] = stack.pop();
+            }
+            return returning;
         }
 
-        public static void main(String[] args) {
-            ListNode root = new ListNode(1);
-            root.addNext(3).addNext(2).addNext(5);
-            final int[] result = new Solution().reversePrint(root);
-            int[] ref = new int[]{5, 2, 3, 1};
-            for (int i = 0; i < ref.length; i++) {
-                Assertions.assertEquals(result[i], ref[i]);
-            }
+    }
+
+    public static void main(String[] args) {
+        ListNode root = new ListNode(1);
+        root.addNext(3).addNext(2).addNext(5);
+        final int[] result = new Solution().reversePrint(root);
+        int[] ref = new int[]{5, 2, 3, 1};
+        for (int i = 0; i < ref.length; i++) {
+            Assertions.assertEquals(result[i], ref[i]);
         }
     }
 }
