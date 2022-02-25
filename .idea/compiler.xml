@@ -124,7 +124,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apache-hadoop" options="" />
       <module name="architecture-patterns" options="" />
-      <module name="jdbc-proxy" options="-parameters" />
+      <module name="jdbc-proxy" options="" />
       <module name="jdk" options="" />
       <module name="netty_mysql_protocol" options="-parameters" />
       <module name="oltp-postgresql" options="" />
