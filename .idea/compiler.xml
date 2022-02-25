@@ -26,6 +26,7 @@
         <module name="jsqlparser" />
         <module name="postgresql" />
         <module name="apache-spark" />
+        <module name="jdbc-proxy" />
         <module name="flume" />
         <module name="smartrm-trade" />
         <module name="smartrm-payment" />
@@ -33,7 +34,6 @@
         <module name="apache-flume" />
         <module name="apache-derby" />
         <module name="apache-rocketmq" />
-        <module name="mysql_protocol" />
         <module name="hbase" />
         <module name="javassist" />
         <module name="zookeeper" />
@@ -57,6 +57,7 @@
         <module name="yarn" />
         <module name="netty_mqtt_broker" />
         <module name="architecture-ddd" />
+        <module name="rest-jdbc-driver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="16">
@@ -95,16 +96,17 @@
       <module name="java-in-depth" target="11" />
       <module name="javaagent" target="11" />
       <module name="javassist" target="11" />
+      <module name="jdbc-proxy" target="11" />
       <module name="jdk" target="11" />
       <module name="jsqlparser" target="11" />
       <module name="locks" target="11" />
       <module name="middlewares" target="11" />
-      <module name="mysql_protocol" target="11" />
       <module name="netty_mqtt_broker" target="11" />
       <module name="netty_mysql_protocol" target="11" />
       <module name="postgresql" target="11" />
       <module name="pytorch-face-recognition" target="11" />
       <module name="pytorch-object-detection" target="11" />
+      <module name="rest-jdbc-driver" target="11" />
       <module name="smartrm-commodity" target="1.8" />
       <module name="smartrm-device" target="1.8" />
       <module name="smartrm-infracore" target="1.8" />
@@ -122,8 +124,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apache-hadoop" options="" />
       <module name="architecture-patterns" options="" />
+      <module name="jdbc-proxy" options="-parameters" />
       <module name="jdk" options="" />
-      <module name="mysql_protocol" options="-parameters" />
       <module name="netty_mysql_protocol" options="-parameters" />
       <module name="oltp-postgresql" options="" />
       <module name="smartrm-commodity" options="-parameters" />

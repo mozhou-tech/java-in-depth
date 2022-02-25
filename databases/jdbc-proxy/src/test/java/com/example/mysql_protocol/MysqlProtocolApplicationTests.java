@@ -1,4 +1,4 @@
-package com.tenstone.leet.middleware.mysql_protocol;
+package com.example.mysql_protocol;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

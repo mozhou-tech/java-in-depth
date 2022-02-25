@@ -49,6 +49,7 @@
         <option value="$PROJECT_DIR$/databases/postgresql/pom.xml" />
         <option value="$PROJECT_DIR$/databases/apache-derby/pom.xml" />
         <option value="$PROJECT_DIR$/databases/clickhouse/pom.xml" />
+        <option value="$PROJECT_DIR$/databases/jdbc-proxy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -37,17 +37,18 @@
       <module fileurl="file://$PROJECT_DIR$/java-in-depth.iml" filepath="$PROJECT_DIR$/java-in-depth.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/javaagent/javaagent.iml" filepath="$PROJECT_DIR$/bytecode/javaagent/javaagent.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/javassist/javassist.iml" filepath="$PROJECT_DIR$/bytecode/javassist/javassist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databases/jdbc-proxy/jdbc-proxy.iml" filepath="$PROJECT_DIR$/databases/jdbc-proxy/jdbc-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk/jdk.iml" filepath="$PROJECT_DIR$/jdk/jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/jsqlparser/jsqlparser.iml" filepath="$PROJECT_DIR$/databases/jsqlparser/jsqlparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/locks/locks.iml" filepath="$PROJECT_DIR$/distributions/locks/locks.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/middlewares.iml" filepath="$PROJECT_DIR$/middlewares/middlewares.iml" />
-      <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/netty_mysql_protocol/mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" filepath="$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/postgresql/postgresql.iml" filepath="$PROJECT_DIR$/databases/postgresql/postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" filepath="$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" />
