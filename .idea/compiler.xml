@@ -56,8 +56,10 @@
         <module name="flink-project" />
         <module name="jdk" />
         <module name="automation-camunda" />
+        <module name="netty-http-server" />
         <module name="application" />
         <module name="netty-proxy-server" />
+        <module name="netty-simple-rpc" />
         <module name="pytorch-object-detection" />
         <module name="hdfs" />
         <module name="yarn" />
@@ -109,9 +111,10 @@
       <module name="jsqlparser" target="11" />
       <module name="locks" target="11" />
       <module name="middlewares" target="11" />
+      <module name="netty-http-server" target="11" />
       <module name="netty-mqtt-broker" target="11" />
       <module name="netty-proxy-server" target="11" />
-      <module name="netty-simple-rpc" target="1.5" />
+      <module name="netty-simple-rpc" target="11" />
       <module name="netty_mysql_protocol" target="11" />
       <module name="postgresql" target="11" />
       <module name="pytorch-face-recognition" target="11" />

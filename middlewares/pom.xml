@@ -19,6 +19,8 @@
         <module>netty-mqtt-broker</module>
         <module>netty-proxy-server</module>
         <module>netty-proxy-server</module>
+        <module>netty-http-server</module>
+        <module>netty-simple-rpc</module>
     </modules>
 
 </project>
