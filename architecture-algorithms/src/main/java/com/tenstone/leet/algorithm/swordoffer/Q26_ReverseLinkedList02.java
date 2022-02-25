@@ -40,23 +40,7 @@ public class Q26_ReverseLinkedList02 {
         private Stack<ListNode> stack = new Stack<>();
 
         public ListNode reverseList(ListNode head) {
-            ListNode current = head;
-            while (Objects.nonNull(current)) {
-                stack.push(current);
-                current = current.next;
-            }
-            if (!stack.isEmpty()) {
-                head = stack.pop();
-                current = head;
-            }
-            while (!stack.isEmpty()) {
-                current.next = stack.pop();
-                current = current.next;
-            }
-            if (Objects.nonNull(current)) {
-                current.next = null;
-            }
-            return head;
+            return null;
         }
     }
 
