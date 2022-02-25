@@ -6,12 +6,12 @@
     <parent>
         <groupId>com.smartrm</groupId>
         <artifactId>smartrm-micro-services</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.smartrm</groupId>
     <artifactId>smartrm-infracore</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>smartrm-infracore</name>
     <description>infrastructure core of smartrm micro service for ddd sample</description>
     <properties>

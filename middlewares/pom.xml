@@ -16,8 +16,9 @@
         <java.version>11</java.version>
     </properties>
     <modules>
-        <module>netty_mysql_protocol</module>
-        <module>netty_mqtt_broker</module>
+        <module>netty-mqtt-broker</module>
+        <module>netty-proxy-server</module>
+        <module>netty-proxy-server</module>
     </modules>
 
 </project>

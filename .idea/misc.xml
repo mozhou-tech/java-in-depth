@@ -50,6 +50,8 @@
         <option value="$PROJECT_DIR$/databases/apache-derby/pom.xml" />
         <option value="$PROJECT_DIR$/databases/clickhouse/pom.xml" />
         <option value="$PROJECT_DIR$/databases/jdbc-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/middlewares/simple-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/middlewares/netty-mqtt-broker/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

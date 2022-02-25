@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.smartrm</groupId>
     <artifactId>smartrm-micro-services</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>smartrm-monolith</name>
     <packaging>pom</packaging>
     <description>monolith implementation of smartrm for ddd sample</description>

@@ -42,7 +42,8 @@
       <module fileurl="file://$PROJECT_DIR$/databases/jsqlparser/jsqlparser.iml" filepath="$PROJECT_DIR$/databases/jsqlparser/jsqlparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/locks/locks.iml" filepath="$PROJECT_DIR$/distributions/locks/locks.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/middlewares.iml" filepath="$PROJECT_DIR$/middlewares/middlewares.iml" />
-      <module fileurl="file://$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" filepath="$PROJECT_DIR$/middlewares/netty_mqtt_broker/netty_mqtt_broker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middlewares/netty-mqtt-broker/netty-mqtt-broker.iml" filepath="$PROJECT_DIR$/middlewares/netty-mqtt-broker/netty-mqtt-broker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middlewares/netty-proxy-server/netty-proxy-server.iml" filepath="$PROJECT_DIR$/middlewares/netty-proxy-server/netty-proxy-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/postgresql/postgresql.iml" filepath="$PROJECT_DIR$/databases/postgresql/postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" />
