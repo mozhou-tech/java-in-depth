@@ -12,7 +12,7 @@ import java.util.Stack;
  *
  * @author liuyuancheng
  */
-public class Q26_ReverseLinkedList03 {
+public class Q26_ReverseLinkedList02_ {
 
     static class ListNode {
         int val;
@@ -33,14 +33,20 @@ public class Q26_ReverseLinkedList03 {
     }
 
     /**
-     * 双指针
+     * 递归+回溯（线程栈后进先出倒序，类似Stack）
+     * 动态规划就是记忆化的递归！
      */
     static class Solution {
 
-        private Stack<ListNode> stack = new Stack<>();
-
         public ListNode reverseList(ListNode head) {
-            return null;
+            // base case
+            if(head == null || head.next == null) {
+                return head;
+            }
+            ListNode node = reverseList(head.next);
+            head.next.next = head;
+            head.next = null;
+            return node;
         }
     }
 
