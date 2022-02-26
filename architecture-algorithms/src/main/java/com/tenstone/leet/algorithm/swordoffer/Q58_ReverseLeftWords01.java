@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Assertions;
  *
  * @author liuyuancheng
  */
-public class Q58_ReverseLeftWords {
+public class Q58_ReverseLeftWords01 {
 
     static class Solution {
         public String reverseLeftWords(String s, int n) {
