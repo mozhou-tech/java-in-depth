@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/databases/databases.iml" filepath="$PROJECT_DIR$/databases/databases.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/deep-java-library.iml" filepath="$PROJECT_DIR$/deep-java-library/deep-java-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/distributions.iml" filepath="$PROJECT_DIR$/distributions/distributions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/examples/examples.iml" filepath="$PROJECT_DIR$/golang/examples/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" filepath="$PROJECT_DIR$/apache-flink/flink-basic/flink-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream-api/flink-datastream-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream-api/flink-datastream-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
