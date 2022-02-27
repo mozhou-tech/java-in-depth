@@ -1,9 +1,8 @@
-package com.tenstone.leet.algorithm.swordoffer;
+package com.tenstone.leet.swordoffer;
 
 import org.junit.jupiter.api.Assertions;
 
 import java.util.Objects;
-import java.util.Stack;
 
 /**
  * Created by liuyuancheng on 2022/2/25  <br/>
@@ -12,7 +11,7 @@ import java.util.Stack;
  *
  * @author liuyuancheng
  */
-public class Q26_ReverseLinkedList02_ {
+public class Q26_ReverseLinkedList03_ {
 
     static class ListNode {
         int val;
@@ -33,20 +32,22 @@ public class Q26_ReverseLinkedList02_ {
     }
 
     /**
-     * 递归+回溯（线程栈后进先出倒序，类似Stack）
-     * 动态规划就是记忆化的递归！
+     * 迭代-双指针
      */
     static class Solution {
 
         public ListNode reverseList(ListNode head) {
-            // base case
-            if(head == null || head.next == null) {
-                return head;
+            ListNode pre = null, cur = head, next = null;
+            while(cur != null) {
+                // 先保留next
+                next = cur.next;
+                // next和pre交换
+                cur.next = pre;
+                // 当前指针成为pre；next成为新的cur
+                pre = cur;
+                cur = next;
             }
-            ListNode node = reverseList(head.next);
-            head.next.next = head;
-            head.next = null;
-            return node;
+            return pre;
         }
     }
 

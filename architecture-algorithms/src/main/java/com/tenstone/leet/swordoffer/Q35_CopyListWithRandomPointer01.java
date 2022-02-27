@@ -1,4 +1,4 @@
-package com.tenstone.leet.algorithm.swordoffer;
+package com.tenstone.leet.swordoffer;
 
 import java.util.ArrayList;
 import java.util.List;

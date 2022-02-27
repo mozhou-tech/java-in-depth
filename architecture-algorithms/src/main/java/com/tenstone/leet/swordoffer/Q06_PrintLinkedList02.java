@@ -1,9 +1,8 @@
-package com.tenstone.leet.algorithm.swordoffer;
+package com.tenstone.leet.swordoffer;
 
 import org.junit.jupiter.api.Assertions;
 
 import java.util.Objects;
-import java.util.Stack;
 
 /**
  * Created by liuyuancheng on 2022/2/25  <br/>
@@ -12,7 +11,7 @@ import java.util.Stack;
  *
  * @author liuyuancheng
  */
-public class Q06_PrintLinkedList01 {
+public class Q06_PrintLinkedList02 {
 
     static class ListNode {
         ListNode next;
@@ -34,27 +33,31 @@ public class Q06_PrintLinkedList01 {
 
     static class Solution {
 
-        private Stack<Integer> stack = new Stack<>();
+        private int size = 0;
 
         /**
-         * 适合LIFO栈的倒序结构，考虑递归
+         * 方法，逆序放到数组：先放最末位以此类推
          *
          * @param head
          * @return
          */
         public int[] reversePrint(ListNode head) {
+            int[] returning = new int[size];
             ListNode current = head;
             while (Objects.nonNull(current)) {
-                stack.push(current.val);
+                size++;
+                // 创建新的数组
+                int[] returningTempt = new int[size];
+                // 最后1位赋值
+                returningTempt[0] = current.val;
+                // 上一次的returning要放在后面
+                // 数组拷贝，时间复杂度高，占用空间大
+                System.arraycopy(returning, 0, returningTempt, 1, returning.length);
+                returning = returningTempt;
                 current = current.next;
-            }
-            int[] returning = new int[stack.size()];
-            for (int i = 0; i < returning.length; i++) {
-                returning[i] = stack.pop();
             }
             return returning;
         }
-
     }
 
     public static void main(String[] args) {

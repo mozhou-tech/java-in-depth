@@ -1,4 +1,4 @@
-package com.tenstone.leet.algorithm.swordoffer;
+package com.tenstone.leet.swordoffer;
 
 import org.junit.jupiter.api.Assertions;
 
@@ -12,7 +12,7 @@ import java.util.Stack;
  *
  * @author liuyuancheng
  */
-public class Q26_ReverseLinkedList03_ {
+public class Q26_ReverseLinkedList01 {
 
     static class ListNode {
         int val;
@@ -33,22 +33,30 @@ public class Q26_ReverseLinkedList03_ {
     }
 
     /**
-     * 迭代-双指针
+     * 常规辅助栈的方法，时空效率低下
      */
     static class Solution {
 
+        private Stack<ListNode> stack = new Stack<>();
+
         public ListNode reverseList(ListNode head) {
-            ListNode pre = null, cur = head, next = null;
-            while(cur != null) {
-                // 先保留next
-                next = cur.next;
-                // next和pre交换
-                cur.next = pre;
-                // 当前指针成为pre；next成为新的cur
-                pre = cur;
-                cur = next;
+            ListNode current = head;
+            while (Objects.nonNull(current)) {
+                stack.push(current);
+                current = current.next;
             }
-            return pre;
+            if (!stack.isEmpty()) {
+                head = stack.pop();
+                current = head;
+            }
+            while (!stack.isEmpty()) {
+                current.next = stack.pop();
+                current = current.next;
+            }
+            if (Objects.nonNull(current)) {
+                current.next = null;
+            }
+            return head;
         }
     }
 

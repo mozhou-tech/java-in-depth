@@ -1,4 +1,4 @@
-package com.tenstone.leet.algorithm.swordoffer;
+package com.tenstone.leet.swordoffer;
 
 import org.junit.jupiter.api.Assertions;
 

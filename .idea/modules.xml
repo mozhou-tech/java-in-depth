@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bytecode/javaagent/agent/agent.iml" filepath="$PROJECT_DIR$/bytecode/javaagent/agent/agent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/alibaba-canal/alibaba-canal.iml" filepath="$PROJECT_DIR$/alibaba-canal/alibaba-canal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databases/alibaba-canal/alibaba-canal.iml" filepath="$PROJECT_DIR$/databases/alibaba-canal/alibaba-canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotation-other/annotation-other.iml" filepath="$PROJECT_DIR$/annotations/annotation-other/annotation-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotation-processing/annotation-processing.iml" filepath="$PROJECT_DIR$/annotations/annotation-processing/annotation-processing.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotation-user/annotation-user.iml" filepath="$PROJECT_DIR$/annotations/annotation-user/annotation-user.iml" />
@@ -52,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty-simple-rpc/netty-simple-rpc.iml" filepath="$PROJECT_DIR$/middlewares/netty-simple-rpc/netty-simple-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" filepath="$PROJECT_DIR$/middlewares/mysql_protocol/netty_mysql_protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/postgresql/postgresql.iml" filepath="$PROJECT_DIR$/databases/postgresql/postgresql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python3/python3.iml" filepath="$PROJECT_DIR$/python3/python3.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
