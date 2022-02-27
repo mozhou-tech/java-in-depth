@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/golang.iml" filepath="$PROJECT_DIR$/golang/golang.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-in-depth.iml" filepath="$PROJECT_DIR$/java-in-depth.iml" />
