@@ -18,7 +18,6 @@
         <module name="flink-basic" />
         <module name="locks" />
         <module name="unittest-mockito" />
-        <module name="smartrm-user" />
         <module name="pytorch-face-recognition" />
         <module name="apache-calcite" />
         <module name="apache-camel" />
@@ -26,9 +25,6 @@
         <module name="jdbc-proxy" />
         <module name="netty-mqtt-broker" />
         <module name="flume" />
-        <module name="smartrm-trade" />
-        <module name="smartrm-payment" />
-        <module name="smartrm-infracore" />
         <module name="flink-table-api" />
         <module name="apache-flume" />
         <module name="apache-derby" />
@@ -40,17 +36,13 @@
         <module name="netty_mysql_protocol" />
         <module name="apache-kafka" />
         <module name="clickhouse" />
-        <module name="architecture-ddd" />
         <module name="rest-jdbc-driver" />
-        <module name="smartrm-monolith" />
         <module name="postgresql" />
         <module name="apache-spark" />
         <module name="flink-datastream-api" />
         <module name="hbase" />
-        <module name="smartrm-commodity" />
         <module name="annotation-user" />
         <module name="architecture-patterns" />
-        <module name="smartrm-device" />
         <module name="annotation-processing" />
         <module name="apache-shardingsphere" />
         <module name="flink-project" />
