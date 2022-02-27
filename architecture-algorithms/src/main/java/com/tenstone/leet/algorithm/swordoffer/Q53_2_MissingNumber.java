@@ -14,6 +14,7 @@ public class Q53_2_MissingNumber {
 
     static class Solution {
         public int missingNumber(int[] nums) {
+            // base case
             if (nums.length > 0 && nums[0] != 0) {
                 return 0;
             }
@@ -22,6 +23,7 @@ public class Q53_2_MissingNumber {
                     return nums[i] + 1;
                 }
             }
+            // base case
             return nums[nums.length - 1] + 1;
         }
     }
