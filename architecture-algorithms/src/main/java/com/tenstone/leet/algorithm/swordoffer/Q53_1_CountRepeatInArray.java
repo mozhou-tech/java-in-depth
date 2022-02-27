@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Assertions;
  *
  * @author liuyuancheng
  */
-public class Q53_CountRepeatInArray {
+public class Q53_1_CountRepeatInArray {
 
     /**
      * 迭代并计数
