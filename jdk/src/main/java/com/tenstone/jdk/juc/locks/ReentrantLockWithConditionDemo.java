@@ -8,6 +8,10 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by liuyuancheng on 2021/7/8  <br/>
+ * 两个线程顺序打印1-9
+ * a: 1、2、3
+ * b: 4、5、6
+ * c: 7/8/9
  */
 @Slf4j
 public class ReentrantLockWithConditionDemo {
@@ -30,7 +34,7 @@ public class ReentrantLockWithConditionDemo {
         final NumberWrapper num = new NumberWrapper();
         //初始化A线程
         Thread threadA = new Thread(() -> {
-            //需要先获得锁
+            // 需要先获得锁，防止其它线程访问
             lock.lock();
             try {
                 //A线程先输出前3个数
@@ -38,12 +42,13 @@ public class ReentrantLockWithConditionDemo {
                     log.info("thread a: {}", num.value);
                     num.value++;
                 }
-                //输出到3时要signal，告诉B线程可以开始了
+                //输出到3时要signal，告诉B线程可以争夺锁了
                 reachThreeCondition.signal();
             } finally {
+                // 释放锁，让线程B抢占
                 lock.unlock();
             }
-            // 第二段
+            // 等待线程B释放锁后获得锁
             lock.lock();
             try {
                 //等待输出6的条件
@@ -60,8 +65,8 @@ public class ReentrantLockWithConditionDemo {
             }
         });
         Thread threadB = new Thread(() -> {
+            lock.lock();
             try {
-                lock.lock();
                 while (num.value <= 3) {
                     //等待3输出完毕的信号
                     reachThreeCondition.await();
