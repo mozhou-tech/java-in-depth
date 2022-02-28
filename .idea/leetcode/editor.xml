@@ -3,11 +3,109 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/com/tenstone/leet/temp/leetcode/editor/cn/[1]两数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q0001TwoSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q0001TwoSum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q0001TwoSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q0001TwoSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q0001TwoSum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q1601_MaximumNumberOfAchievableTransferRequests.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q1601_MaximumNumberOfAchievableTransferRequests.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1601" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q1601_MaximumNumberOfAchievableTransferRequests.java" />
+              <option name="titleSlug" value="maximum-number-of-achievable-transfer-requests" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q1_TwoSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q0001TwoSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q0001TwoSum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q5_LongestPalindromicSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q5_LongestPalindromicSubstring.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com5" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q5_LongestPalindromicSubstring.java" />
+              <option name="titleSlug" value="longest-palindromic-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q614_SecondDegreeFollower.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q614_SecondDegreeFollower.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com614" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q614_SecondDegreeFollower.java" />
+              <option name="titleSlug" value="second-degree-follower" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q剑指 Offer 10- I_FeiBoNaQiShuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 10- I" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.java" />
+              <option name="titleSlug" value="fei-bo-na-qi-shu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 10- I" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.java" />
+              <option name="titleSlug" value="fei-bo-na-qi-shu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/[1]two-sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q0001TwoSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q0001TwoSum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/2x/bnmf63_j2kj5734tp_y9n9f40000gp/T/leetcode/editor/cn/[1418]点菜展示表.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="/var/folders/2x/bnmf63_j2kj5734tp_y9n9f40000gp/T/leetcode/editor/cn/[1418]点菜展示表.java" />
-              <option name="questionId" value="1533" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -15,7 +113,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="/var/folders/2x/bnmf63_j2kj5734tp_y9n9f40000gp/T/leetcode/editor/cn/[5]最长回文子串.java" />
-              <option name="questionId" value="5" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -23,7 +120,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="/var/folders/2x/bnmf63_j2kj5734tp_y9n9f40000gp/T/leetcode/editor/cn/[84]柱状图中最大的矩形.java" />
-              <option name="questionId" value="84" />
             </LeetcodeEditor>
           </value>
         </entry>
