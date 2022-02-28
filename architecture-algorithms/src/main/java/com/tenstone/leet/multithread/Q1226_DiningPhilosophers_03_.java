@@ -97,11 +97,9 @@ public class Q1226_DiningPhilosophers_03_ {
                 //放下左边叉子
                 putLeftFork.run();
                 forks[leftFork] = false;
-                //唤醒左边哲学家
                 conditions[leftFork].signal();
                 //放下右边叉子
                 putRightFork.run();
-                //唤醒右边哲学家
                 forks[rightFork] = false;
                 conditions[rightFork].signal();
             } finally {
