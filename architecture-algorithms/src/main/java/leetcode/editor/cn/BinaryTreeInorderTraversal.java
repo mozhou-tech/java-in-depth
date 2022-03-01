@@ -59,7 +59,7 @@ import com.google.common.collect.Lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q94_BinaryTreeInorderTraversal {
+public class BinaryTreeInorderTraversal {
     static class TreeNode {
         int val;
         TreeNode left;

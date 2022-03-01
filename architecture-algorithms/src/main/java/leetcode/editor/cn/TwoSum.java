@@ -54,7 +54,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-class Q1_TwoSum {
+class TwoSum {
 
     /**
      * 暴力搜索法，复杂度 O(n^2)

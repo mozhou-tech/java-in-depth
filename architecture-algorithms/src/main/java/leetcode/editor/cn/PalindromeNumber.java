@@ -49,7 +49,7 @@ package leetcode.editor.cn;
 
 import org.junit.jupiter.api.Assertions;
 
-public class Q9_PalindromeNumber {
+public class PalindromeNumber {
 
     static
 //leetcode submit region begin(Prohibit modification and deletion)
