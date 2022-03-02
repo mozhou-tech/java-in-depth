@@ -1,5 +1,7 @@
 package leetcode.editor.cn;
 
+import leetcode.editor.cn.common.AssertTool;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -55,6 +55,7 @@
 package leetcode.editor.cn;
 
 import com.google.common.collect.Lists;
+import leetcode.editor.cn.common.AssertTool;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -85,8 +86,7 @@ public class BinaryTreeInorderTraversal {
     class Solution {
 
         /**
-         * inorder 中序遍历
-         * 按照访问左子树——根节点——右子树的方式遍历这棵树
+         * inorder 中序遍历 左子树——根节点——右子树的方式遍历这棵树
          * 前序遍历 根结点 ---> 左子树 ---> 右子树
          * 后序遍历 左子树 ---> 右子树 ---> 根结点
          * 层次遍历 1层----> 二层 ->三层    BFS宽度有限搜索（循环队列）
