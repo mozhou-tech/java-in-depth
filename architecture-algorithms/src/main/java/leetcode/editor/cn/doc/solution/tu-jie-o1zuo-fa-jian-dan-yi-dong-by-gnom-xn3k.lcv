@@ -1,0 +1,36 @@
+## 思路：
+
+* 如下图所示：横轴是输入的值，纵轴是需要返回的值
+* 可以看出，从1开始，这是一个周期为9的周期函数，
+* 我们只需要特殊处理一下0位置的值
+* 周期为9的话，只需要模9就可以做到
+* 还存在一个问题，如果取模的话存在一个偏移，那就是取模运算是从0开始，但是这里是从1开始
+* 手动处理一下偏移就是，当这个数是9的倍数时，只需要返回9即可，其他情况均返回模9的结果。
+
+![image.png](https://pic.leetcode-cn.com/1646270362-dMoFtP-image.png)
+
+## 代码：
+
+* c++
+
+```c++
+#define vi vector<int>
+#define ll long long 
+#define len(x) x.size()
+#define all(x) x.begin(), x.end()
+#define db double
+#define INF 1e9
+class Solution {
+public:
+    int addDigits(int num) {
+        if (num == 0) {
+            return 0;
+        }
+        if (num % 9 == 0) {
+            return 9;
+        }
+        return num % 9;
+    }
+};
+```
+

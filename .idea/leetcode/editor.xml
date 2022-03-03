@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/AddDigits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/AddDigits.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com258" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/AddDigits.java" />
+              <option name="titleSlug" value="add-digits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BinaryTreeInorderTraversal.java">
           <value>
             <LeetcodeEditor>
@@ -55,6 +66,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErChaShuDeJingXiangLcof.java" />
               <option name="titleSlug" value="er-cha-shu-de-jing-xiang-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FeiBoNaQiShuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FeiBoNaQiShuLieLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 10- I" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FeiBoNaQiShuLieLcof.java" />
+              <option name="titleSlug" value="fei-bo-na-qi-shu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/GuPiaoDeZuiDaLiRunLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/GuPiaoDeZuiDaLiRunLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 63" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/GuPiaoDeZuiDaLiRunLcof.java" />
+              <option name="titleSlug" value="gu-piao-de-zui-da-li-run-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -168,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/QingWaTiaoTaiJieWenTiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/QingWaTiaoTaiJieWenTiLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 10- II" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/QingWaTiaoTaiJieWenTiLcof.java" />
+              <option name="titleSlug" value="qing-wa-tiao-tai-jie-wen-ti-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/QueShiDeShuZiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -204,10 +248,10 @@
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FeiBoNaQiShuLieLcof.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 10- I" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q剑指Offer10-I_FeiBoNaQiShuLieLcof.java" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FeiBoNaQiShuLieLcof.java" />
               <option name="titleSlug" value="fei-bo-na-qi-shu-lie-lcof" />
             </LeetcodeEditor>
           </value>
@@ -231,6 +275,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/TheDiningPhilosophers.java" />
               <option name="titleSlug" value="the-dining-philosophers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ThreeDivisors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ThreeDivisors.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1952" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ThreeDivisors.java" />
+              <option name="titleSlug" value="three-divisors" />
             </LeetcodeEditor>
           </value>
         </entry>

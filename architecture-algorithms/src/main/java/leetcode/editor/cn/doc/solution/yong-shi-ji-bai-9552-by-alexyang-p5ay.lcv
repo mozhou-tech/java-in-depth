@@ -1,0 +1,34 @@
+![Xnip2022-03-03_10-07-22.jpg](https://pic.leetcode-cn.com/1646273830-pENxQH-Xnip2022-03-03_10-07-22.jpg)
+
+### 解题思路
+
+最简单的思路， 直接模拟操作
+1. 先把数字转成字符串
+2. 判断当这个字符串长度不为 1 的时候，递归处理
+3. 处理方法：定义一个变量用来存储结果，逐位转成数字添加，最终返回即可
+
+### 代码
+
+* javascript
+
+```javascript
+/**
+ * @param {number} num
+ * @return {number}
+ */
+var addDigits = function (num) {
+  let str = num + ''
+  function add (s) {
+    let t = 0
+    for (let i = 0; i < s.length; i++) {
+      t += s[i] * 1
+    }
+    return t + ''
+  }
+  while (str.length > 1) {
+    str = add(str)
+  }
+  return str
+};
+```
+

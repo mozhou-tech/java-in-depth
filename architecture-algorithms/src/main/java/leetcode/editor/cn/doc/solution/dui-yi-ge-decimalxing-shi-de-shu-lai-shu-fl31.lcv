@@ -1,0 +1,26 @@
+### 解题思路
+
+《什么是数学》里面介绍过这个
+![image.png](https://pic.leetcode-cn.com/1646269450-aCIovW-image.png)
+
+以下在Decimal形式下讨论：
+对一个数来说，它和【它的各位数码和】模9同余。
+所以，
+对一个数来说，它和【它做任意次[各位数码和]】模9同余。
+
+### 代码
+
+* python3
+
+```python3
+class Solution:
+    def addDigits(self, num: int) -> int:
+        if num%9==0:
+            if num==0:
+                return 0
+            else:
+                return 9
+        else:
+            return num%9            
+```
+
