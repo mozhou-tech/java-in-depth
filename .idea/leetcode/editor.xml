@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BaShuZiFanYiChengZiFuChuanLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/BaShuZiFanYiChengZiFuChuanLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 46" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BaShuZiFanYiChengZiFuChuanLcof.java" />
+              <option name="titleSlug" value="ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BinaryTreeInorderTraversal.java">
           <value>
             <LeetcodeEditor>
@@ -110,6 +121,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LianXuZiShuZuDeZuiDaHeLcof.java" />
               <option name="titleSlug" value="lian-xu-zi-shu-zu-de-zui-da-he-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestUncommonSubsequenceI.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/LongestUncommonSubsequenceI.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com521" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestUncommonSubsequenceI.java" />
+              <option name="titleSlug" value="longest-uncommon-subsequence-i" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -352,6 +374,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZigzagConversion.java" />
               <option name="titleSlug" value="zigzag-conversion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 48" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof.java" />
+              <option name="titleSlug" value="zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
