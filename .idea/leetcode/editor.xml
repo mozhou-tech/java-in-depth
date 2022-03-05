@@ -91,6 +91,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LiWuDeZuiDaJieZhiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/LiWuDeZuiDaJieZhiLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 47" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LiWuDeZuiDaJieZhiLcof.java" />
+              <option name="titleSlug" value="li-wu-de-zui-da-jie-zhi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LianXuZiShuZuDeZuiDaHeLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/LianXuZiShuZuDeZuiDaHeLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 42" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LianXuZiShuZuDeZuiDaHeLcof.java" />
+              <option name="titleSlug" value="lian-xu-zi-shu-zu-de-zui-da-he-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LruCache.java">
           <value>
             <LeetcodeEditor>
@@ -99,6 +121,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LruCache.java" />
               <option name="titleSlug" value="lru-cache" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PairsWithSumLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/PairsWithSumLcci.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com面试题 16.24" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PairsWithSumLcci.java" />
+              <option name="titleSlug" value="pairs-with-sum-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -264,6 +297,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ShuDeZiJieGouLcof.java" />
               <option name="titleSlug" value="shu-de-zi-jie-gou-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/SumOfSubarrayRanges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/SumOfSubarrayRanges.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2104" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/SumOfSubarrayRanges.java" />
+              <option name="titleSlug" value="sum-of-subarray-ranges" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -1,0 +1,51 @@
+### 解题思路
+
+一开始最朴素的做法是双循环，遍历每一个子数组，然后用数组最大值减去最小值，保存当前差值即可，但是这样会超时。
+超时的原因，主要是由于我们双循环过程中，重复计算了最大值与最小值，那么可以采用dp来解决这个问题。
+dp 为n*n的数组，store为n*n*2的数组，dp[i][j] 表示nums[i:j+1]中最大值与最小值的差值，store[i][j]表示nums[i:j+1]的最大值与最小值，store[i][j][0]代表最小值，store[i][j][1]代表最大值。
+那么可得转移公式：
+dp[i][j] = dp[i][j-1],当store[i][j-1][0]<=cur<=store[i][j-1][1]
+= dp[i][j-1]+cur-store[i][j-1][1],当store[i][j-1][1]<cur
+= dp[i][j-1]+cur-store[i][j-1][0],当store[i][j-1][0]>cur
+store[i][j] = store[i][j-1],当store[i][j-1][0]<=cur<=store[i][j-1][1]
+= [store[i][j-1][0],cur],当store[i][j-1][1]<cur
+= [cur,store[i][j-1][1]],当store[i][j-1][0]>cur
+最终将dp中的所有数加起来可得最终结果。
+能否再优化？
+可以！！
+我们可以抛弃dp和store，每次都初始化dp和store，并且对于每一步的计算都及时累加，最后就可以得到相同的结果，细节部分看代码即可。
+
+### 代码
+
+* python3
+
+```python3
+class Solution:
+    def subArrayRanges(self, nums: List[int]) -> int:
+        #dp
+        n = len(nums)
+        if n == 1:
+            return 0
+        ans = 0
+        for i in range(n):
+            store = [nums[i],nums[i]]
+            mid = 0
+            pre = 0
+            for j in range(i+1,n):
+                cur = nums[j]
+                if cur > store[1]:
+                    mid = pre + cur-store[1]
+                    store = [store[0],cur]
+                else:
+                    if cur < store[0]:
+                        mid = pre + (store[0]-cur)
+                        store = [cur,store[1]]
+                    else:
+                        mid = pre
+                ans += mid
+                pre = mid
+        return ans
+
+
+```
+
