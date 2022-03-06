@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindGoodDaysToRobTheBank.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FindGoodDaysToRobTheBank.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2100" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindGoodDaysToRobTheBank.java" />
+              <option name="titleSlug" value="find-good-days-to-rob-the-bank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/GuPiaoDeZuiDaLiRunLcof.java">
           <value>
             <LeetcodeEditor>
@@ -264,6 +275,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q9_PalindromeNumber.java" />
               <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/QIsx9U.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/QIsx9U.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer II 041" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/QIsx9U.java" />
+              <option name="titleSlug" value="qIsx9U" />
             </LeetcodeEditor>
           </value>
         </entry>
