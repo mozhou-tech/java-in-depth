@@ -100,6 +100,6 @@ public class LiangGeLianBiaoDeDiYiGeGongGongJieDianLcof {
 
     public static void main(String[] args) {
         final ListNode node = new Solution().getIntersectionNode(fromArray(4, 1, 8, 4, 5), fromArray(5, 0, 1, 8, 4, 5));
-        AssertTool.assertEquals(8, node.val);
+        System.out.println(node);
     }
 }
