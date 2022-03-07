@@ -1,5 +1,6 @@
 package leetcode.editor.cn.common;
 
+
 /**
  * Created by liuyuancheng on 2022/3/6  <br/>
  *
@@ -12,4 +13,5 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
+
 }
