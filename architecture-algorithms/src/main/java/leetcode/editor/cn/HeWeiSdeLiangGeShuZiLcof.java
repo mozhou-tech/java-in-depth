@@ -1,7 +1,6 @@
 package leetcode.editor.cn;
 
 import java.util.Arrays;
-import java.util.HashMap;
 
 /**
  * 输入一个递增排序的数组和一个数字s，在数组中查找两个数，使得它们的和正好是s。如果有多对数字的和等于s，则输出任意一对即可。
@@ -35,15 +34,15 @@ public class HeWeiSdeLiangGeShuZiLcof {
     static
 //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //TODO 对撞双指针！！！
+        //哈希表的时间空间复杂度都是O(n)，双指针可以把空间复杂度降为O(1)
         public int[] twoSum(int[] nums, int target) {
-            if (nums.length < 2) return new int[0];
-            HashMap<Integer, Integer> dict = new HashMap<>();
-            for (int i = 0; i < nums.length; i++) {
-                dict.put(target - nums[i], i);
-                if (dict.containsKey(nums[i])) {
-                    if (i == dict.get(nums[i])) continue;
-                    return new int[]{nums[i], nums[dict.get(nums[i])]};
-                }
+            int left = 0, right = nums.length - 1;
+            while (left < right) {
+                int s = nums[left] + nums[right];
+                if (s < target) left++;
+                else if (s > target) right--;
+                else return new int[]{nums[left], nums[right]};
             }
             return new int[0];
         }
