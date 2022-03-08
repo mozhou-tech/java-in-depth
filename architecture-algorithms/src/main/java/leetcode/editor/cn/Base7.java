@@ -48,9 +48,8 @@ public class Base7 {
 
         public void recur(int num, StringBuilder sb) {
             if (num != 0) {
-                // 读余数，但是递归传入的是商
-                recur(num / 7, sb);
-                sb.append(Math.abs(num % 7));
+                recur(num / 7, sb); // 商数进入递归
+                sb.append(Math.abs(num % 7));  // 从下往上读余数
             }
         }
     }

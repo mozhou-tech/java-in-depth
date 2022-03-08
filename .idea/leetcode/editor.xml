@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DiaoZhengShuZuShunXuShiQiShuWeiYuOuShuQianMianLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/DiaoZhengShuZuShunXuShiQiShuWeiYuOuShuQianMianLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 21" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DiaoZhengShuZuShunXuShiQiShuWeiYuOuShuQianMianLcof.java" />
+              <option name="titleSlug" value="diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DuiChengDeErChaShuLcof.java">
           <value>
             <LeetcodeEditor>
@@ -135,6 +146,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/HeWeiSdeLiangGeShuZiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/HeWeiSdeLiangGeShuZiLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 57" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/HeWeiSdeLiangGeShuZiLcof.java" />
+              <option name="titleSlug" value="he-wei-sde-liang-ge-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LiWuDeZuiDaJieZhiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -179,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/LongestCommonPrefix.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com14" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestUncommonSubsequenceI.java">
           <value>
             <LeetcodeEditor>
@@ -220,6 +253,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PairsWithSumLcci.java" />
               <option name="titleSlug" value="pairs-with-sum-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PalindromeNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/PalindromeNumber.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com9" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PalindromeNumber.java" />
+              <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PlatesBetweenCandles.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/PlatesBetweenCandles.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2055" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PlatesBetweenCandles.java" />
+              <option name="titleSlug" value="plates-between-candles" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -314,10 +369,10 @@
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q9_PalindromeNumber.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Q9_PalindromeNumber.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/PalindromeNumber.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com9" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Q9_PalindromeNumber.java" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/PalindromeNumber.java" />
               <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
@@ -385,6 +440,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FeiBoNaQiShuLieLcof.java" />
               <option name="titleSlug" value="fei-bo-na-qi-shu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RomanToInteger.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/RomanToInteger.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com13" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RomanToInteger.java" />
+              <option name="titleSlug" value="roman-to-integer" />
             </LeetcodeEditor>
           </value>
         </entry>
