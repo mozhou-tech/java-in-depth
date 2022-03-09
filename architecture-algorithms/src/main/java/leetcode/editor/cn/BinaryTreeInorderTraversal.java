@@ -117,12 +117,12 @@ public class BinaryTreeInorderTraversal {
         root.right = new TreeNode(2);
         // 测试用例不要写错，之前漏掉了right这一层
         root.right.left = new TreeNode(3);
-        AssertTool.assertListEquals(new Solution().inorderTraversal(root), Lists.newArrayList(1, 3, 2));
+        AssertTool.assertEquals(new Solution().inorderTraversal(root), Lists.newArrayList(1, 3, 2));
         root = new TreeNode(1);
         root.left = new TreeNode(2);
-        AssertTool.assertListEquals(new Solution().inorderTraversal(root), Lists.newArrayList(2, 1));
+        AssertTool.assertEquals(new Solution().inorderTraversal(root), Lists.newArrayList(2, 1));
         root = new TreeNode(1);
         root.right = new TreeNode(2);
-        AssertTool.assertListEquals(new Solution().inorderTraversal(root), Lists.newArrayList(1, 2));
+        AssertTool.assertEquals(new Solution().inorderTraversal(root), Lists.newArrayList(1, 2));
     }
 }

@@ -46,6 +46,12 @@ public class ClimbingStairs {
 //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
+        /**
+         * 动态规划
+         *
+         * @param n
+         * @return
+         */
         public int climbStairs(int n) {
             int[] dp = new int[n + 2];
             dp[0] = 1;
