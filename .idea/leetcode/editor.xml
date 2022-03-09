@@ -454,6 +454,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RemoveElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/RemoveElement.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com27" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RemoveElement.java" />
+              <option name="titleSlug" value="remove-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RomanToInteger.java">
           <value>
             <LeetcodeEditor>
