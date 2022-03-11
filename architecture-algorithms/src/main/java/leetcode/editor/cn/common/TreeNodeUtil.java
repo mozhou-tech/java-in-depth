@@ -9,29 +9,42 @@ import java.util.*;
  */
 public class TreeNodeUtil {
 
-    public static TreeNode fromArray(Integer[] nums) {
-        if (nums == null || nums.length == 0) {
+    //TODO 数组转二叉树
+    public static TreeNode fromArray(Integer... array) {
+        if (array.length == 0) {
             return null;
         }
-        Queue<TreeNode> nodes = new LinkedList<>();
-        for (Integer num : nums) {
-            nodes.offer(num == null ? null : new TreeNode(num));
-        }
-        TreeNode root = nodes.poll();
-        TreeNode node = root;
-        for (int i = 0; i < nodes.size(); i++) {
-            node.left = nodes.poll();
-            node.right = nodes.poll();
+        TreeNode root = new TreeNode(array[0]);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        boolean isLeft = true;
+        for (int i = 1; i < array.length; i++) {
+            TreeNode node = queue.peek();
+            if (isLeft) {
+                if (array[i] != null) {
+                    node.left = new TreeNode(array[i]);
+                    queue.offer(node.left);
+                }
+                isLeft = false;
+            } else {
+                if (array[i] != null) {
+                    node.right = new TreeNode(array[i]);
+                    queue.offer(node.right);
+                }
+                queue.poll();
+                isLeft = true;
+            }
         }
         return root;
+
     }
 
+
     public static Integer[] toArray(TreeNode root) {
-        if (null == root) {
-            return new Integer[]{};
-        }
+        if (null == root) return new Integer[]{};
         Queue<TreeNode> queue = new LinkedList<>();
         List<Integer> res = new ArrayList<>();
+        // BFS
         queue.offer(root);
         while (!queue.isEmpty()) {
             final TreeNode node = queue.poll();
@@ -39,11 +52,15 @@ public class TreeNodeUtil {
             if (node.left != null) queue.offer(node.left);
             if (node.right != null) queue.offer(node.right);
         }
-        return res.toArray(new Integer[0]);
+        return res.toArray(Integer[]::new);
+    }
+
+    public static String toArrayString(TreeNode root) {
+        return Arrays.toString(toArray(root));
     }
 
     public static void main(String[] args) {
-        TreeNode node  = fromArray(new Integer[]{1, 2, 3, 4, 5, 6});
+        TreeNode node = fromArray(new Integer[]{1, 2, 3, 4, 5, 6});
         System.out.println(Arrays.toString(toArray(node)));
     }
 }

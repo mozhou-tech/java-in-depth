@@ -74,14 +74,15 @@ public class JuZhenZhongDeLuJingLcof {
          * @return
          */
         boolean dfs(char[][] board, char[] word, int i, int j, int k) {
+            // 搜索终结条件: 数组越界、不相等
             if (i >= board.length || i < 0 || j >= board[0].length || j < 0 || board[i][j] != word[k]) return false;
-            if (k == word.length - 1) return true;
-            board[i][j] = '\0';// 标记为空字符
-            boolean res = dfs(board, word, i + 1, j, k + 1) ||
+            if (k == word.length - 1) return true; // 递归到word的最后一个字符
+            board[i][j] = '.';// 标记为空字符
+            boolean res = dfs(board, word, i + 1, j, k + 1) || // 上下左右的位置找到
                     dfs(board, word, i - 1, j, k + 1) ||
                     dfs(board, word, i, j + 1, k + 1) ||
                     dfs(board, word, i, j - 1, k + 1);
-            board[i][j] = word[k];
+            board[i][j] = word[k];//TODO 为什么是不可或缺的？
             return res;
         }
     }

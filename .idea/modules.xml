@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/architecture-ddd.iml" filepath="$PROJECT_DIR$/architecture-ddd/architecture-ddd.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/beego.iml" filepath="$PROJECT_DIR$/golang/beego.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/bytecode.iml" filepath="$PROJECT_DIR$/bytecode/bytecode.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/cglib/cglib.iml" filepath="$PROJECT_DIR$/bytecode/cglib/cglib.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/clickhouse/clickhouse.iml" filepath="$PROJECT_DIR$/databases/clickhouse/clickhouse.iml" />
