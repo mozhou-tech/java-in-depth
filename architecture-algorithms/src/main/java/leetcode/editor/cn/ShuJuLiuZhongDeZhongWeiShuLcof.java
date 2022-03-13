@@ -23,7 +23,10 @@ public class ShuJuLiuZhongDeZhongWeiShuLcof {
         }
 
         public void addNum(int num) {
-            if (this.data.size() == 0) this.data.add(num);
+            if (this.data.size() == 0) {
+                this.data.add(num);
+                return;
+            }
             // 找到右侧最近的
             int targetIndex = binarySearch(0, this.data.size() - 1, num);
             this.data.add(targetIndex, num);
@@ -31,7 +34,7 @@ public class ShuJuLiuZhongDeZhongWeiShuLcof {
 
         public double findMedian() {
             int mod = this.data.size() % 2;
-            int mid = this.data.size() / 2;
+            int mid = this.data.size() / 2 - 1;
             if (mod == 1) return this.data.get(mid + 1);
             return (this.data.get(mid) + this.data.get(mid + 1)) / 2D;
         }
@@ -43,15 +46,16 @@ public class ShuJuLiuZhongDeZhongWeiShuLcof {
          * @return
          */
         int binarySearch(int start, int end, int target) {
+            if (target > this.data.get(end)) return end + 1;
             // base case
             int diff = end - start;
             if (diff == 0 && this.data.get(start) >= target) return start;
             if (diff == 0 && this.data.get(start) < target) return start + 1;
-            if (diff == 1 && this.data.get(start) > target) return start;
-            if (diff == 1 && this.data.get(start) < target && this.data.get(end) >= target) return end;
-            if (diff == 1 && this.data.get(end) < target) return end + 1;
+            if (diff == 1 && this.data.get(start) >= target) return start;
+            if (diff == 1 && this.data.get(start) < target && this.data.get(end) > target) return end;
+            if (diff == 1 && this.data.get(end) <= target) return end + 1;
             int mid = (end + start) / 2;
-            if (this.data.get(mid) <= target && this.data.get(end) > target) {
+            if (this.data.get(mid) < target && this.data.get(end) >= target) {
                 return binarySearch(mid, end, target);
             }
             return binarySearch(start, mid, target);
@@ -71,6 +75,13 @@ public class ShuJuLiuZhongDeZhongWeiShuLcof {
         medianFinder.addNum(2);
         medianFinder.findMedian();
         medianFinder.addNum(3);
+        medianFinder.addNum(4);
+        medianFinder.addNum(5);
+        medianFinder.addNum(6);
+        medianFinder.addNum(7);
+        medianFinder.addNum(8);
+        medianFinder.addNum(9);
+        medianFinder.addNum(10);
         medianFinder.findMedian();
     }
 }
