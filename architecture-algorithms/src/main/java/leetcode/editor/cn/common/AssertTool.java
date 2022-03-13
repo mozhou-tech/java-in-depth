@@ -3,6 +3,7 @@ package leetcode.editor.cn.common;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static leetcode.editor.cn.common.ListNodeUtil.toArrayString;
@@ -14,6 +15,10 @@ import static leetcode.editor.cn.common.ListNodeUtil.toArrayString;
  */
 @Slf4j
 public class AssertTool extends Assertions {
+
+    public static void assertEqual(int[] src, int[] expected) {
+        assertEquals(Arrays.asList(src), Arrays.asList(expected));
+    }
 
     public static void assertEquals(List<Integer> src, List<Integer> expected) {
         if (src.size() != expected.size()) {
