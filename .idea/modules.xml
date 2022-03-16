@@ -58,6 +58,7 @@
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" filepath="$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rustpra/rustpra.iml" filepath="$PROJECT_DIR$/rustpra/rustpra.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" />
