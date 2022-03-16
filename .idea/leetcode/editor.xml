@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/AllOoneDataStructure.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/AllOoneDataStructure.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com432" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/AllOoneDataStructure.java" />
+              <option name="titleSlug" value="all-oone-data-structure" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BaShuZiFanYiChengZiFuChuanLcof.java">
           <value>
             <LeetcodeEditor>
@@ -124,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/CountNumberOfMaximumBitwiseOrSubsets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/CountNumberOfMaximumBitwiseOrSubsets.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2044" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/CountNumberOfMaximumBitwiseOrSubsets.java" />
+              <option name="titleSlug" value="count-number-of-maximum-bitwise-or-subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DiaoZhengShuZuShunXuShiQiShuWeiYuOuShuQianMianLcof.java">
           <value>
             <LeetcodeEditor>
@@ -198,6 +220,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErChaSouSuoShuDeDiKdaJieDianLcof.java" />
               <option name="titleSlug" value="er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErChaSouSuoShuDeHouXuBianLiXuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ErChaSouSuoShuDeHouXuBianLiXuLieLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 33" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErChaSouSuoShuDeHouXuBianLiXuLieLcof.java" />
+              <option name="titleSlug" value="er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -718,6 +751,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ShuZhiDeZhengShuCiFangLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ShuZhiDeZhengShuCiFangLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 16" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ShuZhiDeZhengShuCiFangLcof.java" />
+              <option name="titleSlug" value="shu-zhi-de-zheng-shu-ci-fang-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/SumOfSubarrayRanges.java">
           <value>
             <LeetcodeEditor>
@@ -781,6 +825,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java" />
               <option name="titleSlug" value="zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZhongJianErChaShuLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ZhongJianErChaShuLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 07" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZhongJianErChaShuLcof.java" />
+              <option name="titleSlug" value="zhong-jian-er-cha-shu-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
