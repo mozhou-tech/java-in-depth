@@ -113,6 +113,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BuYongJiaJianChengChuZuoJiaFaLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/BuYongJiaJianChengChuZuoJiaFaLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 65" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BuYongJiaJianChengChuZuoJiaFaLcof.java" />
+              <option name="titleSlug" value="bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ClimbingStairs.java">
           <value>
             <LeetcodeEditor>
@@ -253,6 +264,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErChaSouSuoShuYuShuangXiangLianBiaoLcof.java" />
               <option name="titleSlug" value="er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErJinZhiZhong1deGeShuLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ErJinZhiZhong1deGeShuLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 15" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ErJinZhiZhong1deGeShuLcof.java" />
+              <option name="titleSlug" value="er-jin-zhi-zhong-1de-ge-shu-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
