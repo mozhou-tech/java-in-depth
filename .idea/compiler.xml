@@ -15,7 +15,6 @@
         <module name="alibaba-canal" />
         <module name="agent" />
         <module name="cglib" />
-        <module name="flink-basic" />
         <module name="locks" />
         <module name="unittest-mockito" />
         <module name="smartrm-user" />
@@ -91,6 +90,7 @@
       <module name="bytecode" target="11" />
       <module name="cglib" target="11" />
       <module name="clickhouse" target="11" />
+      <module name="commons" target="11" />
       <module name="databases" target="11" />
       <module name="deep-java-library" target="11" />
       <module name="distributions" target="11" />

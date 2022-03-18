@@ -2,7 +2,6 @@ package com.tenstone.flink.project.app;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.tenstone.flink.datastream.utils.StringUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -21,7 +20,7 @@ public class GaodeApp {
         String province = "-";
         String city = "-";
 
-        String url = "https://restapi.amap.com/v3/ip?ip="+ip+"&output=json&key="+ StringUtils.GAODE_KEY;
+        String url = "https://restapi.amap.com/v3/ip?ip=" + ip + "&output=json&key=" + Constants.GAODE_KEY;
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
 
@@ -31,7 +30,7 @@ public class GaodeApp {
             HttpGet httpGet = new HttpGet(url);
             response = httpClient.execute(httpGet);
             int statusCode = response.getStatusLine().getStatusCode();
-            if(statusCode == 200) {
+            if (statusCode == 200) {
                 HttpEntity entity = response.getEntity();
                 String result = EntityUtils.toString(entity, "UTF-8");
 
@@ -45,7 +44,7 @@ public class GaodeApp {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            if(null != response) try {
+            if (null != response) try {
                 response.close();
             } catch (IOException e) {
                 e.printStackTrace();

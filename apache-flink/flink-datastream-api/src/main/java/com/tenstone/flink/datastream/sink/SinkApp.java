@@ -49,13 +49,8 @@ public class SinkApp {
 
         FlinkJedisPoolConfig conf = new FlinkJedisPoolConfig.Builder().setHost("127.0.0.1").build();
 
-        result.map(new MapFunction<Access, Tuple2<String, Double>>() {
-            @Override
-            public Tuple2<String, Double> map(Access value) throws Exception {
-                return Tuple2.of(value.getDomain(), value.getTraffic());
-            }
-        }) // .addSink(new PKMySQLSink());
-           .addSink(new RedisSink<Tuple2<String, Double>>(conf, new PKRedisSink()));
+        result.map((MapFunction<Access, Tuple2<String, Double>>) value -> Tuple2.of(value.getDomain(), value.getTraffic())) // .addSink(new PKMySQLSink());
+           .addSink(new RedisSink<>(conf, new PKRedisSink()));
     }
 
 

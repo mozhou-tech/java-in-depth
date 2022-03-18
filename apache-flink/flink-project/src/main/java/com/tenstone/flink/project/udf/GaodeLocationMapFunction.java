@@ -3,7 +3,7 @@ package com.tenstone.flink.project.udf;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.tenstone.flink.project.domain.Access;
-import com.tenstone.flink.datastream.utils.StringUtils;
+import com.tenstone.flink.project.app.Constants;
 import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.configuration.Configuration;
 import org.apache.http.HttpEntity;
@@ -29,7 +29,7 @@ public class GaodeLocationMapFunction extends RichMapFunction<Access, Access> {
 
     @Override
     public Access map(Access value) throws Exception {
-        String url = "https://restapi.amap.com/v3/ip?ip="+value.ip+"&output=json&key="+ StringUtils.GAODE_KEY;
+        String url = "https://restapi.amap.com/v3/ip?ip="+value.ip+"&output=json&key="+ Constants.GAODE_KEY;
 
         CloseableHttpResponse response = null;
 
@@ -43,8 +43,6 @@ public class GaodeLocationMapFunction extends RichMapFunction<Access, Access> {
             if(statusCode == 200) {
                 HttpEntity entity = response.getEntity();
                 String result = EntityUtils.toString(entity, "UTF-8");
-
-
                 JSONObject jsonObject = JSON.parseObject(result);
                 province = jsonObject.getString("province");
                 city = jsonObject.getString("city");

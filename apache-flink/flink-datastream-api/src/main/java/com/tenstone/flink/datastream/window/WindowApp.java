@@ -11,14 +11,13 @@ public class WindowApp {
 
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-
         test03(env);
         env.execute("WindowApp");
     }
 
     public static void test03(StreamExecutionEnvironment env) {
         env.socketTextStream("localhost", 9527)
-                .map(new MapFunction<String, Tuple2<String,Integer>>() {
+                .map(new MapFunction<String, Tuple2<String, Integer>>() {
                     @Override
                     public Tuple2<String, Integer> map(String value) throws Exception {
                         return Tuple2.of("pk", Integer.parseInt(value));
@@ -32,20 +31,18 @@ public class WindowApp {
 
     public static void test02(StreamExecutionEnvironment env) {
         env.socketTextStream("localhost", 9527)
-                .map(new MapFunction<String, Tuple2<String,Integer>>() {
-                    @Override
-                    public Tuple2<String, Integer> map(String value) throws Exception {
-                        String[] splits = value.split(",");
-                        return Tuple2.of(splits[0].trim(), Integer.parseInt(splits[1].trim()));
-                    }
-                }).keyBy(x -> x.f0)
+                .map((MapFunction<String, Tuple2<String, Integer>>) value -> {
+                    String[] splits = value.split(",");
+                    return Tuple2.of(splits[0].trim(), Integer.parseInt(splits[1].trim()));
+                })
+                .keyBy(x -> x.f0)
                 .window(TumblingProcessingTimeWindows.of(Time.seconds(5)))
                 .reduce(new ReduceFunction<Tuple2<String, Integer>>() {
                     @Override
                     public Tuple2<String, Integer> reduce(Tuple2<String, Integer> value1, Tuple2<String, Integer> value2) throws Exception {
 
                         System.out.println("value1 = [" + value1 + "], value2 = [" + value2 + "]");
-                        return Tuple2.of(value1.f0, value1.f1+value2.f1);
+                        return Tuple2.of(value1.f0, value1.f1 + value2.f1);
                     }
                 })
                 .print();
@@ -78,15 +75,13 @@ public class WindowApp {
 
         // hadoop,1  spark,1
         env.socketTextStream("localhost", 9527)
-            .map(new MapFunction<String, Tuple2<String,Integer>>() {
-                @Override
-                public Tuple2<String, Integer> map(String value) throws Exception {
+                .map((MapFunction<String, Tuple2<String, Integer>>) value -> {
                     String[] splits = value.split(",");
                     return Tuple2.of(splits[0].trim(), Integer.parseInt(splits[1].trim()));
-                }
-            }).keyBy(x -> x.f0)
-            .window(TumblingProcessingTimeWindows.of(Time.seconds(5)))
+                })
+                .keyBy(x -> x.f0)
+                .window(TumblingProcessingTimeWindows.of(Time.seconds(5)))
                 .sum(1)
-            .print();
+                .print();
     }
 }

@@ -1,6 +1,6 @@
 package com.tenstone.flink.datastream.sink;
 
-import com.tenstone.flink.datastream.utils.MySQLUtils;
+import com.tenstone.flink.utils.MySQLUtils;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;

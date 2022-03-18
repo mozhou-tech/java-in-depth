@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/apache-flink/flink-basic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink/flink-datastream-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink/flink-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-flink/flink-project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-flink/flink-table-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/src/main/java" charset="UTF-8" />

@@ -8,6 +8,8 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
+import java.util.Objects;
+
 /**
  * 新老用户的统计分析
  */
@@ -17,34 +19,23 @@ public class OsUserCntAppV2 {
 
         StreamExecutionEnvironment environment = StreamExecutionEnvironment.getExecutionEnvironment();
 
-        SingleOutputStreamOperator<Access> cleanStream = environment.readTextFile("data/access.json")
-                .map(new MapFunction<String, Access>() {
-                    @Override
-                    public Access map(String value) throws Exception {
-                        // TODO...  json ==> Access
-
-                        try {
-                            return JSON.parseObject(value, Access.class);
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                            return null;
-                        }
-
+        SingleOutputStreamOperator<Access> cleanStream = environment
+                .readTextFile("data/access.json")
+                .map((MapFunction<String, Access>) value -> {
+                    // TODO...  json ==> Access
+                    try {
+                        return JSON.parseObject(value, Access.class);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        return null;
                     }
-                }).filter(x -> x != null)
-                .filter(new FilterFunction<Access>() {
-                    @Override
-                    public boolean filter(Access value) throws Exception {
-                        return "startup".equals(value.event);
-                    }
-                });
+                })
+                .filter(Objects::nonNull)
+                .filter((FilterFunction<Access>) value -> "startup".equals(value.event));
 
-        cleanStream.map(new MapFunction<Access, Tuple2<Integer, Integer>>() {
-            @Override
-            public Tuple2<Integer, Integer> map(Access value) throws Exception {
-                return Tuple2.of(value.nu, 1);
-            }
-        }).keyBy(x -> x.f0)
+        cleanStream
+                .map((MapFunction<Access, Tuple2<Integer, Integer>>) value -> Tuple2.of(value.nu, 1))
+                .keyBy(x -> x.f0)
                 .sum(1).print("总的新老用户:").setParallelism(1);
 
 
@@ -58,7 +49,6 @@ public class OsUserCntAppV2 {
          * (1, 67)
          * (0, 33)
          */
-
         environment.execute("OsUserCntAppV2");
 
     }

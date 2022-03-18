@@ -13,7 +13,7 @@ import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.api.java.tuple.Tuple4;
 import org.apache.flink.configuration.Configuration;
-import org.apache.flink.shaded.guava18.com.google.common.collect.Lists;
+import org.apache.flink.hadoop.shaded.com.google.common.collect.Lists;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.datastream.WindowedStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -33,19 +33,17 @@ public class TopNAppV1 {
 
 
         SingleOutputStreamOperator<Access> cleanStream = env.readTextFile("data/access.json")
-                .map(new MapFunction<String, Access>() {
-                    @Override
-                    public Access map(String value) throws Exception {
-                        // json ==> 自定义对象
-                        try {
-                            return JSON.parseObject(value, Access.class);
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                            // TODO... 把这些异常的数据记录到某个地方去
-                            return null;
-                        }
+                .map((MapFunction<String, Access>) value -> {
+                    // json ==> 自定义对象
+                    try {
+                        return JSON.parseObject(value, Access.class);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        // TODO... 把这些异常的数据记录到某个地方去
+                        return null;
                     }
-                }).filter(x -> x != null)
+                })
+                .filter(x -> x != null)
                 .assignTimestampsAndWatermarks(
                         new BoundedOutOfOrdernessTimestampExtractor<Access>(Time.seconds(20)) {
                             @Override
@@ -53,12 +51,8 @@ public class TopNAppV1 {
                                 return element.time;
                             }
                         }
-                ).filter(new FilterFunction<Access>() {
-                    @Override
-                    public boolean filter(Access value) throws Exception {
-                        return !"startup".equals(value.event);
-                    }
-                });
+                )
+                .filter((FilterFunction<Access>) value -> !"startup".equals(value.event));
 
         WindowedStream<Access, Tuple3<String, String, String>, TimeWindow> windowStream = cleanStream.keyBy(new KeySelector<Access, Tuple3<String, String, String>>() {
             @Override
@@ -71,12 +65,7 @@ public class TopNAppV1 {
 
         SingleOutputStreamOperator<EventCatagoryProductCount> aggStream = windowStream.aggregate(new TopNAggregateFunction(), new TopNWindowFunction());
 
-        aggStream.keyBy(new KeySelector<EventCatagoryProductCount, Tuple4<String, String, Long, Long>>() {
-            @Override
-            public Tuple4<String, String, Long, Long> getKey(EventCatagoryProductCount value) throws Exception {
-                return Tuple4.of(value.event, value.catagory, value.start, value.end);
-            }
-        }).process(new KeyedProcessFunction<Tuple4<String,String,Long,Long>, EventCatagoryProductCount, List<EventCatagoryProductCount>>() {
+        aggStream.keyBy((KeySelector<EventCatagoryProductCount, Tuple4<String, String, Long, Long>>) value -> Tuple4.of(value.event, value.catagory, value.start, value.end)).process(new KeyedProcessFunction<Tuple4<String, String, Long, Long>, EventCatagoryProductCount, List<EventCatagoryProductCount>>() {
 
             private transient ListState<EventCatagoryProductCount> listState;
 
@@ -99,7 +88,7 @@ public class TopNAppV1 {
             public void onTimer(long timestamp, OnTimerContext ctx, Collector<List<EventCatagoryProductCount>> out) throws Exception {
                 ArrayList<EventCatagoryProductCount> list = Lists.newArrayList(listState.get());
 
-                list.sort((x,y) -> Long.compare(y.count, x.count));
+                list.sort((x, y) -> Long.compare(y.count, x.count));
 
                 ArrayList<EventCatagoryProductCount> sorted = new ArrayList<>();
 

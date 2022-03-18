@@ -26,46 +26,26 @@ public class ProvinceUserCntAppV1 {
         StreamExecutionEnvironment environment = StreamExecutionEnvironment.getExecutionEnvironment();
 
         SingleOutputStreamOperator<Access> cleanStream = environment.readTextFile("data/access.json")
-                .map(new MapFunction<String, Access>() {
-                    @Override
-                    public Access map(String value) throws Exception {
-                        // TODO...  json ==> Access
-
-                        try {
-                            return JSON.parseObject(value, Access.class);
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                            return null;
-                        }
-
+                .map((MapFunction<String, Access>) value -> {
+                    // TODO...  json ==> Access
+                    try {
+                        return JSON.parseObject(value, Access.class);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        return null;
                     }
+
                 }).filter(x -> x != null)
-                .filter(new FilterFunction<Access>() {
-                    @Override
-                    public boolean filter(Access value) throws Exception {
-                        return "startup".equals(value.event);
-                    }
-                })
+                .filter((FilterFunction<Access>) value -> "startup".equals(value.event))
                 .map(new GaodeLocationMapFunction());
 
-        SingleOutputStreamOperator<Tuple3<String, Integer, Integer>> result = cleanStream.map(new MapFunction<Access, Tuple3<String, Integer, Integer>>() {
-            @Override
-            public Tuple3<String, Integer, Integer> map(Access value) throws Exception {
-                return Tuple3.of(value.province, value.nu, 1);
-            }
-        }).keyBy(new KeySelector<Tuple3<String, Integer, Integer>, Tuple2<String, Integer>>() {
-            @Override
-            public Tuple2<String, Integer> getKey(Tuple3<String, Integer, Integer> value) throws Exception {
-                return Tuple2.of(value.f0, value.f1);
-            }
-        }).sum(2);//.print("省份维度统计新老用户:").setParallelism(1);
-
+        SingleOutputStreamOperator<Tuple3<String, Integer, Integer>> result = cleanStream
+                .map((MapFunction<Access, Tuple3<String, Integer, Integer>>) value -> Tuple3.of(value.province, value.nu, 1))
+                .keyBy((KeySelector<Tuple3<String, Integer, Integer>, Tuple2<String, Integer>>) value -> Tuple2.of(value.f0, value.f1))
+                .sum(2);//.print("省份维度统计新老用户:").setParallelism(1);
 
         FlinkJedisPoolConfig conf = new FlinkJedisPoolConfig.Builder().setHost("127.0.0.1").build();
-
-        result.addSink(new RedisSink<Tuple3<String, Integer,Integer>>(conf, new RedisExampleMapper()));
-
-
+        result.addSink(new RedisSink<>(conf, new RedisExampleMapper()));
         environment.execute("ProvinceUserCntAppV1");
 
     }

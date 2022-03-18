@@ -52,16 +52,11 @@ public class EventTimeWMApp {
         SingleOutputStreamOperator<String> window = mapStream.keyBy(x -> x.f0)
                 .window(TumblingEventTimeWindows.of(Time.seconds(5)))
                 .sideOutputLateData(outputTag)
-                .reduce(new ReduceFunction<Tuple2<String, Integer>>() {
-                    @Override
-                    public Tuple2<String, Integer> reduce(Tuple2<String, Integer> value1, Tuple2<String, Integer> value2) throws Exception {
-                        System.out.println("-----reduce invoked----" + value1.f0 + "==>" + (value1.f1 + value2.f1));
-                        return Tuple2.of(value1.f0, value1.f1 + value2.f1);
-                    }
-                }, new ProcessWindowFunction<Tuple2<String, Integer>, String, String, TimeWindow>() {
-
+                .reduce((ReduceFunction<Tuple2<String, Integer>>) (value1, value2) -> {
+                    System.out.println("-----reduce invoked----" + value1.f0 + "==>" + (value1.f1 + value2.f1));
+                    return Tuple2.of(value1.f0, value1.f1 + value2.f1);
+                }, new ProcessWindowFunction<>() {
                     FastDateFormat format = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss");
-
                     @Override
                     public void process(String s, Context context, Iterable<Tuple2<String, Integer>> elements, Collector<String> out) throws Exception {
                         for (Tuple2<String, Integer> element : elements) {

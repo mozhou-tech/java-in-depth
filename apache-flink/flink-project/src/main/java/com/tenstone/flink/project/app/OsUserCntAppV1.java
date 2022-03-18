@@ -1,6 +1,7 @@
 package com.tenstone.flink.project.app;
 
 import com.alibaba.fastjson.JSON;
+import com.google.common.io.Resources;
 import com.tenstone.flink.project.domain.Access;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
@@ -15,6 +16,8 @@ import org.apache.flink.streaming.connectors.redis.common.mapper.RedisCommand;
 import org.apache.flink.streaming.connectors.redis.common.mapper.RedisCommandDescription;
 import org.apache.flink.streaming.connectors.redis.common.mapper.RedisMapper;
 
+import java.util.Objects;
+
 /**
  * 按照操作系统维度进行新老用户的统计分析
  */
@@ -24,41 +27,25 @@ public class OsUserCntAppV1 {
 
         StreamExecutionEnvironment environment = StreamExecutionEnvironment.getExecutionEnvironment();
 
-        SingleOutputStreamOperator<Access> cleanStream = environment.readTextFile("data/access.json")
-                .map(new MapFunction<String, Access>() {
-                    @Override
-                    public Access map(String value) throws Exception {
-                        // TODO...  json ==> Access
-
-                        // 注意事项：一定要考虑解析的容错性
-                        try {
-                            return JSON.parseObject(value, Access.class);
-                        } catch (Exception e) {
-                            e.printStackTrace(); // 写到某个地方
-                            return null;
-                        }
-
+        SingleOutputStreamOperator<Access> cleanStream = environment.readTextFile(Resources.getResource("data/access.log").getPath())
+                .map((MapFunction<String, Access>) value -> {
+                    // TODO...  json ==> Access
+                    // 注意事项：一定要考虑解析的容错性
+                    try {
+                        return JSON.parseObject(value, Access.class);
+                    } catch (Exception e) {
+                        e.printStackTrace(); // 写到某个地方
+                        return null;
                     }
-                }).filter(x -> x != null)
-                .filter(new FilterFunction<Access>() {
-                    @Override
-                    public boolean filter(Access value) throws Exception {
-                        return "startup".equals(value.event);
-                    }
-                });
+
+                }).filter(Objects::nonNull)
+                .filter((FilterFunction<Access>) value -> "startup".equals(value.event));
 
         // TODO... 操作系统维度  新老用户  ==> wc
-        SingleOutputStreamOperator<Tuple3<String, Integer, Integer>> result = cleanStream.map(new MapFunction<Access, Tuple3<String, Integer, Integer>>() {
-            @Override
-            public Tuple3<String, Integer, Integer> map(Access value) throws Exception {
-                return Tuple3.of(value.os, value.nu, 1);
-            }
-        }).keyBy(new KeySelector<Tuple3<String, Integer, Integer>, Tuple2<String, Integer>>() {
-            @Override
-            public Tuple2<String, Integer> getKey(Tuple3<String, Integer, Integer> value) throws Exception {
-                return Tuple2.of(value.f0, value.f1);
-            }
-        }).sum(2);// .print().setParallelism(1);
+        SingleOutputStreamOperator<Tuple3<String, Integer, Integer>> result = cleanStream
+                .map((MapFunction<Access, Tuple3<String, Integer, Integer>>) value -> Tuple3.of(value.os, value.nu, 1))
+                .keyBy((KeySelector<Tuple3<String, Integer, Integer>, Tuple2<String, Integer>>) value -> Tuple2.of(value.f0, value.f1))
+                .sum(2);// .print().setParallelism(1);
 
         /**
          * (iOS,1,38)
@@ -66,11 +53,8 @@ public class OsUserCntAppV1 {
          * (iOS,0,17)
          * (Android,0,16)
          */
-
         FlinkJedisPoolConfig conf = new FlinkJedisPoolConfig.Builder().setHost("127.0.0.1").build();
-
-        result.addSink(new RedisSink<Tuple3<String, Integer,Integer>>(conf, new RedisExampleMapper()));
-
+        result.addSink(new RedisSink<>(conf, new RedisExampleMapper()));
         environment.execute("OsUserCntAppV1");
 
     }
@@ -90,7 +74,7 @@ public class OsUserCntAppV1 {
 
         @Override
         public String getValueFromData(Tuple3<String, Integer, Integer> data) {
-            return data.f2+"";
+            return data.f2 + "";
         }
 
     }

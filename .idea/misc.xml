@@ -57,6 +57,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/annotations/annotation-commons-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-flink/commons/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-flink/flink-basic/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/flink-sql/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/flink-upgrade/pom.xml" />
         <option value="$PROJECT_DIR$/architecture-mda/pom.xml" />
