@@ -22,7 +22,6 @@ public class OsUserCntAppV2 {
         SingleOutputStreamOperator<Access> cleanStream = environment
                 .readTextFile("data/access.json")
                 .map((MapFunction<String, Access>) value -> {
-                    // TODO...  json ==> Access
                     try {
                         return JSON.parseObject(value, Access.class);
                     } catch (Exception e) {
