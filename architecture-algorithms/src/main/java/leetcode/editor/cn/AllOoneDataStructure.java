@@ -58,6 +58,10 @@ public class AllOoneDataStructure {
 
     //leetcode submit region begin(Prohibit modification and deletion)
 
+    /**
+     * O(1)的查找一定会用到HashMap
+     * 我们还需要对key的计数变化之后进行排序
+     */
     class AllOne {
         Node root;
         Map<String, Node> nodeMap;
