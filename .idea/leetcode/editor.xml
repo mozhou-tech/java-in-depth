@@ -135,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ConstructStringFromBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ConstructStringFromBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com606" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ConstructStringFromBinaryTree.java" />
+              <option name="titleSlug" value="construct-string-from-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree.java">
           <value>
             <LeetcodeEditor>
@@ -355,6 +366,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/HeWeiSdeLianXuZhengShuXuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/HeWeiSdeLianXuZhengShuXuLieLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 57 - II" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/HeWeiSdeLianXuZhengShuXuLieLcof.java" />
+              <option name="titleSlug" value="he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/HeWeiSdeLiangGeShuZiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -374,6 +396,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JiQiRenDeYunDongFanWeiLcof.java" />
               <option name="titleSlug" value="ji-qi-ren-de-yun-dong-fan-wei-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JianShengZiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/JianShengZiLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 14- I" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JianShengZiLcof.java" />
+              <option name="titleSlug" value="jian-sheng-zi-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -839,6 +872,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ShunShiZhenDaYinJuZhenLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 29" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.java" />
+              <option name="titleSlug" value="shun-shi-zhen-da-yin-ju-zhen-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/SimpleBankSystem.java">
           <value>
             <LeetcodeEditor>
@@ -869,6 +913,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/TheDiningPhilosophers.java" />
               <option name="titleSlug" value="the-dining-philosophers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/TheTimeWhenTheNetworkBecomesIdle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/TheTimeWhenTheNetworkBecomesIdle.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2039" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/TheTimeWhenTheNetworkBecomesIdle.java" />
+              <option name="titleSlug" value="the-time-when-the-network-becomes-idle" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -905,6 +960,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/YuanQuanZhongZuiHouShengXiaDeShuZiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/YuanQuanZhongZuiHouShengXiaDeShuZiLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 62" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/YuanQuanZhongZuiHouShengXiaDeShuZiLcof.java" />
+              <option name="titleSlug" value="yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -913,6 +979,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java" />
               <option name="titleSlug" value="zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZhanDeYaRuDanChuXuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ZhanDeYaRuDanChuXuLieLcof.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 31" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ZhanDeYaRuDanChuXuLieLcof.java" />
+              <option name="titleSlug" value="zhan-de-ya-ru-dan-chu-xu-lie-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
