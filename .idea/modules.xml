@@ -69,6 +69,7 @@
       <module fileurl="file://$PROJECT_DIR$/golang/todos/todos.iml" filepath="$PROJECT_DIR$/golang/todos/todos.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/transaction/transaction.iml" filepath="$PROJECT_DIR$/distributions/transaction/transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/web/web.iml" filepath="$PROJECT_DIR$/golang/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" />
     </modules>
