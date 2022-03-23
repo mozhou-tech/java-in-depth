@@ -24,18 +24,20 @@
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/beego.iml" filepath="$PROJECT_DIR$/golang/beego.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/bobeego/bobeego.iml" filepath="$PROJECT_DIR$/golang/bobeego/bobeego.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/bytecode.iml" filepath="$PROJECT_DIR$/bytecode/bytecode.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/cglib/cglib.iml" filepath="$PROJECT_DIR$/bytecode/cglib/cglib.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/clickhouse/clickhouse.iml" filepath="$PROJECT_DIR$/databases/clickhouse/clickhouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/databases.iml" filepath="$PROJECT_DIR$/databases/databases.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/deep-java-library.iml" filepath="$PROJECT_DIR$/deep-java-library/deep-java-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/distributions.iml" filepath="$PROJECT_DIR$/distributions/distributions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/examples/examples.iml" filepath="$PROJECT_DIR$/golang/examples/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-datastream-api/flink-datastream-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-datastream-api/flink-datastream-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/golang.iml" filepath="$PROJECT_DIR$/golang/golang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/godemo/godemo.iml" filepath="$PROJECT_DIR$/golang/godemo/godemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/gotodos/gotodos.iml" filepath="$PROJECT_DIR$/golang/gotodos/gotodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/goweb/goweb.iml" filepath="$PROJECT_DIR$/golang/goweb/goweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-in-depth.iml" filepath="$PROJECT_DIR$/java-in-depth.iml" />
@@ -66,10 +68,8 @@
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/smartrm-payment.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/smartrm-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/smartrm-trade.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/smartrm-trade.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/smartrm-user.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/smartrm-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/todos/todos.iml" filepath="$PROJECT_DIR$/golang/todos/todos.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/transaction/transaction.iml" filepath="$PROJECT_DIR$/distributions/transaction/transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/web/web.iml" filepath="$PROJECT_DIR$/golang/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/apache-hadoop/zookeeper/zookeeper.iml" />
     </modules>

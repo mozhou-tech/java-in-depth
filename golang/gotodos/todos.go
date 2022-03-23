@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
+	"github.com/wailsapp/wails"
 	"io/ioutil"
 	"os"
 	"path"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/wailsapp/wails"
 )
 
 type Todos struct {

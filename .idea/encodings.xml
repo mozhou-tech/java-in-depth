@@ -2,13 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/apache-flink/flink-datastream-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink/flink-datastream-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink/flink-project/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink/flink-project/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink/flink-table-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink/flink-table-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/src/main/java" charset="UTF-8" />
@@ -21,14 +16,11 @@
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-monolith/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-monolith/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-patterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-patterns/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/databases/jdbc-proxy/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/databases/postgresql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/databases/postgresql/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jdk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jdk/src/main/resources" charset="UTF-8" />

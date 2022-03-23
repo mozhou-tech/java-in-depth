@@ -1,10 +1,9 @@
 package main
 
 import (
-	"log"
-
 	"github.com/leaanthony/mewn"
 	"github.com/wailsapp/wails"
+	"log"
 )
 
 func main() {
