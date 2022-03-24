@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class TreeNodeUtil {
 
-    //TODO 数组转二叉树
+    //TODO 数组转二叉树BFS
     public static TreeNode fromArray(Integer... array) {
         if (array.length == 0) {
             return null;

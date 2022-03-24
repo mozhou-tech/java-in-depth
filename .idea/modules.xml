@@ -24,7 +24,6 @@
       <module fileurl="file://$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" filepath="$PROJECT_DIR$/architecture-patterns/architecture-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/automation-camunda/automation-camunda.iml" filepath="$PROJECT_DIR$/automation-camunda/automation-camunda.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/beego.iml" filepath="$PROJECT_DIR$/golang/beego.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/bobeego/bobeego.iml" filepath="$PROJECT_DIR$/golang/bobeego/bobeego.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/bytecode.iml" filepath="$PROJECT_DIR$/bytecode/bytecode.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytecode/cglib/cglib.iml" filepath="$PROJECT_DIR$/bytecode/cglib/cglib.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/clickhouse/clickhouse.iml" filepath="$PROJECT_DIR$/databases/clickhouse/clickhouse.iml" />
@@ -35,9 +34,11 @@
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/godemo/godemo.iml" filepath="$PROJECT_DIR$/golang/godemo/godemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/gotodos/gotodos.iml" filepath="$PROJECT_DIR$/golang/gotodos/gotodos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/goweb/goweb.iml" filepath="$PROJECT_DIR$/golang/goweb/goweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/go-beego/go-beego.iml" filepath="$PROJECT_DIR$/golang/go-beego/go-beego.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/go-demo/go-demo.iml" filepath="$PROJECT_DIR$/golang/go-demo/go-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/go-jdbc-proxy/go-jdbc-proxy.iml" filepath="$PROJECT_DIR$/golang/go-jdbc-proxy/go-jdbc-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/go-todos/go-todos.iml" filepath="$PROJECT_DIR$/golang/go-todos/go-todos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/go-web/go-web.iml" filepath="$PROJECT_DIR$/golang/go-web/go-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-in-depth.iml" filepath="$PROJECT_DIR$/java-in-depth.iml" />
