@@ -85,7 +85,7 @@ public class ImageSmoother {
                     cnt++;
                 }
             }
-            return (int) Math.floor(sum / (double) cnt);
+            return sum / cnt;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
