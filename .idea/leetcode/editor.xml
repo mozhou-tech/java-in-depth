@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ArrangingCoins.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ArrangingCoins.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com441" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ArrangingCoins.java" />
+              <option name="titleSlug" value="arranging-coins" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BaShuZiFanYiChengZiFuChuanLcof.java">
           <value>
             <LeetcodeEditor>
@@ -454,6 +465,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/GuessNumberHigherOrLower.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/GuessNumberHigherOrLower.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com374" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/GuessNumberHigherOrLower.java" />
+              <option name="titleSlug" value="guess-number-higher-or-lower" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/HeBingLiangGePaiXuDeLianBiaoLcof.java">
           <value>
             <LeetcodeEditor>
@@ -638,6 +660,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LruCache.java" />
               <option name="titleSlug" value="lru-cache" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/MaximizeTheConfusionOfAnExam.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/MaximizeTheConfusionOfAnExam.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2024" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/MaximizeTheConfusionOfAnExam.java" />
+              <option name="titleSlug" value="maximize-the-confusion-of-an-exam" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1111,6 +1144,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/SimpleBankSystem.java" />
               <option name="titleSlug" value="simple-bank-system" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Sqrtx.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/Sqrtx.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com69" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/Sqrtx.java" />
+              <option name="titleSlug" value="sqrtx" />
             </LeetcodeEditor>
           </value>
         </entry>
