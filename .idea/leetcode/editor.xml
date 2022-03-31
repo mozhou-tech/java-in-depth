@@ -201,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ClosestBinarySearchTreeValue.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/ClosestBinarySearchTreeValue.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com270" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ClosestBinarySearchTreeValue.java" />
+              <option name="titleSlug" value="closest-binary-search-tree-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/ConstructStringFromBinaryTree.java">
           <value>
             <LeetcodeEditor>
@@ -253,6 +264,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DiaoZhengShuZuShunXuShiQiShuWeiYuOuShuQianMianLcof.java" />
               <option name="titleSlug" value="diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DivideTwoIntegers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/DivideTwoIntegers.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com29" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/DivideTwoIntegers.java" />
+              <option name="titleSlug" value="divide-two-integers" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -440,6 +462,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindMissingObservations.java" />
               <option name="titleSlug" value="find-missing-observations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindServersThatHandledMostNumberOfRequests.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FindServersThatHandledMostNumberOfRequests.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1606" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindServersThatHandledMostNumberOfRequests.java" />
+              <option name="titleSlug" value="find-servers-that-handled-most-number-of-requests" />
             </LeetcodeEditor>
           </value>
         </entry>

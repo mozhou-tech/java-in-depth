@@ -30,10 +30,8 @@
         <option value="$PROJECT_DIR$/unittest-mockito/pom.xml" />
         <option value="$PROJECT_DIR$/oltp-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/apache-calcite/pom.xml" />
-        <option value="$PROJECT_DIR$/architecture-patterns/pom.xml" />
         <option value="$PROJECT_DIR$/apache-hadoop/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/pom.xml" />
-        <option value="$PROJECT_DIR$/automation-camunda/pom.xml" />
         <option value="$PROJECT_DIR$/middlewares/pom.xml" />
         <option value="$PROJECT_DIR$/model-ddd/pom.xml" />
         <option value="$PROJECT_DIR$/architechure-ddd/pom.xml" />
@@ -44,7 +42,6 @@
         <option value="$PROJECT_DIR$/bytecode/javassist/pom.xml" />
         <option value="$PROJECT_DIR$/djl-pytorch/face-recognition/pom.xml" />
         <option value="$PROJECT_DIR$/deep-java-library/pom.xml" />
-        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-monolith/pom.xml" />
         <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/pom.xml" />
         <option value="$PROJECT_DIR$/databases/postgresql/pom.xml" />
         <option value="$PROJECT_DIR$/databases/apache-derby/pom.xml" />
@@ -52,15 +49,26 @@
         <option value="$PROJECT_DIR$/databases/jdbc-proxy/pom.xml" />
         <option value="$PROJECT_DIR$/middlewares/simple-rpc/pom.xml" />
         <option value="$PROJECT_DIR$/middlewares/netty-mqtt-broker/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-monolith/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/annotations/annotation-commons-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/annotation-other/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/annotation-processing/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/annotation-user/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/commons/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/flink-basic/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/flink-sql/pom.xml" />
         <option value="$PROJECT_DIR$/apache-flink/flink-upgrade/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/pom.xml" />
+        <option value="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/pom.xml" />
         <option value="$PROJECT_DIR$/architecture-mda/pom.xml" />
       </set>
     </option>

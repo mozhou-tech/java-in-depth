@@ -17,7 +17,6 @@
         <module name="cglib" />
         <module name="locks" />
         <module name="unittest-mockito" />
-        <module name="smartrm-user" />
         <module name="pytorch-face-recognition" />
         <module name="apache-calcite" />
         <module name="apache-camel" />
@@ -25,9 +24,6 @@
         <module name="netty-mqtt-broker" />
         <module name="jdbc-proxy" />
         <module name="flume" />
-        <module name="smartrm-infracore" />
-        <module name="smartrm-payment" />
-        <module name="smartrm-trade" />
         <module name="flink-table-api" />
         <module name="apache-flume" />
         <module name="apache-derby" />
@@ -35,7 +31,6 @@
         <module name="javassist" />
         <module name="zookeeper" />
         <module name="architecture-algorithms" />
-        <module name="annotation-other" />
         <module name="netty_mysql_protocol" />
         <module name="apache-kafka" />
         <module name="clickhouse" />
@@ -46,16 +41,12 @@
         <module name="apache-spark" />
         <module name="flink-datastream-api" />
         <module name="hbase" />
-        <module name="smartrm-commodity" />
-        <module name="annotation-user" />
         <module name="architecture-patterns" />
-        <module name="smartrm-device" />
-        <module name="annotation-processing" />
         <module name="apache-shardingsphere" />
         <module name="flink-project" />
-        <module name="automation-camunda" />
         <module name="netty-http-server" />
         <module name="jdk" />
+        <module name="automation-camunda" />
         <module name="application" />
         <module name="netty-proxy-server" />
         <module name="netty-simple-rpc" />
