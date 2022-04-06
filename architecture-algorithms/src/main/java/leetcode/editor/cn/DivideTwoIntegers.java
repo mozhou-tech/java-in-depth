@@ -37,20 +37,27 @@ public class DivideTwoIntegers {
 //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int divide(int dividend, int divisor) {
-            int left = 1, right = dividend;
-            while (left <= right) {
-                int mid = (right - left) / 2 + left;
-                if (mid * divisor < dividend) {
-
+            if (dividend == 0) return 0;
+            if (dividend == Integer.MIN_VALUE && divisor == -1) return Integer.MAX_VALUE;
+            boolean negative = (dividend ^ divisor) < 0;//用异或来计算是否符号相异
+            long dividendLong = Math.abs((long) dividend); //
+            long divisorLong = Math.abs((long) divisor);
+            int result = 0;
+            // （2^31）-1  为最大值，逐个试探
+            for (int i = 31; i >= 0; i--) {
+                if ((dividendLong >> i) >= divisorLong) {//找出足够大的数2^n*divisor
+                    result += 1 << i;//将结果加上2^n
+                    dividendLong -= divisorLong << i;//将被除数减去2^n*divisor
                 }
             }
-            return dividend / divisor;
+            return negative ? -result : result;//符号相异取反
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
 
     public static void main(String[] args) {
-
+        final int divide = new Solution().divide(Integer.MAX_VALUE, 10);
+        System.out.println(divide);
     }
 }

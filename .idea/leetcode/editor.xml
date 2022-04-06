@@ -443,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FindFirstAndLastPositionOfElementInSortedArray.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com34" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java" />
+              <option name="titleSlug" value="find-first-and-last-position-of-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindGoodDaysToRobTheBank.java">
           <value>
             <LeetcodeEditor>
@@ -465,6 +476,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindPeakElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FindPeakElement.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com162" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindPeakElement.java" />
+              <option name="titleSlug" value="find-peak-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindServersThatHandledMostNumberOfRequests.java">
           <value>
             <LeetcodeEditor>
@@ -473,6 +495,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FindServersThatHandledMostNumberOfRequests.java" />
               <option name="titleSlug" value="find-servers-that-handled-most-number-of-requests" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FirstBadVersion.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/FirstBadVersion.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com278" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FirstBadVersion.java" />
+              <option name="titleSlug" value="first-bad-version" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -572,6 +605,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/IntegerToRoman.java" />
               <option name="titleSlug" value="integer-to-roman" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/IntersectionOfTwoArrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/IntersectionOfTwoArrays.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com349" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/IntersectionOfTwoArrays.java" />
+              <option name="titleSlug" value="intersection-of-two-arrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -737,6 +781,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/MergeTwoSortedLists.java" />
               <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/MinimumHeightTrees.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/MinimumHeightTrees.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com310" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/MinimumHeightTrees.java" />
+              <option name="titleSlug" value="minimum-height-trees" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -979,6 +1034,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/FeiBoNaQiShuLieLcof.java" />
               <option name="titleSlug" value="fei-bo-na-qi-shu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RangeSumQueryMutable.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/RangeSumQueryMutable.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com307" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/RangeSumQueryMutable.java" />
+              <option name="titleSlug" value="range-sum-query-mutable" />
             </LeetcodeEditor>
           </value>
         </entry>
