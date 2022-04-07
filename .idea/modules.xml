@@ -37,7 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/golang/go-beego/go-beego.iml" filepath="$PROJECT_DIR$/golang/go-beego/go-beego.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/go-demo/go-demo.iml" filepath="$PROJECT_DIR$/golang/go-demo/go-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/go-jdbc-proxy/go-jdbc-proxy.iml" filepath="$PROJECT_DIR$/golang/go-jdbc-proxy/go-jdbc-proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/go-todos/go-todos.iml" filepath="$PROJECT_DIR$/golang/go-todos/go-todos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang/go-syntax/go-syntax.iml" filepath="$PROJECT_DIR$/golang/go-syntax/go-syntax.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/go-web/go-web.iml" filepath="$PROJECT_DIR$/golang/go-web/go-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" filepath="$PROJECT_DIR$/apache-hadoop/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/apache-hadoop/hdfs/hdfs.iml" />
