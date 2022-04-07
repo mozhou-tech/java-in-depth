@@ -146,6 +146,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BinarySearch.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/BinarySearch.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com704" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BinarySearch.java" />
+              <option name="titleSlug" value="binary-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/BinaryTreeInorderTraversal.java">
           <value>
             <LeetcodeEditor>
@@ -619,6 +630,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JJ0w9p.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/JJ0w9p.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer II 072" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JJ0w9p.java" />
+              <option name="titleSlug" value="jJ0w9p" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JiQiRenDeYunDongFanWeiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -649,6 +671,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/JuZhenZhongDeLuJingLcof.java" />
               <option name="titleSlug" value="ju-zhen-zhong-de-lu-jing-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/KLl5u1.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/KLl5u1.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer II 006" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/KLl5u1.java" />
+              <option name="titleSlug" value="kLl5u1" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -803,6 +836,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/MinimumIndexSumOfTwoLists.java" />
               <option name="titleSlug" value="minimum-index-sum-of-two-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/N6YdxV.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/N6YdxV.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer II 068" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/N6YdxV.java" />
+              <option name="titleSlug" value="N6YdxV" />
             </LeetcodeEditor>
           </value>
         </entry>
