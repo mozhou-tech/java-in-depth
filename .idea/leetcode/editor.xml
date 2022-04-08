@@ -80,6 +80,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/nAryTreeLevelOrderTraversal_429.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/nAryTreeLevelOrderTraversal_429.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com429" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/nAryTreeLevelOrderTraversal_429.go" />
+              <option name="titleSlug" value="n-ary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/searchInRotatedSortedArrayIi_81.go">
           <value>
             <LeetcodeEditor>
