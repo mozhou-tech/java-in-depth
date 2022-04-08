@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/findTheDuplicateNumber_287.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/findTheDuplicateNumber_287.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com287" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/findTheDuplicateNumber_287.go" />
+              <option name="titleSlug" value="find-the-duplicate-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/minimum-size-subarray-sum.go">
           <value>
             <LeetcodeEditor>
@@ -66,6 +77,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/minimum-size-subarray-sum.go" />
               <option name="titleSlug" value="minimum-size-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/searchInRotatedSortedArrayIi_81.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/searchInRotatedSortedArrayIi_81.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com81" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/searchInRotatedSortedArrayIi_81.go" />
+              <option name="titleSlug" value="search-in-rotated-sorted-array-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

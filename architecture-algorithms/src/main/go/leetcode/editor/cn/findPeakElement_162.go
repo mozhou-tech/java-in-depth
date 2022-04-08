@@ -55,10 +55,10 @@ func findPeakElement(nums []int) int {
 		if nums[mid] > nums[mid+1] {
 			right = mid
 		} else {
-			left = mid + 1 // 后面的比较小
+			left = mid + 1 // if条件的左右条件分别对应了left和right
 		}
 	}
-	return left
+	return left // 此处left和right都行
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
