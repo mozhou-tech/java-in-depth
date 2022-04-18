@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/convertBinarySearchTreeToSortedDoublyLinkedList_426.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/convertBinarySearchTreeToSortedDoublyLinkedList_426.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com426" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/convertBinarySearchTreeToSortedDoublyLinkedList_426.go" />
+              <option name="titleSlug" value="convert-binary-search-tree-to-sorted-doubly-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/convertSortedArrayToBinarySearchTree_108.go">
           <value>
             <LeetcodeEditor>
@@ -124,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/inorderSuccessorInBst_285.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/inorderSuccessorInBst_285.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com285" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/inorderSuccessorInBst_285.go" />
+              <option name="titleSlug" value="inorder-successor-in-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/lowestCommonAncestorOfABinarySearchTree_235.go">
           <value>
             <LeetcodeEditor>
@@ -143,6 +165,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/minimum-size-subarray-sum.go" />
               <option name="titleSlug" value="minimum-size-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/minimumDistanceBetweenBstNodes_783.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/minimumDistanceBetweenBstNodes_783.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com783" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/minimumDistanceBetweenBstNodes_783.go" />
+              <option name="titleSlug" value="minimum-distance-between-bst-nodes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -187,6 +220,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/richestCustomerWealth_1672.go" />
               <option name="titleSlug" value="richest-customer-wealth" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/searchInABinarySearchTree_700.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/searchInABinarySearchTree_700.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com700" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/searchInABinarySearchTree_700.go" />
+              <option name="titleSlug" value="search-in-a-binary-search-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
