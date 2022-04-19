@@ -146,6 +146,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/longestCommonPrefix_14.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/longestCommonPrefix_14.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com14" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/longestCommonPrefix_14.go" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/lowestCommonAncestorOfABinarySearchTree_235.go">
           <value>
             <LeetcodeEditor>
@@ -212,6 +223,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/recoverBinarySearchTree_99.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/recoverBinarySearchTree_99.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com99" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/recoverBinarySearchTree_99.go" />
+              <option name="titleSlug" value="recover-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/richestCustomerWealth_1672.go">
           <value>
             <LeetcodeEditor>
@@ -242,6 +264,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/searchInRotatedSortedArrayIi_81.go" />
               <option name="titleSlug" value="search-in-rotated-sorted-array-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/shortestDistanceToACharacter_821.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/shortestDistanceToACharacter_821.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com821" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/shortestDistanceToACharacter_821.go" />
+              <option name="titleSlug" value="shortest-distance-to-a-character" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/splitBst_776.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/splitBst_776.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com776" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/splitBst_776.go" />
+              <option name="titleSlug" value="split-bst" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -996,10 +1040,10 @@
         <entry key="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/doc/content/LongestCommonPrefix.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/doc/content/longestCommonPrefix_14.md" />
               <option name="frontendQuestionId" value="leetcode-cn.com14" />
               <option name="host" value="leetcode-cn.com" />
-              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java" />
+              <option name="path" value="$PROJECT_DIR$/architecture-algorithms/src/main/go/leetcode/editor/cn/longestCommonPrefix_14.go" />
               <option name="titleSlug" value="longest-common-prefix" />
             </LeetcodeEditor>
           </value>
