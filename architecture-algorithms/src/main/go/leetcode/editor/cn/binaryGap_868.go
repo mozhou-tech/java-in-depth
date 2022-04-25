@@ -56,14 +56,15 @@ func binaryGap(n int) (ans int) {
 	for i, last := 0, -1; n > 0; i++ {
 		if n&1 == 1 {
 			if last != -1 {
+				// 当前1与上次出现1的间隔距离
 				ans = max(ans, i-last)
 			}
+			// 记录上一个1的位置
 			last = i
 		}
 		n >>= 1
 	}
-	return
-
+	return ans
 }
 
 func max(a, b int) int {
