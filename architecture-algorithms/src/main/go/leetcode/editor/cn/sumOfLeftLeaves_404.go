@@ -45,15 +45,25 @@ package main
  *     Right *TreeNode
  * }
  */
-// sumOfLeftLeaves 什么是左叶子：在左侧并且没有下级节点
+// sumOfLeftLeaves 什么是左叶子：在左侧并且没有下级节点。叶子，叶子，叶子，没有子节点的才是叶子节点
 func sumOfLeftLeaves(root *TreeNode) (ans int) {
 	if root == nil {
 		return ans
 	}
-	if root.Left != nil && root.Left.Left == nil && root.Left.Right == nil {
-		ans += root.Left.Val
+	var dfs func(node *TreeNode)
+	dfs = func(node *TreeNode) {
+		if node.Left != nil {
+			if node.Left.Left == nil && node.Left.Right == nil {
+				ans += node.Left.Val
+			}
+			dfs(node.Left)
+		}
+		if node.Right != nil {
+			dfs(node.Right)
+		}
 	}
-	return sumOfLeftLeaves(root.Left) + sumOfLeftLeaves(root.Right) + ans
+	dfs(root)
+	return ans
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
