@@ -30,17 +30,15 @@ package main
  *     Right *TreeNode
  * }
  */
-func maxDepth(root *TreeNode) int {
+func maxDepth(root *TreeNode) (depth int) {
 	if root == nil {
 		return 0
 	}
-	var queue []*TreeNode
-	queue = append(queue, root)
-	cnt := 0
+	queue := []*TreeNode{root}
 	for len(queue) > 0 {
-		// 每一层的节点数量
 		size := len(queue)
-		for size > 0 {
+		depth++
+		for i := 0; i < size; i++ {
 			node := queue[0:1][0]
 			queue = queue[1:]
 			if node.Left != nil {
@@ -49,11 +47,9 @@ func maxDepth(root *TreeNode) int {
 			if node.Right != nil {
 				queue = append(queue, node.Right)
 			}
-			size--
 		}
-		cnt++
 	}
-	return cnt
+	return depth
 }
 
 //leetcode submit region end(Prohibit modification and deletion)

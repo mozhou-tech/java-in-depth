@@ -48,18 +48,18 @@ func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
-	var dfs func(left, right *TreeNode) bool
-	dfs = func(left, right *TreeNode) bool {
-		if left == nil && right == nil {
+	var dfs func(l, r *TreeNode) bool
+	dfs = func(l, r *TreeNode) bool {
+		if l == nil && r == nil {
 			return true
 		}
-		if left == nil || right == nil {
+		if l == nil || r == nil {
 			return false
 		}
-		if left.Val != right.Val {
+		if l.Val != r.Val {
 			return false
 		}
-		return dfs(left.Left, right.Right) && dfs(left.Right, right.Left)
+		return dfs(l.Left, r.Right) && dfs(l.Right, r.Left)
 	}
 	return dfs(root.Left, root.Right)
 }
