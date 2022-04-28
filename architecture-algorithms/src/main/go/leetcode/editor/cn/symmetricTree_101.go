@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /**
 给你一个二叉树的根节点 root ， 检查它是否轴对称。
 
@@ -48,20 +50,47 @@ func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
-	var dfs func(l, r *TreeNode) bool
-	dfs = func(l, r *TreeNode) bool {
-		if l == nil && r == nil {
-			return true
+	var queue []*TreeNode
+	queue = append(queue, root)
+	symArr := func(ints []int) bool {
+		fmt.Println(ints)
+		size := len(ints)
+		for i := 0; i < size/2; i++ {
+			if ints[i] != ints[size-1-i] {
+				return false
+			}
 		}
-		if l == nil || r == nil {
-			return false
-		}
-		if l.Val != r.Val {
-			return false
-		}
-		return dfs(l.Left, r.Right) && dfs(l.Right, r.Left)
+		return true
 	}
-	return dfs(root.Left, root.Right)
+	for len(queue) > 0 {
+		size := len(queue)
+		var arr []int
+		for i := 0; i < size; i++ {
+			node := queue[0:1][0]
+			queue = queue[1:]
+			if node == nil {
+				arr = append(arr, -1)
+			} else {
+				arr = append(arr, node.Val)
+			}
+			if node != nil {
+				if node.Left != nil {
+					queue = append(queue, node.Left)
+				} else {
+					queue = append(queue, nil)
+				}
+				if node.Right != nil {
+					queue = append(queue, node.Right)
+				} else {
+					queue = append(queue, nil)
+				}
+			}
+		}
+		if !symArr(arr) {
+			return false
+		}
+	}
+	return true
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
