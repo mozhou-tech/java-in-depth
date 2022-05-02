@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Created by liuyuancheng on 2021/7/8  <br/>
  */
-public class ThreadPoolDemo {
+public class ExecutorsDemo {
 
     @Test
     void main() {

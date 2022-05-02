@@ -30,7 +30,7 @@ public class ThreadJoinDemo {
         final TaskDemo taskDemo = new TaskDemo();
         taskDemo.start();
         try {
-            // 是主线程等待子线程的终止。也就是说主线程的代码块中，如果碰到了t.join()方法，此时主线程需要等待（阻塞）
+            // 是主线程等待子线程的终止。也就是说主线程的代码块中，如果碰到了t.join()方法，此时主线程需要等待（WAITTING）
             taskDemo.join();
         } catch (InterruptedException e) {
             e.printStackTrace();

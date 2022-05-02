@@ -1,6 +1,7 @@
 package com.tenstone.flink.project.app;
 
 import com.alibaba.fastjson.JSON;
+import com.google.common.collect.Lists;
 import com.tenstone.flink.project.domain.Access;
 import com.tenstone.flink.project.domain.EventCatagoryProductCount;
 import com.tenstone.flink.project.udf.TopNAggregateFunction;
@@ -13,7 +14,6 @@ import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.api.java.tuple.Tuple4;
 import org.apache.flink.configuration.Configuration;
-import org.apache.flink.hadoop.shaded.com.google.common.collect.Lists;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.datastream.WindowedStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

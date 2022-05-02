@@ -1,6 +1,6 @@
 package com.tenstone.flink.datastream.source;
 
-import com.tenstone.flink.utils.MySQLUtils;
+import com.tenstone.flink.datastream.utils.MySQLUtils;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.source.RichSourceFunction;
 
