@@ -8,7 +8,7 @@ import org.openjdk.jol.vm.VM;
  * Created by liuyuancheng on 2021/7/8  <br/>
  */
 @Slf4j
-public class ObjectHeaderDemo {
+public class JOLObjectHeaderDemo {
 
     /**
      * 对象头
@@ -27,6 +27,7 @@ public class ObjectHeaderDemo {
         log.debug("{}", ClassLayout.parseInstance(new Object()).toPrintable());
         log.debug("\n=========================================hello String============================================");
         String hello = "hello".intern();
+        hello.hashCode();
         log.debug("{}", ClassLayout.parseInstance(hello).toPrintable());
         log.debug("\n=========================================empty String============================================");
         log.debug("{}", ClassLayout.parseInstance("").toPrintable());

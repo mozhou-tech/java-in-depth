@@ -1,6 +1,6 @@
 package com.tenstone.jdk.multithread;
 
-import com.tenstone.jdk.Print;
+import com.tenstone.jdk.util.Print;
 import lombok.SneakyThrows;
 
 import java.util.ArrayList;

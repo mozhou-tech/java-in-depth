@@ -1,6 +1,6 @@
 package com.tenstone.jdk.multithread;
 
-import com.tenstone.jdk.Print;
+import com.tenstone.jdk.util.Print;
 
 /**
  * Created by liuyuancheng on 2022/5/2  <br/>

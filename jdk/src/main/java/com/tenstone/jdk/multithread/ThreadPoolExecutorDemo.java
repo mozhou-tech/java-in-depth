@@ -12,6 +12,8 @@ import java.util.concurrent.*;
 @Slf4j
 public class ThreadPoolExecutorDemo {
 
+    private static final ThreadLocal<Long> START_TIME = new ThreadLocal<>();
+
     public static class JobRunnable implements Runnable {
 
         private final Integer id;
@@ -29,14 +31,23 @@ public class ThreadPoolExecutorDemo {
             }
             log.info("task finished : {}.", id + 1);
         }
+
     }
 
     public static void main(String[] args) {
         ExecutorService es = new ThreadPoolExecutor(10, 20, 1000,
                 TimeUnit.MILLISECONDS,
                 new LinkedBlockingQueue<>(30),
-                Executors.defaultThreadFactory()
-        );
+                Executors.defaultThreadFactory(),
+                new ThreadPoolExecutor.AbortPolicy()
+        ) {
+            // 用于清理ThreadLocal的钩子，防范内存泄露
+            @Override
+            protected void afterExecute(Runnable r, Throwable t) {
+                super.afterExecute(r, t);
+                START_TIME.remove();
+            }
+        };
         for (int i = 0; i <= 45; i++) {
             es.execute(new JobRunnable(i));
         }
