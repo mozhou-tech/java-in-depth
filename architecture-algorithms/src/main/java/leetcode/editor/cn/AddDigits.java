@@ -70,7 +70,7 @@ public class AddDigits {
 
 
     public static void main(String[] args) {
-        final int sum = Integer.valueOf("1") + 1;
+        final int sum = Integer.parseInt("1") + 1;
         System.out.println(sum);
     }
 }

@@ -1,5 +1,6 @@
 package leetcode.editor.cn;
 
+import com.google.common.collect.Lists;
 import leetcode.editor.cn.common.AssertTool;
 
 /**
@@ -58,5 +59,7 @@ public class Base7 {
 
     public static void main(String[] args) {
         AssertTool.assertEquals("-11", new Solution().convertToBase7(-8));
+
+        final var list = Lists.newArrayList(1, 2, 3);
     }
 }
