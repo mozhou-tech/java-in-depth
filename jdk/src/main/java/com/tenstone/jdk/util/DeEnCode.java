@@ -33,7 +33,7 @@ public class DeEnCode {
         byte[] sb = s.getBytes();
         encode(sb, sb.length);
         decode(sb, sb.length);
-        com.crazymakercircle.util.Logger.debug(new String(sb));
+        Logger.debug(new String(sb));
     }
 } 
 

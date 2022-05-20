@@ -1,13 +1,14 @@
 package com.tenstone.jdk.threadpool;
 
-import com.crazymakercircle.util.ShutdownHookThread;
+import com.tenstone.jdk.util.ShutdownHookThread;
+import com.tenstone.jdk.util.ThreadUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 
-import static com.crazymakercircle.util.ThreadUtil.CustomThreadFactory;
-import static com.crazymakercircle.util.ThreadUtil.shutdownThreadPoolGracefully;
+import static com.tenstone.jdk.util.ThreadUtil.shutdownThreadPoolGracefully;
+
 
 //懒汉式单例创建线程池：用于定时任务、顺序排队执行任务
 @Slf4j
@@ -15,7 +16,7 @@ public class SeqOrScheduledTargetThreadPoolLazyHolder {
     //线程池：用于定时任务、顺序排队执行任务
     static final ScheduledThreadPoolExecutor EXECUTOR = new ScheduledThreadPoolExecutor(
             1,
-            new CustomThreadFactory("seq"));
+            new ThreadUtil.CustomThreadFactory("seq"));
 
 
     public static ScheduledThreadPoolExecutor getInnerExecutor() {

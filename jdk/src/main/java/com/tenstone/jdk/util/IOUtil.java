@@ -91,7 +91,7 @@ public class IOUtil {
         return length + "B";
     }
 
-    private static DecimalFormat fileSizeFormater = com.crazymakercircle.util.FormatUtil.decimalFormat(1);
+    private static DecimalFormat fileSizeFormater = FormatUtil.decimalFormat(1);
 
 
     /**

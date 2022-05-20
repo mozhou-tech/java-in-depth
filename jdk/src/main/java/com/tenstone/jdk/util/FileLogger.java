@@ -14,12 +14,12 @@ public class FileLogger {
 
     static {
         try {
-            String logDir = com.crazymakercircle.util.IOUtil.builderResourcePath("/AOP/");
+            String logDir = IOUtil.builderResourcePath("/AOP/");
             File dir = new File(logDir);
             if (!dir.exists()) {
                 dir.mkdir();
             }
-            String filePath = logDir + com.crazymakercircle.util.DateUtil.getToday() + ".txt";
+            String filePath = logDir + DateUtil.getToday() + ".txt";
 
             logFile = new File(filePath);
             if (!logFile.exists()) {
@@ -44,7 +44,7 @@ public class FileLogger {
         try {
             fileWriter = new FileWriter(logFile, true);
             bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.append(com.crazymakercircle.util.DateUtil.getNow());
+            bufferedWriter.append(DateUtil.getNow());
             bufferedWriter.append(" ");
             bufferedWriter.append(s.toString());
             bufferedWriter.append("\r");
@@ -54,7 +54,7 @@ public class FileLogger {
             e.printStackTrace();
 
         } finally {
-            com.crazymakercircle.util.IOUtil.closeQuietly(bufferedWriter);
+            IOUtil.closeQuietly(bufferedWriter);
 
         }
     }

@@ -88,25 +88,25 @@ public class JvmUtil {
             shuffled[i] = (double) i;
         Collections.shuffle(Arrays.asList(shuffled));
 
-        com.crazymakercircle.util.Print.tcfo("Before GC");
-        com.crazymakercircle.util.Print.tcfo("ascending：" + getAddresses(ascending));
-        com.crazymakercircle.util.Print.tcfo("descending：" + getAddresses(descending));
-        com.crazymakercircle.util.Print.tcfo("shuffled：" + getAddresses(shuffled));
+        Print.tcfo("Before GC");
+        Print.tcfo("ascending：" + getAddresses(ascending));
+        Print.tcfo("descending：" + getAddresses(descending));
+        Print.tcfo("shuffled：" + getAddresses(shuffled));
 
         System.gc();
-        com.crazymakercircle.util.Print.tcfo("\nAfter GC");
-        com.crazymakercircle.util.Print.tcfo("ascending：" + getAddresses(ascending));
-        com.crazymakercircle.util.Print.tcfo("descending：" + getAddresses(descending));
-        com.crazymakercircle.util.Print.tcfo("shuffled：" + getAddresses(shuffled));
+        Print.tcfo("\nAfter GC");
+        Print.tcfo("ascending：" + getAddresses(ascending));
+        Print.tcfo("descending：" + getAddresses(descending));
+        Print.tcfo("shuffled：" + getAddresses(shuffled));
 
         System.gc();
-        com.crazymakercircle.util.Print.tcfo("\nAfter GC 2");
-        com.crazymakercircle.util.Print.tcfo("ascending：" + getAddresses(ascending));
-        com.crazymakercircle.util.Print.tcfo("descending：" + getAddresses(descending));
-        com.crazymakercircle.util.Print.tcfo("shuffled：" + getAddresses(shuffled));
+        Print.tcfo("\nAfter GC 2");
+        Print.tcfo("ascending：" + getAddresses(ascending));
+        Print.tcfo("descending：" + getAddresses(descending));
+        Print.tcfo("shuffled：" + getAddresses(shuffled));
 
         Object o = new Object();
-        com.crazymakercircle.util.Print.tcfo(getAddresses(o));
+        Print.tcfo(getAddresses(o));
     }
 
 

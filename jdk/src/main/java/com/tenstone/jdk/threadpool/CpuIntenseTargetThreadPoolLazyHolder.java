@@ -1,6 +1,6 @@
 package com.tenstone.jdk.threadpool;
 
-import com.crazymakercircle.util.ShutdownHookThread;
+import com.tenstone.jdk.util.ShutdownHookThread;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.Callable;
@@ -8,7 +8,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import static com.crazymakercircle.util.ThreadUtil.*;
+import static com.tenstone.jdk.util.ThreadUtil.*;
+
 //懒汉式单例创建线程池：用于CPU密集型任务
 
 @Slf4j

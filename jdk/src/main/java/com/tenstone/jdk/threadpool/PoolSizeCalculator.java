@@ -1,6 +1,7 @@
 package com.tenstone.jdk.threadpool;
 
-import com.crazymakercircle.util.Print;
+
+import com.tenstone.jdk.util.Print;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

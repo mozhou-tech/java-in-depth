@@ -19,7 +19,7 @@ public class ClassLoaderUtil {
      */
     public static void showLoaderTree(ClassLoader loader) {
         while (loader != null) {
-            com.crazymakercircle.util.Logger.debug(loader.toString());
+            Logger.debug(loader.toString());
             loader = loader.getParent();
         }
     }
