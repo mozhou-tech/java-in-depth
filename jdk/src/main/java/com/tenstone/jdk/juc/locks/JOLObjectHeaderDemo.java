@@ -10,6 +10,13 @@ import org.openjdk.jol.vm.VM;
 @Slf4j
 public class JOLObjectHeaderDemo {
 
+    static class TestObj{
+        private long p1;
+        private byte p2;
+        private long p3;
+        private long p4;
+    }
+
     /**
      * 对象头
      * 1. mark word (8 bytes) hashCode,锁标志位，gc年龄
@@ -19,6 +26,7 @@ public class JOLObjectHeaderDemo {
      * @param args
      */
     public static void main(String[] args) {
+        final TestObj testObj = new TestObj();
         log.debug("\n=========================================VM.current.details()====================================");
         log.debug("{}", VM.current().details());
         log.debug("\n=========================================String.class============================================");
@@ -30,6 +38,6 @@ public class JOLObjectHeaderDemo {
         hello.hashCode();
         log.debug("{}", ClassLayout.parseInstance(hello).toPrintable());
         log.debug("\n=========================================empty String============================================");
-        log.debug("{}", ClassLayout.parseInstance("").toPrintable());
+        log.debug("{}", ClassLayout.parseInstance(testObj).toPrintable());
     }
 }
