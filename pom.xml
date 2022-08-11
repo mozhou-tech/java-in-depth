@@ -75,6 +75,7 @@
         <module>apache-camel</module>
         <module>bytecode</module>
         <module>databases</module>
+        <module>netty-examples</module>
     </modules>
     <repositories>
         <repository>

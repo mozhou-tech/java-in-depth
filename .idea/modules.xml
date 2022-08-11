@@ -34,7 +34,6 @@
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" filepath="$PROJECT_DIR$/apache-flink/flink-project/flink-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" filepath="$PROJECT_DIR$/apache-flink/flink-table-api/flink-table-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/flume/flume.iml" filepath="$PROJECT_DIR$/apache-hadoop/flume/flume.iml" />
-      <module fileurl="file://$PROJECT_DIR$/golang/go-beego/go-beego.iml" filepath="$PROJECT_DIR$/golang/go-beego/go-beego.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/go-demo/go-demo.iml" filepath="$PROJECT_DIR$/golang/go-demo/go-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/go-jdbc-proxy/go-jdbc-proxy.iml" filepath="$PROJECT_DIR$/golang/go-jdbc-proxy/go-jdbc-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/golang/go-syntax/go-syntax.iml" filepath="$PROJECT_DIR$/golang/go-syntax/go-syntax.iml" />
@@ -49,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/databases/jsqlparser/jsqlparser.iml" filepath="$PROJECT_DIR$/databases/jsqlparser/jsqlparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/locks/locks.iml" filepath="$PROJECT_DIR$/distributions/locks/locks.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/middlewares.iml" filepath="$PROJECT_DIR$/middlewares/middlewares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-examples/netty-examples.iml" filepath="$PROJECT_DIR$/netty-examples/netty-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty-http-server/netty-http-server.iml" filepath="$PROJECT_DIR$/middlewares/netty-http-server/netty-http-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty-mqtt-broker/netty-mqtt-broker.iml" filepath="$PROJECT_DIR$/middlewares/netty-mqtt-broker/netty-mqtt-broker.iml" />
       <module fileurl="file://$PROJECT_DIR$/middlewares/netty-proxy-server/netty-proxy-server.iml" filepath="$PROJECT_DIR$/middlewares/netty-proxy-server/netty-proxy-server.iml" />
@@ -58,7 +58,6 @@
       <module fileurl="file://$PROJECT_DIR$/python3/python3.iml" filepath="$PROJECT_DIR$/python3/python3.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-face-recognition/pytorch-face-recognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" filepath="$PROJECT_DIR$/deep-java-library/pytorch-object-detection/pytorch-object-detection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reactjs/reactjs.iml" filepath="$PROJECT_DIR$/reactjs/reactjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" filepath="$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" />
