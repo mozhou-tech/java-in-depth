@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$/apache-flink/flink-datastream-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink/flink-project/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink/flink-table-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-monolith/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-ddd/smartrm-monolith/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/architecture-patterns/src/main/java" charset="UTF-8" />

@@ -4,10 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bytecode/javaagent/agent/agent.iml" filepath="$PROJECT_DIR$/bytecode/javaagent/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/alibaba-canal/alibaba-canal.iml" filepath="$PROJECT_DIR$/databases/alibaba-canal/alibaba-canal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/annotations/annotation-other/annotation-other.iml" filepath="$PROJECT_DIR$/annotations/annotation-other/annotation-other.iml" />
-      <module fileurl="file://$PROJECT_DIR$/annotations/annotation-processing/annotation-processing.iml" filepath="$PROJECT_DIR$/annotations/annotation-processing/annotation-processing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/annotations/annotation-user/annotation-user.iml" filepath="$PROJECT_DIR$/annotations/annotation-user/annotation-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-calcite/apache-calcite.iml" filepath="$PROJECT_DIR$/apache-calcite/apache-calcite.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-camel/apache-camel.iml" filepath="$PROJECT_DIR$/apache-camel/apache-camel.iml" />
       <module fileurl="file://$PROJECT_DIR$/databases/apache-derby/apache-derby.iml" filepath="$PROJECT_DIR$/databases/apache-derby/apache-derby.iml" />
@@ -61,12 +57,9 @@
       <module fileurl="file://$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" filepath="$PROJECT_DIR$/databases/rest-jdbc-driver/rest-jdbc-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-commodity/smartrm-commodity.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-device/smartrm-device.iml" />
-      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-infracore/smartrm-infracore.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-micro-services.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-micro-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-monolith/smartrm-monolith.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-monolith/smartrm-monolith.iml" />
-      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/smartrm-payment.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-payment/smartrm-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/smartrm-trade.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-trade/smartrm-trade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/smartrm-user.iml" filepath="$PROJECT_DIR$/architecture-ddd/smartrm-micro-services/smartrm-user/smartrm-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributions/transaction/transaction.iml" filepath="$PROJECT_DIR$/distributions/transaction/transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" filepath="$PROJECT_DIR$/unittest-mockito/unittest-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" filepath="$PROJECT_DIR$/apache-hadoop/yarn/yarn.iml" />
